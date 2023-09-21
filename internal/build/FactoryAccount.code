@@ -10,7 +10,7 @@ IFREF {
 GETGLOB 6
 THROWIF 51
 ENDS
-.loc ../contracts/FactoryAccount.tsol, 0
+.loc ../../../BlockChain/internal/contracts/FactoryAccount.tsol, 0
 CALLREF {
 	CALL $c7_to_c4$
 }
@@ -25,9 +25,9 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/FactoryAccount.tsol, 12
+.loc ../../../BlockChain/internal/contracts/FactoryAccount.tsol, 12
 ENDS
-.loc ../contracts/FactoryAccount.tsol, 0
+.loc ../../../BlockChain/internal/contracts/FactoryAccount.tsol, 0
 CALLREF {
 	CALL $getDetails_fbbf93a0_internal_macro$
 }
@@ -67,9 +67,9 @@ THROW 0
 CALL $getDetails_fbbf93a0_internal_macro$
 
 .macro getDetails_fbbf93a0_internal_macro
-.loc ../contracts/FactoryAccount.tsol, 13
+.loc ../../../BlockChain/internal/contracts/FactoryAccount.tsol, 13
 GETGLOB 10
-.loc ../contracts/FactoryAccount.tsol, 0
+.loc ../../../BlockChain/internal/contracts/FactoryAccount.tsol, 0
 
 .macro c4_to_c7
 PUSHROOT

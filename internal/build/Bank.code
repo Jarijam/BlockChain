@@ -22,19 +22,19 @@ PUSHCONT {
 IFELSE
 LDMSGADDR
 ENDS
-.loc ../contracts/BanKUser/Bank.tsol, 42
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 42
 ACCEPT
-.loc ../contracts/BanKUser/Bank.tsol, 43
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 43
 SETGLOB 10
-.loc ../contracts/BanKUser/Bank.tsol, 44
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 44
 SETGLOB 12
-.loc ../contracts/BanKUser/Bank.tsol, 46
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 46
 MYADDR
 SETGLOB 16
-.loc ../contracts/BanKUser/Bank.tsol, 47
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 47
 TRUE
 SETGLOB 15
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 CALLREF {
 	CALL $c7_to_c4$
 }
@@ -49,11 +49,11 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BanKUser/Bank.tsol, 50
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 50
 LDU 128
 LDI 1
 ENDS
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 CALLREF {
 	CALL $deployAccountForUser_0a8d5b52_internal_macro$
 }
@@ -64,7 +64,7 @@ CALLREF {
 THROW 0
 
 .macro deployAccountForUser_0a8d5b52_internal_macro
-.loc ../contracts/BanKUser/Bank.tsol, 51
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 51
 DEPTH
 ADDCONST -2
 PICK
@@ -74,16 +74,16 @@ ADD
 UFITS 128
 GEQ
 THROWIFNOT 101
-.loc ../contracts/BanKUser/Bank.tsol, 52
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 52
 PUSHINT 1000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/BanKUser/Bank.tsol, 53
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 53
 GETGLOB 9
 CALLREF {
 	CALL $deployNewContract_50ce3306_internal_macro$
 }
-.loc ../contracts/BanKUser/Bank.tsol, 66
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 66
 GETGLOB 9
 NEWC
 STSLICECONST x62_
@@ -93,7 +93,7 @@ STZEROES
 ENDC
 PUSHPOW2 7
 SENDRAWMSG
-.loc ../contracts/BanKUser/Bank.tsol, 67
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 67
 TUPLE 0
 NEWC
 PUSHSLICE x53454e4445523a20
@@ -110,19 +110,19 @@ CALLREF {
 CALLREF {
 	CALL $console_no_obj_log_41304fac_macro$
 }
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 
 .globl	deployNewContract_50ce3306_internal
 .type	deployNewContract_50ce3306_internal, @function
 CALL $deployNewContract_50ce3306_internal_macro$
 
 .macro deployNewContract_50ce3306_internal_macro
-.loc ../contracts/BanKUser/Bank.tsol, 71
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 71
 DUP
 CALLREF {
 	CALL $buildInitParams_a693fe3d_internal_macro$
 }
-.loc ../contracts/BanKUser/Bank.tsol, 73
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 73
 GETGLOB 11
 ROTREV
 REVERSE 4, 1
@@ -171,7 +171,7 @@ STREF
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/BanKUser/Bank.tsol, 79
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 79
 PUSHSLICE xc0000000000000000000000001
 NEWC
 STSLICE
@@ -187,14 +187,14 @@ STBREFR
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 
 .globl	buildInitParams_a693fe3d_internal
 .type	buildInitParams_a693fe3d_internal, @function
 CALL $buildInitParams_a693fe3d_internal_macro$
 
 .macro buildInitParams_a693fe3d_internal_macro
-.loc ../contracts/BanKUser/Bank.tsol, 83
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 83
 GETGLOB 2
 NEWC
 STU 256
@@ -222,7 +222,7 @@ STOPTREF
 STOPTREF
 STZERO
 ENDC
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 
 .macro getAddress
 DROP
@@ -233,7 +233,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BanKUser/Bank.tsol, 94
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 94
 OVER
 PUSHCONT {
 	LDREF
@@ -243,7 +243,7 @@ PUSHCONT {
 IF
 LDMSGADDR
 ENDS
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 CALLREF {
 	CALL $getAddress_ae22c57d_internal_macro$
 }
@@ -284,13 +284,13 @@ THROW 0
 CALL $getAddress_ae22c57d_internal_macro$
 
 .macro getAddress_ae22c57d_internal_macro
-.loc ../contracts/BanKUser/Bank.tsol, 95
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 95
 ACCEPT
-.loc ../contracts/BanKUser/Bank.tsol, 96
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 96
 CALLREF {
 	CALL $buildInitParams_a693fe3d_internal_macro$
 }
-.loc ../contracts/BanKUser/Bank.tsol, 97
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 97
 DUP
 HASHCU
 NEWC
@@ -305,14 +305,14 @@ STSLICE
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/BanKUser/Bank.tsol, 98
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 98
 HASHCU
 NEWC
 STSLICECONST x801_
 STU 256
 ENDC
 CTOS
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 
 .macro loan
 DROP
@@ -323,7 +323,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BanKUser/Bank.tsol, 101
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 101
 OVER
 PUSHCONT {
 	LDU 256
@@ -337,7 +337,7 @@ PUSHCONT {
 IFELSE
 LDMSGADDR
 ENDS
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 CALLREF {
 	CALL $loan_c92dae4f_internal_macro$
 }
@@ -348,29 +348,29 @@ CALLREF {
 THROW 0
 
 .macro loan_c92dae4f_internal_macro
-.loc ../contracts/BanKUser/Bank.tsol, 101
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 101
 BLKPUSH 2, 0
-.loc ../contracts/BanKUser/Bank.tsol, 33
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 33
 CALLREF {
 	CALL $getAddress_ae22c57d_internal_macro$
 }
 GETGLOB 9
 SDEQ
 THROWIFNOT 1010
-.loc ../contracts/BanKUser/Bank.tsol, 34
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 34
 ROTREV
-.loc ../contracts/BanKUser/Bank.tsol, 103
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 103
 PUSHINT 1000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/BanKUser/Bank.tsol, 104
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 104
 GETGLOB 15
 THROWIFNOT 1002
-.loc ../contracts/BanKUser/Bank.tsol, 105
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 105
 CALLREF {
 	CALL $loanProcessing_2bb27744_internal_macro$
 }
-.loc ../contracts/BanKUser/Bank.tsol, 35
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 35
 PUSHSLICE xc0000000000000000000000000154cde9c
 NEWC
 STSLICE
@@ -378,20 +378,20 @@ STSLICE
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 
 .globl	loanProcessing_2bb27744_internal
 .type	loanProcessing_2bb27744_internal, @function
 CALL $loanProcessing_2bb27744_internal_macro$
 
 .macro loanProcessing_2bb27744_internal_macro
-.loc ../contracts/BanKUser/Bank.tsol, 109
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 109
 SWAP
 SETGLOB 14
-.loc ../contracts/BanKUser/Bank.tsol, 110
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 110
 FALSE
 SETGLOB 15
-.loc ../contracts/BanKUser/Bank.tsol, 111
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 111
 GETGLOB 14
 SWAP
 PUSHSLICE xc000000000000000000000000039ac893e
@@ -402,7 +402,7 @@ STU 256
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/BanKUser/Bank.tsol, 112
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 112
 GETGLOB 14
 GETGLOB 9
 NEWC
@@ -414,7 +414,7 @@ STU 256
 ENDC
 PUSHPOW2 7
 SENDRAWMSG
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 
 .macro calculating
 DROP
@@ -425,9 +425,9 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BanKUser/Bank.tsol, 115
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 115
 ENDS
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 CALLREF {
 	CALL $calculating_eec9b605_internal_macro$
 }
@@ -463,7 +463,7 @@ THROW 0
 CALL $calculating_eec9b605_internal_macro$
 
 .macro calculating_eec9b605_internal_macro
-.loc ../contracts/BanKUser/Bank.tsol, 117
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 117
 GETGLOB 14
 PUSHINT 100
 GETGLOB 12
@@ -471,7 +471,7 @@ ADD
 MUL
 PUSHINT 100
 DIV
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 
 .macro repaying
 DROP
@@ -482,7 +482,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BanKUser/Bank.tsol, 121
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 121
 OVER
 PUSHCONT {
 	LDU 128
@@ -496,7 +496,7 @@ PUSHCONT {
 IFELSE
 LDMSGADDR
 ENDS
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 CALLREF {
 	CALL $repaying_4d99f470_internal_macro$
 }
@@ -507,30 +507,30 @@ CALLREF {
 THROW 0
 
 .macro repaying_4d99f470_internal_macro
-.loc ../contracts/BanKUser/Bank.tsol, 121
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 121
 BLKPUSH 2, 0
-.loc ../contracts/BanKUser/Bank.tsol, 33
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 33
 CALLREF {
 	CALL $getAddress_ae22c57d_internal_macro$
 }
 GETGLOB 9
 SDEQ
 THROWIFNOT 1010
-.loc ../contracts/BanKUser/Bank.tsol, 34
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 34
 ROTREV
 PUSHCONT {
-	.loc ../contracts/BanKUser/Bank.tsol, 122
+	.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 122
 	PUSHINT 1000000000
 	PUSHINT 0
 	RAWRESERVE
-	.loc ../contracts/BanKUser/Bank.tsol, 124
+	.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 124
 	OVER
 	CALLREF {
 		CALL $calculating_eec9b605_internal_macro$
 	}
 	NEQ
 	PUSHCONT {
-		.loc ../contracts/BanKUser/Bank.tsol, 125
+		.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 125
 		GETGLOB 9
 		NEWC
 		STSLICECONST x62_
@@ -540,12 +540,12 @@ PUSHCONT {
 		ENDC
 		PUSHPOW2 7
 		SENDRAWMSG
-		.loc ../contracts/BanKUser/Bank.tsol, 126
+		.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 126
 		DROP2
-		.loc ../contracts/BanKUser/Bank.tsol, 0
+		.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 	}
 	IFJMP
-	.loc ../contracts/BanKUser/Bank.tsol, 129
+	.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 129
 	OVER
 	GETGLOB 9
 	NEWC
@@ -557,14 +557,14 @@ PUSHCONT {
 	ENDC
 	PUSHPOW2 7
 	SENDRAWMSG
-	.loc ../contracts/BanKUser/Bank.tsol, 130
+	.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 130
 	CALLREF {
 		CALL $repaidProcessing_68a871c6_internal_macro$
 	}
-	.loc ../contracts/BanKUser/Bank.tsol, 121
+	.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 121
 }
 CALLX
-.loc ../contracts/BanKUser/Bank.tsol, 35
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 35
 PUSHSLICE xc0000000000000000000000000154cde9c
 NEWC
 STSLICE
@@ -572,14 +572,14 @@ STSLICE
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 
 .globl	repaidProcessing_68a871c6_internal
 .type	repaidProcessing_68a871c6_internal, @function
 CALL $repaidProcessing_68a871c6_internal_macro$
 
 .macro repaidProcessing_68a871c6_internal_macro
-.loc ../contracts/BanKUser/Bank.tsol, 135
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 135
 DROP
 DUP
 GETGLOB 14
@@ -588,13 +588,13 @@ UFITS 256
 GETGLOB 13
 ADD
 SETGLOB 13
-.loc ../contracts/BanKUser/Bank.tsol, 136
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 136
 PUSHINT 0
 SETGLOB 14
-.loc ../contracts/BanKUser/Bank.tsol, 137
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 137
 TRUE
 SETGLOB 15
-.loc ../contracts/BanKUser/Bank.tsol, 138
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 138
 GETGLOB 9
 PUSHSLICE xc00000000000000000000000005bdb982d
 NEWC
@@ -604,7 +604,7 @@ STU 256
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 
 .macro freezeUserAccount
 DROP
@@ -615,7 +615,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BanKUser/Bank.tsol, 141
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 141
 OVER
 PUSHCONT {
 	LDREF
@@ -626,7 +626,7 @@ IF
 LDMSGADDR
 LDI 1
 ENDS
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 CALLREF {
 	CALL $freezeUserAccount_38dd89ec_internal_macro$
 }
@@ -637,16 +637,16 @@ CALLREF {
 THROW 0
 
 .macro freezeUserAccount_38dd89ec_internal_macro
-.loc ../contracts/BanKUser/Bank.tsol, 28
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 28
 GETGLOB 9
 GETGLOB 10
 SDEQ
 THROWIFNOT 1001
-.loc ../contracts/BanKUser/Bank.tsol, 142
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 142
 PUSHINT 1000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/BanKUser/Bank.tsol, 143
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 143
 GETGLOB 10
 XCHG S2
 NEWC
@@ -663,7 +663,7 @@ STBREFR
 ENDC
 PUSHPOW2 7
 SENDRAWMSG
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 
 .macro mintAccount
 DROP
@@ -674,7 +674,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BanKUser/Bank.tsol, 146
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 146
 OVER
 PUSHCONT {
 	LDREF
@@ -685,7 +685,7 @@ IF
 LDMSGADDR
 LDU 256
 ENDS
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 CALLREF {
 	CALL $mintAccount_4d74d336_internal_macro$
 }
@@ -696,12 +696,12 @@ CALLREF {
 THROW 0
 
 .macro mintAccount_4d74d336_internal_macro
-.loc ../contracts/BanKUser/Bank.tsol, 28
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 28
 GETGLOB 9
 GETGLOB 10
 SDEQ
 THROWIFNOT 1001
-.loc ../contracts/BanKUser/Bank.tsol, 147
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 147
 TUPLE 0
 NEWC
 PUSHSLICE x4144445245535320
@@ -718,11 +718,11 @@ CALLREF {
 CALLREF {
 	CALL $console_no_obj_log_41304fac_macro$
 }
-.loc ../contracts/BanKUser/Bank.tsol, 149
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 149
 PUSHINT 1000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/BanKUser/Bank.tsol, 151
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 151
 PUSHREF {
 	.blob x6d696e74
 }
@@ -733,7 +733,7 @@ STREF
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/BanKUser/Bank.tsol, 152
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 152
 OVER
 GETGLOB 10
 SWAP2
@@ -759,7 +759,7 @@ STBREFR
 ENDC
 PUSHPOW2 7
 SENDRAWMSG
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 
 .macro getInterestRate
 DROP
@@ -770,9 +770,9 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BanKUser/Bank.tsol, 155
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 155
 ENDS
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 CALLREF {
 	CALL $getInterestRate_5257b566_internal_macro$
 }
@@ -804,9 +804,9 @@ IFREF {
 THROW 0
 
 .macro getInterestRate_5257b566_internal_macro
-.loc ../contracts/BanKUser/Bank.tsol, 156
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 156
 GETGLOB 12
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 
 .macro getProfit
 DROP
@@ -817,9 +817,9 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BanKUser/Bank.tsol, 159
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 159
 ENDS
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 CALLREF {
 	CALL $getProfit_679dffb4_internal_macro$
 }
@@ -851,9 +851,9 @@ IFREF {
 THROW 0
 
 .macro getProfit_679dffb4_internal_macro
-.loc ../contracts/BanKUser/Bank.tsol, 160
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 160
 GETGLOB 13
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 
 .macro on_bounce_macro
 GETGLOB 6
@@ -863,22 +863,22 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BanKUser/Bank.tsol, 164
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 164
 PUSHINT 1000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/BanKUser/Bank.tsol, 167
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 167
 PLDREF
 CTOS
-.loc ../contracts/BanKUser/Bank.tsol, 168
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 168
 DUP
 LDU 32
 POP S2
-.loc ../contracts/BanKUser/Bank.tsol, 171
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 171
 PUSHINT 2000113317
 EQUAL
 PUSHCONT {
-	.loc ../contracts/BanKUser/Bank.tsol, 172
+	.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 172
 	DUP
 	LDU 256
 	LDMSGADDR
@@ -889,14 +889,14 @@ PUSHCONT {
 	ENDS
 	PUSHSLICE x8_
 	POP S4
-	.loc ../contracts/BanKUser/Bank.tsol, 175
+	.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 175
 	PUSHINT 200
 	FALSE
 	PUSH S2
 	CALLREF {
 		CALL $deployNewContract_50ce3306_internal_macro$
 	}
-	.loc ../contracts/BanKUser/Bank.tsol, 176
+	.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 176
 	DUP
 	GETGLOB 10
 	ROLL 4
@@ -922,11 +922,11 @@ PUSHCONT {
 	ENDC
 	PUSHPOW2 7
 	SENDRAWMSG
-	.loc ../contracts/BanKUser/Bank.tsol, 0
+	.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 	DROP
 }
 IF
-.loc ../contracts/BanKUser/Bank.tsol, 0
+.loc ../../../BlockChain/internal/contracts/BanKUser/Bank.tsol, 0
 DROP
 CALLREF {
 	CALL $c7_to_c4$
@@ -1257,7 +1257,7 @@ THROW 0
 CALL $console_with_obj_log_41304fac_macro$
 
 .macro console_with_obj_log_41304fac_macro
-.loc ../node_modules/locklift/src/console.tsol, 10
+.loc ../../../BlockChain/internal/node_modules/locklift/src/console.tsol, 10
 DUP
 PUSHREFSLICE {
 	.blob xc600fffffffffffffffffffffffffffffffffffffffffffffffffe2468acf13579bc0000000000000000000000000903f4294_
@@ -1268,14 +1268,14 @@ STREF
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../node_modules/locklift/src/console.tsol, 0
+.loc ../../../BlockChain/internal/node_modules/locklift/src/console.tsol, 0
 
 .globl	console_no_obj_log_41304fac
 .type	console_no_obj_log_41304fac, @function
 CALL $console_no_obj_log_41304fac_macro$
 
 .macro console_no_obj_log_41304fac_macro
-.loc ../node_modules/locklift/src/console.tsol, 10
+.loc ../../../BlockChain/internal/node_modules/locklift/src/console.tsol, 10
 PUSHREFSLICE {
 	.blob xc600fffffffffffffffffffffffffffffffffffffffffffffffffe2468acf13579bc0000000000000000000000000903f4294_
 }
@@ -1285,7 +1285,7 @@ STREF
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../node_modules/locklift/src/console.tsol, 0
+.loc ../../../BlockChain/internal/node_modules/locklift/src/console.tsol, 0
 
 .macro public_function_selector
 DUP

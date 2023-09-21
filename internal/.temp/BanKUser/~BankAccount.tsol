@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma ever-solidity >= 0.62.0;
 
-import "c:/StudyBC/withEverscale_final/node_modules/locklift/src/console.tsol";
+import "locklift/src/~console.tsol";
 import "./~Bank.tsol";
 
 contract BankAccount {

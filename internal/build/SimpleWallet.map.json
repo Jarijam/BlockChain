@@ -438,75 +438,75 @@
         "line": 114
       },
       "80": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 27
       },
       "96": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 27
       },
       "104": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 28
       },
       "112": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 28
       },
       "128": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 28
       },
       "136": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 28
       },
       "144": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 28
       },
       "160": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 28
       },
       "168": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 28
       },
       "184": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 29
       },
       "192": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 29
       },
       "352": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 29
       },
       "360": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 29
       },
       "368": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 29
       },
       "384": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 29
       },
       "400": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 29
       },
       "408": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 29
       },
       "416": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 29
       },
       "432": {
@@ -644,127 +644,127 @@
     },
     "7add648ef1ce71653bf2425a7f6cd2c9405476324851f4354591bf677628776d": {
       "0": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 17
       },
       "16": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 17
       },
       "24": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 17
       },
       "32": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 17
       },
       "40": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 17
       },
       "48": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 17
       },
       "56": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 17
       },
       "64": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 17
       },
       "80": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 17
       },
       "88": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 17
       },
       "112": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 18
       },
       "120": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 18
       },
       "136": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 18
       },
       "144": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 18
       },
       "168": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 19
       },
       "184": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 22
       },
       "200": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 22
       },
       "208": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 22
       },
       "216": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 22
       },
       "232": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 22
       },
       "248": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 23
       },
       "256": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 23
       },
       "264": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 23
       },
       "288": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 23
       },
       "296": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 23
       },
       "304": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 23
       },
       "320": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 23
       },
       "336": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 23
       },
       "352": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 23
       },
       "360": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 23
       },
       "368": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 23
       }
     },
@@ -826,23 +826,23 @@
         "line": 20
       },
       "152": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 11
       },
       "168": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 12
       },
       "184": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 13
       },
       "200": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 13
       },
       "216": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 13
       },
       "232": {
@@ -880,39 +880,39 @@
         "line": 41
       },
       "88": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 16
       },
       "96": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 16
       },
       "104": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 16
       },
       "112": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 16
       },
       "120": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 16
       },
       "128": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 16
       },
       "136": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 16
       },
       "152": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 16
       },
       "168": {
-        "filename": "../contracts/SimpleWallet.tsol",
+        "filename": "../../../BlockChain/internal/contracts/SimpleWallet.tsol",
         "line": 16
       },
       "176": {

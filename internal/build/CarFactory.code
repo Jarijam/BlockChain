@@ -18,14 +18,14 @@ PUSHCONT {
 IF
 LDMSGADDR
 ENDS
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 18
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 20
 ACCEPT
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 19
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 21
 SETGLOB 10
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 20
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 22
 MYADDR
 SETGLOB 11
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 0
 CALLREF {
 	CALL $c7_to_c4$
 }
@@ -36,7 +36,7 @@ THROW 0
 CALL $buildInitParams_a693fe3d_internal_macro$
 
 .macro buildInitParams_a693fe3d_internal_macro
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 29
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 31
 GETGLOB 2
 NEWC
 STU 256
@@ -64,7 +64,7 @@ STOPTREF
 STOPTREF
 STZERO
 ENDC
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 0
 
 .macro getAddress
 DROP
@@ -75,7 +75,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 40
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 42
 OVER
 PUSHCONT {
 	LDREF
@@ -85,7 +85,7 @@ PUSHCONT {
 IF
 LDMSGADDR
 ENDS
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 0
 CALLREF {
 	CALL $getAddress_ae22c57d_internal_macro$
 }
@@ -126,13 +126,13 @@ THROW 0
 CALL $getAddress_ae22c57d_internal_macro$
 
 .macro getAddress_ae22c57d_internal_macro
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 41
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 43
 ACCEPT
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 42
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 44
 CALLREF {
 	CALL $buildInitParams_a693fe3d_internal_macro$
 }
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 43
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 45
 DUP
 HASHCU
 NEWC
@@ -147,14 +147,14 @@ STSLICE
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 44
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 46
 HASHCU
 NEWC
 STSLICECONST x801_
 STU 256
 ENDC
 CTOS
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 0
 
 .macro sendOffer
 DROP
@@ -165,11 +165,12 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 48
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 50
+LDREF
 ENDS
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 0
 CALLREF {
-	CALL $sendOffer_677ed7d9_internal_macro$
+	CALL $sendOffer_1717b77b_internal_macro$
 }
 DROP
 CALLREF {
@@ -177,12 +178,24 @@ CALLREF {
 }
 THROW 0
 
-.globl	sendOffer_677ed7d9_internal
-.type	sendOffer_677ed7d9_internal, @function
-CALL $sendOffer_677ed7d9_internal_macro$
+.globl	sendOffer_1717b77b_internal
+.type	sendOffer_1717b77b_internal, @function
+CALL $sendOffer_1717b77b_internal_macro$
 
-.macro sendOffer_677ed7d9_internal_macro
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+.macro sendOffer_1717b77b_internal_macro
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 51
+PUSHINT 100000000000
+PUSHINT 0
+RAWRESERVE
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 52
+PUSHSLICE xc0000000000000000000000000536929e1
+NEWC
+STSLICE
+STREF
+ENDC
+PUSHINT 0
+SENDRAWMSG
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 0
 
 .macro workerAcceptOffer
 DROP
@@ -193,9 +206,9 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 53
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 56
 ENDS
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 0
 CALLREF {
 	CALL $workerAcceptOffer_39b2820d_internal_macro$
 }
@@ -210,7 +223,7 @@ THROW 0
 CALL $workerAcceptOffer_39b2820d_internal_macro$
 
 .macro workerAcceptOffer_39b2820d_internal_macro
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 0
 
 .macro on_bounce_macro
 GETGLOB 6
@@ -220,13 +233,13 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 63
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 66
 PLDREF
 CTOS
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 64
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 67
 PLDU 32
 DROP
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/CarFactory.tsol, 0
 CALLREF {
 	CALL $c7_to_c4$
 }
@@ -468,16 +481,16 @@ PUSHINT 1493111345
 LEQ
 IFJMPREF {
 	DUP
+	PUSHINT 67220724
+	EQUAL
+	IFJMPREF {
+		CALL $sendOffer$
+	}
+	DUP
 	PUSHINT 1026043518
 	EQUAL
 	IFJMPREF {
 		CALL $factoryAddress$
-	}
-	DUP
-	PUSHINT 1032538553
-	EQUAL
-	IFJMPREF {
-		CALL $sendOffer$
 	}
 	DUP
 	PUSHINT 1196840156

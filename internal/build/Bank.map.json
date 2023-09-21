@@ -34,47 +34,47 @@
         "line": 863
       },
       "112": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 164
       },
       "160": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 164
       },
       "168": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 164
       },
       "184": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 167
       },
       "200": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 167
       },
       "208": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 168
       },
       "216": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 168
       },
       "232": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 168
       },
       "240": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 171
       },
       "288": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 171
       },
       "296": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 171
       },
       "312": {
@@ -92,31 +92,31 @@
     },
     "0bb278ccc6facae447bbe728434e533997e85c7999d9f08021103d57b796c751": {
       "0": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 117
       },
       "16": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 117
       },
       "32": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 117
       },
       "48": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 117
       },
       "56": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 117
       },
       "64": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 117
       },
       "80": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 117
       }
     },
@@ -314,81 +314,81 @@
     },
     "13e0a5390fe50df0e1084562bda6f99920d8fa8af56198cfd1558c3003367c55": {
       "0": {
-        "filename": "../node_modules/locklift/src/console.tsol",
+        "filename": "../../../BlockChain/internal/node_modules/locklift/src/console.tsol",
         "line": 10
       }
     },
     "167cbcddb50e29cce7c28a14df73bae947a561cc10d9c38c298a1e02278eb4e6": {
       "0": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "8": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "24": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "32": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "40": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "56": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "64": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "72": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "88": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "96": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "104": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "120": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "128": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "136": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "152": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "168": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "184": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "192": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       }
     },
@@ -452,111 +452,111 @@
     },
     "2223a292aba867e14f827602da93e4ca3c256b435aa41734848b06c737c800cf": {
       "0": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "16": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "24": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "40": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "48": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "56": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "72": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "88": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "96": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "104": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "112": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "128": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "144": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "160": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "168": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "176": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "192": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "208": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "216": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "232": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "240": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "256": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "264": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "288": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "304": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "320": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       },
       "336": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 83
       }
     },
@@ -586,15 +586,15 @@
         "line": 49
       },
       "88": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 50
       },
       "104": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 50
       },
       "120": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 50
       },
       "128": {
@@ -654,91 +654,91 @@
     },
     "231a0d410735e550a525f5578373bb7c0cb3270ff3cd0ba5ec9810716d597092": {
       "0": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 95
       },
       "16": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 96
       },
       "32": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 97
       },
       "40": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 97
       },
       "56": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 97
       },
       "64": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 97
       },
       "96": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 97
       },
       "112": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 97
       },
       "120": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 97
       },
       "128": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 97
       },
       "288": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 97
       },
       "296": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 97
       },
       "304": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 97
       },
       "312": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 97
       },
       "320": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 97
       },
       "328": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 97
       },
       "344": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 98
       },
       "360": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 98
       },
       "368": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 98
       },
       "400": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 98
       },
       "416": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 98
       },
       "424": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 98
       }
     },
@@ -768,35 +768,35 @@
         "line": 233
       },
       "88": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 94
       },
       "96": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 94
       },
       "104": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 94
       },
       "112": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 94
       },
       "120": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 94
       },
       "128": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 94
       },
       "136": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 94
       },
       "152": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 94
       },
       "160": {
@@ -914,95 +914,95 @@
     },
     "2a04a5e3516f3c1928e32da427fca1ffd3a17e04703cec23a6ef089f20be4087": {
       "0": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 28
       },
       "16": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 28
       },
       "32": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 28
       },
       "48": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 28
       },
       "72": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 142
       },
       "120": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 142
       },
       "128": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 142
       },
       "144": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 143
       },
       "160": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 143
       },
       "168": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 143
       },
       "176": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 143
       },
       "200": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 143
       },
       "208": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 143
       },
       "216": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 143
       },
       "240": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 143
       },
       "248": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 143
       },
       "256": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 143
       },
       "304": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 143
       },
       "320": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 143
       },
       "328": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 143
       },
       "336": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 143
       },
       "344": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 143
       },
       "360": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 143
       }
     },
@@ -1032,47 +1032,47 @@
         "line": 323
       },
       "88": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 101
       },
       "96": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 101
       },
       "104": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 101
       },
       "120": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 101
       },
       "128": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 101
       },
       "136": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 101
       },
       "144": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 101
       },
       "152": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 101
       },
       "168": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 101
       },
       "176": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 101
       },
       "192": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 101
       },
       "200": {
@@ -1094,7 +1094,7 @@
     },
     "307296cb4026b2773bdf33f6ce88bc8ac72b094a9b64946de3a5d09c7f088019": {
       "0": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 160
       }
     },
@@ -1168,103 +1168,103 @@
     },
     "37cf63516ab12e2364713cecdb7ed538dc2d5cbc2ec13a09bb71c2a89e6f9bec": {
       "0": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 109
       },
       "8": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 109
       },
       "24": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 110
       },
       "32": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 110
       },
       "48": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 111
       },
       "64": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 111
       },
       "72": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 111
       },
       "232": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 111
       },
       "240": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 111
       },
       "248": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 111
       },
       "256": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 111
       },
       "272": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 111
       },
       "280": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 111
       },
       "288": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 111
       },
       "304": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 112
       },
       "320": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 112
       },
       "336": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 112
       },
       "344": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 112
       },
       "368": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 112
       },
       "376": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 112
       },
       "424": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 112
       },
       "448": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 112
       },
       "464": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 112
       },
       "472": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 112
       },
       "488": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 112
       }
     },
@@ -1364,143 +1364,143 @@
     },
     "42686f918be13f5b79c3615fec84ecc8fd766754fd3f72dd485d12ae4f9609f4": {
       "0": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 147
       },
       "16": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 149
       },
       "64": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 149
       },
       "72": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 149
       },
       "88": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 151
       },
       "96": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 151
       },
       "256": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 151
       },
       "264": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 151
       },
       "272": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 151
       },
       "280": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 151
       },
       "288": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 151
       },
       "296": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 151
       },
       "312": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "320": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "336": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "344": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "352": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "368": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "376": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "400": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "408": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "416": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "440": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "456": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "464": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "512": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "528": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "536": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "544": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "552": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "560": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "568": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "576": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "584": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       },
       "600": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 152
       }
     },
@@ -1572,7 +1572,7 @@
     },
     "4931251b5d885ef0cb8cb85f4b4604bb3ab8b424ff61eca253efc6a3a572e1c7": {
       "0": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 156
       }
     },
@@ -1720,7 +1720,7 @@
         "line": 770
       },
       "88": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 155
       },
       "96": {
@@ -1930,7 +1930,7 @@
         "line": 817
       },
       "88": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 159
       },
       "96": {
@@ -2028,119 +2028,119 @@
     },
     "53b7c7a8733b22e51a8092c59bc30c795f126e013797a51c4964a0f0f5679c92": {
       "0": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 51
       },
       "8": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 51
       },
       "24": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 51
       },
       "32": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 51
       },
       "80": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 51
       },
       "128": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 51
       },
       "136": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 51
       },
       "152": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 51
       },
       "160": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 51
       },
       "184": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 52
       },
       "232": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 52
       },
       "240": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 52
       },
       "256": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 53
       },
       "272": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 53
       },
       "288": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 66
       },
       "304": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 66
       },
       "312": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 66
       },
       "336": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 66
       },
       "344": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 66
       },
       "360": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 66
       },
       "376": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 66
       },
       "384": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 66
       },
       "400": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 66
       },
       "416": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 67
       },
       "432": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 67
       },
       "440": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 67
       },
       "520": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 67
       },
       "536": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 67
       },
       "552": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 67
       }
     },
@@ -2628,47 +2628,47 @@
         "line": 482
       },
       "88": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 121
       },
       "96": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 121
       },
       "104": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 121
       },
       "120": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 121
       },
       "128": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 121
       },
       "136": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 121
       },
       "144": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 121
       },
       "152": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 121
       },
       "168": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 121
       },
       "176": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 121
       },
       "192": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 121
       },
       "200": {
@@ -2780,63 +2780,63 @@
     },
     "93b2228edef1dcd992f56c68b0aa098292e8018ab85b6eab1a37bcd1deaea2d9": {
       "0": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 121
       },
       "16": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 33
       },
       "32": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 33
       },
       "48": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 33
       },
       "64": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 33
       },
       "88": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 34
       },
       "96": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 34
       },
       "112": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 121
       },
       "120": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 35
       },
       "280": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 35
       },
       "288": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 35
       },
       "296": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 35
       },
       "304": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 35
       },
       "312": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 35
       },
       "320": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 35
       }
     },
@@ -3199,179 +3199,179 @@
     },
     "9c57968962c424c861f53316a95a8b1a6adaf79a8b959cf66771bdb18871b949": {
       "0": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 71
       },
       "8": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 71
       },
       "24": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "40": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "48": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "64": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "72": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "88": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "96": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "128": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "144": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "152": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "160": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "176": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "184": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "192": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "216": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "224": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "384": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "408": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "416": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "432": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "440": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "488": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "504": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "520": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "528": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "536": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "544": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 73
       },
       "560": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 79
       },
       "680": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 79
       },
       "688": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 79
       },
       "696": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 79
       },
       "704": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 79
       },
       "712": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 79
       },
       "760": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 79
       },
       "768": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 79
       },
       "776": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 79
       },
       "784": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 79
       },
       "792": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 79
       },
       "800": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 79
       },
       "808": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 79
       },
       "816": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 79
       },
       "824": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 79
       }
     },
@@ -3469,87 +3469,87 @@
     },
     "a10228ce02b5c69fff3f39e6c7ef5e5f785fa0e601cb7209ce520e165e1d9a1b": {
       "0": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 135
       },
       "8": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 135
       },
       "16": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 135
       },
       "32": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 135
       },
       "40": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 135
       },
       "56": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 135
       },
       "72": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 135
       },
       "80": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 135
       },
       "96": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 136
       },
       "104": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 136
       },
       "120": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 137
       },
       "128": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 137
       },
       "144": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 138
       },
       "160": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 138
       },
       "320": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 138
       },
       "328": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 138
       },
       "336": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 138
       },
       "344": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 138
       },
       "360": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 138
       },
       "368": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 138
       },
       "376": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 138
       }
     },
@@ -3579,39 +3579,39 @@
         "line": 615
       },
       "88": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 141
       },
       "96": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 141
       },
       "104": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 141
       },
       "112": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 141
       },
       "120": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 141
       },
       "128": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 141
       },
       "136": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 141
       },
       "152": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 141
       },
       "168": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 141
       },
       "176": {
@@ -3633,71 +3633,71 @@
     },
     "a864360719a09aabbb5d0cfc96245239d51746c25b2c940a2d55766ff942c654": {
       "0": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 122
       },
       "48": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 122
       },
       "56": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 122
       },
       "72": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 124
       },
       "80": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 124
       },
       "96": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 124
       },
       "104": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 124
       },
       "120": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 125
       },
       "136": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 125
       },
       "144": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 125
       },
       "168": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 125
       },
       "176": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 125
       },
       "224": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 125
       },
       "248": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 125
       },
       "256": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 125
       },
       "272": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 125
       },
       "288": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 126
       },
       "296": {
@@ -3705,277 +3705,277 @@
         "line": 547
       },
       "304": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 129
       },
       "312": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 129
       },
       "328": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 129
       },
       "336": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 129
       },
       "360": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 129
       },
       "368": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 129
       },
       "416": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 129
       },
       "440": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 129
       },
       "456": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 129
       },
       "464": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 129
       },
       "480": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 129
       },
       "496": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 130
       }
     },
     "a9eb9991b31e332899c8b37b476415b23468867b4d7fc90d6f595dc96bfab41e": {
       "0": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 28
       },
       "16": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 28
       },
       "32": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 28
       },
       "48": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 28
       },
       "72": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 147
       },
       "88": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 147
       },
       "96": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 147
       },
       "176": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 147
       },
       "192": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 147
       },
       "208": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 147
       },
       "224": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 147
       }
     },
     "ac0924ee58cc41b457f7202bfd198ae664710f042af501dca8bd7e70b0583135": {
       "0": {
-        "filename": "../node_modules/locklift/src/console.tsol",
+        "filename": "../../../BlockChain/internal/node_modules/locklift/src/console.tsol",
         "line": 10
       },
       "8": {
-        "filename": "../node_modules/locklift/src/console.tsol",
+        "filename": "../../../BlockChain/internal/node_modules/locklift/src/console.tsol",
         "line": 10
       },
       "16": {
-        "filename": "../node_modules/locklift/src/console.tsol",
+        "filename": "../../../BlockChain/internal/node_modules/locklift/src/console.tsol",
         "line": 10
       },
       "24": {
-        "filename": "../node_modules/locklift/src/console.tsol",
+        "filename": "../../../BlockChain/internal/node_modules/locklift/src/console.tsol",
         "line": 10
       },
       "32": {
-        "filename": "../node_modules/locklift/src/console.tsol",
+        "filename": "../../../BlockChain/internal/node_modules/locklift/src/console.tsol",
         "line": 10
       },
       "40": {
-        "filename": "../node_modules/locklift/src/console.tsol",
+        "filename": "../../../BlockChain/internal/node_modules/locklift/src/console.tsol",
         "line": 10
       },
       "48": {
-        "filename": "../node_modules/locklift/src/console.tsol",
+        "filename": "../../../BlockChain/internal/node_modules/locklift/src/console.tsol",
         "line": 10
       }
     },
     "aeb044f78dc44ff69ad8bc45dbf576d47de370e517de6084bf37018fb02cdeb7": {
       "0": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 172
       },
       "8": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 172
       },
       "24": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 172
       },
       "40": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 172
       },
       "48": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 172
       },
       "56": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 172
       },
       "64": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 172
       },
       "80": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 172
       },
       "88": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 172
       },
       "104": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 172
       },
       "112": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 175
       },
       "136": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 175
       },
       "144": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 175
       },
       "152": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 175
       },
       "168": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "176": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "192": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "208": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "224": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "240": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "248": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "272": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "280": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "288": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "312": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "328": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "336": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "384": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "400": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "408": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "416": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "424": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "432": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "440": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "448": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "456": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "472": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 176
       },
       "488": {
@@ -4053,31 +4053,31 @@
         "line": 24
       },
       "192": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 42
       },
       "208": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 43
       },
       "224": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 44
       },
       "240": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 46
       },
       "256": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 46
       },
       "272": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 47
       },
       "280": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 47
       },
       "296": {
@@ -4115,7 +4115,7 @@
         "line": 425
       },
       "88": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 115
       },
       "96": {
@@ -4387,79 +4387,79 @@
     },
     "c3ae5dc5517588dbc335cf3a040d28b3f30ded8d6b3ff5382052b9ddca2e68b4": {
       "0": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 101
       },
       "16": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 33
       },
       "32": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 33
       },
       "48": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 33
       },
       "64": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 33
       },
       "88": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 34
       },
       "96": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 103
       },
       "144": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 103
       },
       "152": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 103
       },
       "168": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 104
       },
       "184": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 104
       },
       "208": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 105
       },
       "224": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 35
       },
       "384": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 35
       },
       "392": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 35
       },
       "400": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 35
       },
       "408": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 35
       },
       "416": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 35
       },
       "424": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 35
       }
     },
@@ -4601,11 +4601,11 @@
     },
     "da17a44db7d7f7d0dcdae6466816f3213405122168c34a9d78b63b9abe401f30": {
       "0": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 67
       },
       "16": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 67
       }
     },
@@ -4977,39 +4977,39 @@
         "line": 674
       },
       "88": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 146
       },
       "96": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 146
       },
       "104": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 146
       },
       "112": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 146
       },
       "120": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 146
       },
       "128": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 146
       },
       "136": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 146
       },
       "152": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 146
       },
       "168": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 146
       },
       "176": {
@@ -5031,7 +5031,7 @@
     },
     "f3dc17dc1650158ebec105f84bc3a4dc7a5feaa1a87885db6d780b28ed4d6805": {
       "0": {
-        "filename": "../contracts/BanKUser/Bank.tsol",
+        "filename": "../../../BlockChain/internal/contracts/BanKUser/Bank.tsol",
         "line": 151
       }
     },

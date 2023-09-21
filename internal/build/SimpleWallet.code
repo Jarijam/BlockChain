@@ -18,15 +18,15 @@ PUSHCONT {
 IF
 LDU 256
 ENDS
-.loc ../contracts/SimpleWallet.tsol, 11
+.loc ../../../BlockChain/internal/contracts/SimpleWallet.tsol, 11
 ACCEPT
-.loc ../contracts/SimpleWallet.tsol, 12
+.loc ../../../BlockChain/internal/contracts/SimpleWallet.tsol, 12
 SETGLOB 10
-.loc ../contracts/SimpleWallet.tsol, 13
+.loc ../../../BlockChain/internal/contracts/SimpleWallet.tsol, 13
 GETPARAM 7
 FIRST
 SETGLOB 11
-.loc ../contracts/SimpleWallet.tsol, 0
+.loc ../../../BlockChain/internal/contracts/SimpleWallet.tsol, 0
 CALLREF {
 	CALL $c7_to_c4$
 }
@@ -41,7 +41,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/SimpleWallet.tsol, 16
+.loc ../../../BlockChain/internal/contracts/SimpleWallet.tsol, 16
 OVER
 PUSHCONT {
 	LDREF
@@ -52,7 +52,7 @@ IF
 LDMSGADDR
 LDU 128
 ENDS
-.loc ../contracts/SimpleWallet.tsol, 0
+.loc ../../../BlockChain/internal/contracts/SimpleWallet.tsol, 0
 CALLREF {
 	CALL $sendToMyFriend_a06fa578_internal_macro$
 }
@@ -67,7 +67,7 @@ THROW 0
 CALL $sendToMyFriend_a06fa578_internal_macro$
 
 .macro sendToMyFriend_a06fa578_internal_macro
-.loc ../contracts/SimpleWallet.tsol, 17
+.loc ../../../BlockChain/internal/contracts/SimpleWallet.tsol, 17
 GETGLOB 5
 DUP
 ISNULL
@@ -79,20 +79,20 @@ IF
 GETGLOB 10
 EQUAL
 THROWIFNOT 101
-.loc ../contracts/SimpleWallet.tsol, 18
+.loc ../../../BlockChain/internal/contracts/SimpleWallet.tsol, 18
 DUP
 GETGLOB 11
 LEQ
 THROWIFNOT 102
-.loc ../contracts/SimpleWallet.tsol, 19
+.loc ../../../BlockChain/internal/contracts/SimpleWallet.tsol, 19
 ACCEPT
-.loc ../contracts/SimpleWallet.tsol, 22
+.loc ../../../BlockChain/internal/contracts/SimpleWallet.tsol, 22
 GETGLOB 11
 OVER
 SUB
 UFITS 128
 SETGLOB 11
-.loc ../contracts/SimpleWallet.tsol, 23
+.loc ../../../BlockChain/internal/contracts/SimpleWallet.tsol, 23
 SWAP
 NEWC
 STSLICECONST x62_
@@ -104,7 +104,7 @@ STZEROES
 ENDC
 PUSHINT 1
 SENDRAWMSG
-.loc ../contracts/SimpleWallet.tsol, 0
+.loc ../../../BlockChain/internal/contracts/SimpleWallet.tsol, 0
 
 .macro receive_macro
 GETGLOB 6
@@ -114,10 +114,10 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/SimpleWallet.tsol, 27
+.loc ../../../BlockChain/internal/contracts/SimpleWallet.tsol, 27
 GETGLOB 11
 DUP
-.loc ../contracts/SimpleWallet.tsol, 28
+.loc ../../../BlockChain/internal/contracts/SimpleWallet.tsol, 28
 DEPTH
 ADDCONST -2
 PICK
@@ -125,7 +125,7 @@ ADD
 UFITS 128
 DUP
 SETGLOB 11
-.loc ../contracts/SimpleWallet.tsol, 29
+.loc ../../../BlockChain/internal/contracts/SimpleWallet.tsol, 29
 SWAP
 PUSHSLICE xc000000000000000000000000059df1b84
 NEWC
@@ -135,7 +135,7 @@ STU 128
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/SimpleWallet.tsol, 0
+.loc ../../../BlockChain/internal/contracts/SimpleWallet.tsol, 0
 CALLREF {
 	CALL $c7_to_c4$
 }

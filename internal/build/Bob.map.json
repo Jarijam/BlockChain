@@ -2,63 +2,63 @@
   "map": {
     "0f2e32f436b0be9cc70ca249ef5517fd07e32670394b09ada94fb44833865cad": {
       "0": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 15
       },
       "16": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 16
       },
       "24": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 16
       },
       "40": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 16
       },
       "56": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 16
       },
       "64": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 16
       },
       "88": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 16
       },
       "96": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 16
       },
       "280": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 16
       },
       "304": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 16
       },
       "312": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 16
       },
       "328": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 16
       },
       "336": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 16
       },
       "344": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 16
       },
       "352": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 16
       }
     },
@@ -486,43 +486,43 @@
         "line": 27
       },
       "88": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 14
       },
       "96": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 14
       },
       "104": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 14
       },
       "112": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 14
       },
       "120": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 14
       },
       "128": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 14
       },
       "136": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 14
       },
       "152": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 14
       },
       "168": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 14
       },
       "176": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 14
       },
       "184": {
@@ -572,7 +572,7 @@
         "line": 12
       },
       "88": {
-        "filename": "../contracts/AliceBob/Bob.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Bob.tsol",
         "line": 11
       },
       "104": {

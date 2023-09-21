@@ -23,6 +23,7 @@
 		{
 			"name": "sendOffer",
 			"inputs": [
+				{"name":"message","type":"string"}
 			],
 			"outputs": [
 			]
@@ -59,6 +60,14 @@
 			"name": "AddressReturn",
 			"inputs": [
 				{"name":"userAddress","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "SendingOffer",
+			"inputs": [
+				{"name":"msg","type":"string"}
 			],
 			"outputs": [
 			]

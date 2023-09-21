@@ -10,9 +10,9 @@ IFREF {
 GETGLOB 6
 THROWIF 51
 ENDS
-.loc ../contracts/Factory.tsol, 10
+.loc ../../../BlockChain/internal/contracts/Factory.tsol, 10
 ACCEPT
-.loc ../contracts/Factory.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Factory.tsol, 0
 CALLREF {
 	CALL $c7_to_c4$
 }
@@ -27,9 +27,9 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/Factory.tsol, 14
+.loc ../../../BlockChain/internal/contracts/Factory.tsol, 14
 ENDS
-.loc ../contracts/Factory.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Factory.tsol, 0
 CALLREF {
 	CALL $deployAccountForUser_cb16b36a_internal_macro$
 }
@@ -40,7 +40,7 @@ CALLREF {
 THROW 0
 
 .macro deployAccountForUser_cb16b36a_internal_macro
-.loc ../contracts/Factory.tsol, 15
+.loc ../../../BlockChain/internal/contracts/Factory.tsol, 15
 DEPTH
 ADDCONST -2
 PICK
@@ -50,16 +50,16 @@ ADD
 UFITS 128
 GEQ
 THROWIFNOT 101
-.loc ../contracts/Factory.tsol, 17
+.loc ../../../BlockChain/internal/contracts/Factory.tsol, 17
 GETGLOB 10
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/Factory.tsol, 19
+.loc ../../../BlockChain/internal/contracts/Factory.tsol, 19
 GETGLOB 9
 CALLREF {
 	CALL $buildInitParams_a693fe3d_internal_macro$
 }
-.loc ../contracts/Factory.tsol, 21
+.loc ../../../BlockChain/internal/contracts/Factory.tsol, 21
 DUP
 HASHCU
 NEWC
@@ -101,7 +101,7 @@ STSLICECONST x345aaf9fc_
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/Factory.tsol, 26
+.loc ../../../BlockChain/internal/contracts/Factory.tsol, 26
 GETGLOB 9
 SWAP
 PUSHSLICE xc0000000000000000000000001
@@ -119,7 +119,7 @@ STBREFR
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/Factory.tsol, 27
+.loc ../../../BlockChain/internal/contracts/Factory.tsol, 27
 GETGLOB 9
 NEWC
 STSLICECONST x62_
@@ -129,14 +129,14 @@ STZEROES
 ENDC
 PUSHPOW2 7
 SENDRAWMSG
-.loc ../contracts/Factory.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Factory.tsol, 0
 
 .globl	buildInitParams_a693fe3d_internal
 .type	buildInitParams_a693fe3d_internal, @function
 CALL $buildInitParams_a693fe3d_internal_macro$
 
 .macro buildInitParams_a693fe3d_internal_macro
-.loc ../contracts/Factory.tsol, 31
+.loc ../../../BlockChain/internal/contracts/Factory.tsol, 31
 GETGLOB 2
 NEWC
 STU 256
@@ -164,7 +164,7 @@ STOPTREF
 STOPTREF
 STZERO
 ENDC
-.loc ../contracts/Factory.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Factory.tsol, 0
 
 .macro c4_to_c7
 PUSHROOT

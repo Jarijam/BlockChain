@@ -10,9 +10,9 @@ IFREF {
 GETGLOB 6
 THROWIF 51
 ENDS
-.loc ../contracts/AliceBob/Bob.tsol, 11
+.loc ../../../BlockChain/internal/contracts/AliceBob/Bob.tsol, 11
 ACCEPT
-.loc ../contracts/AliceBob/Bob.tsol, 0
+.loc ../../../BlockChain/internal/contracts/AliceBob/Bob.tsol, 0
 CALLREF {
 	CALL $c7_to_c4$
 }
@@ -27,7 +27,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/AliceBob/Bob.tsol, 14
+.loc ../../../BlockChain/internal/contracts/AliceBob/Bob.tsol, 14
 OVER
 PUSHCONT {
 	LDREF
@@ -39,7 +39,7 @@ LDMSGADDR
 LDU 128
 LDREF
 ENDS
-.loc ../contracts/AliceBob/Bob.tsol, 0
+.loc ../../../BlockChain/internal/contracts/AliceBob/Bob.tsol, 0
 CALLREF {
 	CALL $callAlice_6fe33caa_internal_macro$
 }
@@ -50,9 +50,9 @@ CALLREF {
 THROW 0
 
 .macro callAlice_6fe33caa_internal_macro
-.loc ../contracts/AliceBob/Bob.tsol, 15
+.loc ../../../BlockChain/internal/contracts/AliceBob/Bob.tsol, 15
 ACCEPT
-.loc ../contracts/AliceBob/Bob.tsol, 16
+.loc ../../../BlockChain/internal/contracts/AliceBob/Bob.tsol, 16
 SWAP
 GETGLOB 10
 ROLL 3
@@ -67,7 +67,7 @@ STREF
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/AliceBob/Bob.tsol, 0
+.loc ../../../BlockChain/internal/contracts/AliceBob/Bob.tsol, 0
 
 .macro c4_to_c7
 PUSHROOT

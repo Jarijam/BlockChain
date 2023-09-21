@@ -10,9 +10,9 @@ IFREF {
 GETGLOB 6
 THROWIF 51
 ENDS
-.loc ../contracts/CarFactoryAndWorker/Workers.tsol, 14
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/Workers.tsol, 14
 ACCEPT
-.loc ../contracts/CarFactoryAndWorker/Workers.tsol, 0
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/Workers.tsol, 0
 CALLREF {
 	CALL $c7_to_c4$
 }
@@ -27,9 +27,9 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/CarFactoryAndWorker/Workers.tsol, 17
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/Workers.tsol, 17
 ENDS
-.loc ../contracts/CarFactoryAndWorker/Workers.tsol, 0
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/Workers.tsol, 0
 CALLREF {
 	CALL $receiveOffer_96acb964_internal_macro$
 }
@@ -44,7 +44,7 @@ THROW 0
 CALL $receiveOffer_96acb964_internal_macro$
 
 .macro receiveOffer_96acb964_internal_macro
-.loc ../contracts/CarFactoryAndWorker/Workers.tsol, 0
+.loc ../../../BlockChain/internal/contracts/CarFactoryAndWorker/Workers.tsol, 0
 
 .macro c4_to_c7
 PUSHROOT

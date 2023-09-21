@@ -10,9 +10,9 @@ IFREF {
 GETGLOB 6
 THROWIF 51
 ENDS
-.loc ../contracts/Company/Company.tsol, 32
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 32
 ACCEPT
-.loc ../contracts/Company/Company.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 0
 CALLREF {
 	CALL $c7_to_c4$
 }
@@ -27,9 +27,9 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/Company/Company.tsol, 35
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 35
 ENDS
-.loc ../contracts/Company/Company.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 0
 CALLREF {
 	CALL $deployAccountForWorker_e1c982dc_internal_macro$
 }
@@ -40,7 +40,7 @@ CALLREF {
 THROW 0
 
 .macro deployAccountForWorker_e1c982dc_internal_macro
-.loc ../contracts/Company/Company.tsol, 36
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 36
 DEPTH
 ADDCONST -2
 PICK
@@ -50,16 +50,16 @@ ADD
 UFITS 128
 GEQ
 THROWIFNOT 101
-.loc ../contracts/Company/Company.tsol, 38
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 38
 GETGLOB 10
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/Company/Company.tsol, 40
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 40
 GETGLOB 9
 CALLREF {
 	CALL $buildInitParams_a693fe3d_internal_macro$
 }
-.loc ../contracts/Company/Company.tsol, 42
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 42
 DUP
 HASHCU
 NEWC
@@ -101,7 +101,7 @@ STSLICECONST x345aaf9fc_
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/Company/Company.tsol, 47
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 47
 GETGLOB 9
 SWAP
 PUSHSLICE xc0000000000000000000000001
@@ -119,7 +119,7 @@ STBREFR
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/Company/Company.tsol, 48
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 48
 GETGLOB 9
 NEWC
 STSLICECONST x62_
@@ -129,14 +129,14 @@ STZEROES
 ENDC
 PUSHPOW2 7
 SENDRAWMSG
-.loc ../contracts/Company/Company.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 0
 
 .globl	buildInitParams_a693fe3d_internal
 .type	buildInitParams_a693fe3d_internal, @function
 CALL $buildInitParams_a693fe3d_internal_macro$
 
 .macro buildInitParams_a693fe3d_internal_macro
-.loc ../contracts/Company/Company.tsol, 52
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 52
 GETGLOB 2
 NEWC
 STU 256
@@ -164,25 +164,25 @@ STOPTREF
 STOPTREF
 STZERO
 ENDC
-.loc ../contracts/Company/Company.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 0
 
 .globl	getWorkerAddress_a4ab46e7_internal
 .type	getWorkerAddress_a4ab46e7_internal, @function
 CALL $getWorkerAddress_a4ab46e7_internal_macro$
 
 .macro getWorkerAddress_a4ab46e7_internal_macro
-.loc ../contracts/Company/Company.tsol, 64
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 64
 CALLREF {
 	CALL $buildInitParams_a693fe3d_internal_macro$
 }
-.loc ../contracts/Company/Company.tsol, 65
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 65
 HASHCU
 NEWC
 STSLICECONST x801_
 STU 256
 ENDC
 CTOS
-.loc ../contracts/Company/Company.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 0
 
 .macro doWork
 DROP
@@ -193,7 +193,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/Company/Company.tsol, 68
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 68
 OVER
 PUSHCONT {
 	LDREF
@@ -203,7 +203,7 @@ PUSHCONT {
 IF
 LDMSGADDR
 ENDS
-.loc ../contracts/Company/Company.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 0
 CALLREF {
 	CALL $doWork_3b660429_internal_macro$
 }
@@ -214,42 +214,42 @@ CALLREF {
 THROW 0
 
 .macro doWork_3b660429_internal_macro
-.loc ../contracts/Company/Company.tsol, 27
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 27
 CALLREF {
 	CALL $getWorkerAddress_a4ab46e7_internal_macro$
 }
 GETGLOB 9
 SDEQ
 THROWIFNOT 1002
-.loc ../contracts/Company/Company.tsol, 69
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 69
 PUSHINT 1000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/Company/Company.tsol, 70
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 70
 GETGLOB 9
 CALLREF {
 	CALL $workProcessing_e10c6eeb_internal_macro$
 }
-.loc ../contracts/Company/Company.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 0
 
 .globl	workProcessing_e10c6eeb_internal
 .type	workProcessing_e10c6eeb_internal, @function
 CALL $workProcessing_e10c6eeb_internal_macro$
 
 .macro workProcessing_e10c6eeb_internal_macro
-.loc ../contracts/Company/Company.tsol, 74
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 74
 GETGLOB 13
 MULCONST 2
 UFITS 128
 SETGLOB 13
-.loc ../contracts/Company/Company.tsol, 75
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 75
 GETGLOB 14
 GETGLOB 13
 ADD
 UFITS 128
 DUP
 SETGLOB 14
-.loc ../contracts/Company/Company.tsol, 76
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 76
 GETGLOB 13
 PUSH S2
 PUSHSLICE xc0000000000000000000000000116ba8bf
@@ -261,7 +261,7 @@ STU 128
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/Company/Company.tsol, 80
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 80
 GETGLOB 13
 SWAP
 NEWC
@@ -273,7 +273,7 @@ STU 128
 ENDC
 PUSHPOW2 7
 SENDRAWMSG
-.loc ../contracts/Company/Company.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 0
 
 .macro getDetails
 DROP
@@ -284,9 +284,9 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/Company/Company.tsol, 84
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 84
 ENDS
-.loc ../contracts/Company/Company.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 0
 CALLREF {
 	CALL $getDetails_fbbf93a0_internal_macro$
 }
@@ -321,10 +321,10 @@ IFREF {
 THROW 0
 
 .macro getDetails_fbbf93a0_internal_macro
-.loc ../contracts/Company/Company.tsol, 85
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 85
 GETGLOB 13
 GETGLOB 14
-.loc ../contracts/Company/Company.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Company/Company.tsol, 0
 
 .macro c4_to_c7
 PUSHROOT

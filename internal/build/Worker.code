@@ -10,7 +10,7 @@ IFREF {
 GETGLOB 6
 THROWIF 51
 ENDS
-.loc ../contracts/Company/Worker.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Company/Worker.tsol, 0
 CALLREF {
 	CALL $c7_to_c4$
 }
@@ -25,9 +25,9 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/Company/Worker.tsol, 29
+.loc ../../../BlockChain/internal/contracts/Company/Worker.tsol, 29
 ENDS
-.loc ../contracts/Company/Worker.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Company/Worker.tsol, 0
 CALLREF {
 	CALL $startWork_01034979_internal_macro$
 }
@@ -42,16 +42,16 @@ THROW 0
 CALL $startWork_01034979_internal_macro$
 
 .macro startWork_01034979_internal_macro
-.loc ../contracts/Company/Worker.tsol, 17
+.loc ../../../BlockChain/internal/contracts/Company/Worker.tsol, 17
 GETGLOB 9
 GETGLOB 10
 SDEQ
 THROWIFNOT 1001
-.loc ../contracts/Company/Worker.tsol, 30
+.loc ../../../BlockChain/internal/contracts/Company/Worker.tsol, 30
 PUSHINT 1000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/Company/Worker.tsol, 31
+.loc ../../../BlockChain/internal/contracts/Company/Worker.tsol, 31
 GETGLOB 11
 NEWC
 STSLICECONST x62_
@@ -66,7 +66,7 @@ STBREFR
 ENDC
 PUSHPOW2 7
 SENDRAWMSG
-.loc ../contracts/Company/Worker.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Company/Worker.tsol, 0
 
 .macro receiveSalary
 DROP
@@ -77,10 +77,10 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/Company/Worker.tsol, 37
+.loc ../../../BlockChain/internal/contracts/Company/Worker.tsol, 37
 LDU 128
 ENDS
-.loc ../contracts/Company/Worker.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Company/Worker.tsol, 0
 CALLREF {
 	CALL $receiveSalary_ddd78e7c_internal_macro$
 }
@@ -91,21 +91,21 @@ CALLREF {
 THROW 0
 
 .macro receiveSalary_ddd78e7c_internal_macro
-.loc ../contracts/Company/Worker.tsol, 21
+.loc ../../../BlockChain/internal/contracts/Company/Worker.tsol, 21
 GETGLOB 9
 GETGLOB 11
 SDEQ
 THROWIFNOT 2001
-.loc ../contracts/Company/Worker.tsol, 38
+.loc ../../../BlockChain/internal/contracts/Company/Worker.tsol, 38
 PUSHINT 1000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/Company/Worker.tsol, 39
+.loc ../../../BlockChain/internal/contracts/Company/Worker.tsol, 39
 GETGLOB 13
 ADD
 UFITS 128
 SETGLOB 13
-.loc ../contracts/Company/Worker.tsol, 40
+.loc ../../../BlockChain/internal/contracts/Company/Worker.tsol, 40
 GETGLOB 10
 NEWC
 STSLICECONST x62_
@@ -115,7 +115,7 @@ STZEROES
 ENDC
 PUSHPOW2 7
 SENDRAWMSG
-.loc ../contracts/Company/Worker.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Company/Worker.tsol, 0
 
 .macro getDetails
 DROP
@@ -126,9 +126,9 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/Company/Worker.tsol, 43
+.loc ../../../BlockChain/internal/contracts/Company/Worker.tsol, 43
 ENDS
-.loc ../contracts/Company/Worker.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Company/Worker.tsol, 0
 CALLREF {
 	CALL $getDetails_fbbf93a0_internal_macro$
 }
@@ -174,12 +174,12 @@ THROW 0
 CALL $getDetails_fbbf93a0_internal_macro$
 
 .macro getDetails_fbbf93a0_internal_macro
-.loc ../contracts/Company/Worker.tsol, 49
+.loc ../../../BlockChain/internal/contracts/Company/Worker.tsol, 49
 GETGLOB 10
 GETGLOB 11
 GETGLOB 12
 GETGLOB 13
-.loc ../contracts/Company/Worker.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Company/Worker.tsol, 0
 
 .macro c4_to_c7
 PUSHROOT

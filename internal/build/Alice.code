@@ -18,11 +18,11 @@ PUSHCONT {
 IF
 LDU 256
 ENDS
-.loc ../contracts/AliceBob/Alice.tsol, 20
+.loc ../../../BlockChain/internal/contracts/AliceBob/Alice.tsol, 20
 ACCEPT
-.loc ../contracts/AliceBob/Alice.tsol, 21
+.loc ../../../BlockChain/internal/contracts/AliceBob/Alice.tsol, 21
 SETGLOB 12
-.loc ../contracts/AliceBob/Alice.tsol, 0
+.loc ../../../BlockChain/internal/contracts/AliceBob/Alice.tsol, 0
 CALLREF {
 	CALL $c7_to_c4$
 }
@@ -37,7 +37,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/AliceBob/Alice.tsol, 24
+.loc ../../../BlockChain/internal/contracts/AliceBob/Alice.tsol, 24
 OVER
 PUSHCONT {
 	LDREF
@@ -52,7 +52,7 @@ IFELSE
 LDU 128
 LDREF
 ENDS
-.loc ../contracts/AliceBob/Alice.tsol, 0
+.loc ../../../BlockChain/internal/contracts/AliceBob/Alice.tsol, 0
 CALLREF {
 	CALL $setCityByBob_14e472c7_internal_macro$
 }
@@ -63,9 +63,9 @@ CALLREF {
 THROW 0
 
 .macro setCityByBob_14e472c7_internal_macro
-.loc ../contracts/AliceBob/Alice.tsol, 25
+.loc ../../../BlockChain/internal/contracts/AliceBob/Alice.tsol, 25
 ACCEPT
-.loc ../contracts/AliceBob/Alice.tsol, 27
+.loc ../../../BlockChain/internal/contracts/AliceBob/Alice.tsol, 27
 GETGLOB 12
 NEWC
 STU 256
@@ -103,17 +103,17 @@ STSLICECONST x801_
 STU 256
 ENDC
 CTOS
-.loc ../contracts/AliceBob/Alice.tsol, 39
+.loc ../../../BlockChain/internal/contracts/AliceBob/Alice.tsol, 39
 DROP
 DUP
 SETGLOB 10
-.loc ../contracts/AliceBob/Alice.tsol, 40
+.loc ../../../BlockChain/internal/contracts/AliceBob/Alice.tsol, 40
 ROT
 SETGLOB 13
-.loc ../contracts/AliceBob/Alice.tsol, 41
+.loc ../../../BlockChain/internal/contracts/AliceBob/Alice.tsol, 41
 SWAP
 SETGLOB 14
-.loc ../contracts/AliceBob/Alice.tsol, 44
+.loc ../../../BlockChain/internal/contracts/AliceBob/Alice.tsol, 44
 PUSHSLICE xc0000000000000000000000000179499db
 NEWC
 STSLICE
@@ -121,7 +121,7 @@ STREF
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/AliceBob/Alice.tsol, 0
+.loc ../../../BlockChain/internal/contracts/AliceBob/Alice.tsol, 0
 
 .macro c4_to_c7
 PUSHROOT

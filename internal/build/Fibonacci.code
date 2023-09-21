@@ -10,15 +10,15 @@ IFREF {
 GETGLOB 6
 THROWIF 51
 ENDS
-.loc ../contracts/Fibonacci.tsol, 14
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 14
 ACCEPT
-.loc ../contracts/Fibonacci.tsol, 16
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 16
 PUSHINT 0
 SETGLOB 11
-.loc ../contracts/Fibonacci.tsol, 17
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 17
 PUSHINT 1
 SETGLOB 12
-.loc ../contracts/Fibonacci.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 0
 CALLREF {
 	CALL $c7_to_c4$
 }
@@ -33,7 +33,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/Fibonacci.tsol, 20
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 20
 OVER
 PUSHCONT {
 	LDREF
@@ -43,7 +43,7 @@ PUSHCONT {
 IF
 LDU 256
 ENDS
-.loc ../contracts/Fibonacci.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 0
 CALLREF {
 	CALL $setNumber_3fb5c1cb_internal_macro$
 }
@@ -58,20 +58,20 @@ THROW 0
 CALL $setNumber_3fb5c1cb_internal_macro$
 
 .macro setNumber_3fb5c1cb_internal_macro
-.loc ../contracts/Fibonacci.tsol, 21
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 21
 GETGLOB 11
 GETGLOB 12
 ADD
 OVER
 EQUAL
 THROWIFNOT 101
-.loc ../contracts/Fibonacci.tsol, 22
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 22
 GETGLOB 12
 SETGLOB 11
-.loc ../contracts/Fibonacci.tsol, 23
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 23
 DUP
 SETGLOB 12
-.loc ../contracts/Fibonacci.tsol, 24
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 24
 GETGLOB 11
 PUSHSLICE xc00000000000000000000000004dfb82b7
 NEWC
@@ -81,7 +81,7 @@ STU 256
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/Fibonacci.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 0
 
 .macro getDetails
 DROP
@@ -92,9 +92,9 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/Fibonacci.tsol, 27
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 27
 ENDS
-.loc ../contracts/Fibonacci.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 0
 CALLREF {
 	CALL $getDetails_fbbf93a0_internal_macro$
 }
@@ -131,11 +131,11 @@ IFREF {
 THROW 0
 
 .macro getDetails_fbbf93a0_internal_macro
-.loc ../contracts/Fibonacci.tsol, 28
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 28
 GETGLOB 11
-.loc ../contracts/Fibonacci.tsol, 29
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 29
 GETGLOB 12
-.loc ../contracts/Fibonacci.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 0
 
 .macro calculateNextNumber
 DROP
@@ -146,9 +146,9 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/Fibonacci.tsol, 32
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 32
 ENDS
-.loc ../contracts/Fibonacci.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 0
 CALLREF {
 	CALL $calculateNextNumber_719f470f_internal_macro$
 }
@@ -180,11 +180,11 @@ IFREF {
 THROW 0
 
 .macro calculateNextNumber_719f470f_internal_macro
-.loc ../contracts/Fibonacci.tsol, 33
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 33
 GETGLOB 11
 GETGLOB 12
 ADD
-.loc ../contracts/Fibonacci.tsol, 0
+.loc ../../../BlockChain/internal/contracts/Fibonacci.tsol, 0
 
 .macro c4_to_c7
 PUSHROOT

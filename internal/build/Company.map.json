@@ -114,75 +114,75 @@
     },
     "167cbcddb50e29cce7c28a14df73bae947a561cc10d9c38c298a1e02278eb4e6": {
       "0": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "8": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "24": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "32": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "40": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "56": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "64": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "72": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "88": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "96": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "104": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "120": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "128": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "136": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "152": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "168": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "184": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "192": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       }
     },
@@ -278,7 +278,7 @@
         "line": 27
       },
       "88": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 35
       },
       "96": {
@@ -494,182 +494,182 @@
     },
     "3c06c60a0248a90ca22113d36bed1d333c1d655d210881db4115cf936ba73763": {
       "0": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 48
       },
       "8": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 48
       },
       "24": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 48
       },
       "40": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 48
       },
       "48": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 48
       },
       "64": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 48
       }
     },
     "44a66a3c53082646c27c17fe24bb10afc611f60e9dc813a0f1ad5a6fffe53193": {
       "0": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 27
       },
       "16": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 27
       },
       "32": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 27
       },
       "48": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 27
       },
       "72": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 69
       },
       "120": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 69
       },
       "128": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 69
       },
       "144": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 70
       },
       "160": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 70
       }
     },
     "5463eb0f8d6ba6bb905a5969aa3fe48b7442c1290c69e5247ccf09c68bfa903b": {
       "0": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "16": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "24": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "40": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "48": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "56": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "72": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "88": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "96": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "104": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "112": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "128": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "144": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "160": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "168": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "176": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "192": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "208": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "216": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "232": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "240": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "256": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "264": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "288": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "304": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "320": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       },
       "336": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 52
       }
     },
     "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
       "0": {
         "filename": "Company.code",
-        "line": 370
+        "line": 487
       }
     },
     "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
@@ -937,389 +937,389 @@
     "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
     "9869c3b2afef5a50cbf3763070e633f84cfbf9fa6b5b72b766a1c4f21265b66a": {
       "0": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 85
       },
       "16": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 85
       }
     },
     "b532817223c43705e456563f5f13ca54c01af02b58e8950f5d2d86408985d898": {
       "0": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 74
       },
       "16": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 74
       },
       "32": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 74
       },
       "48": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 74
       },
       "64": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 75
       },
       "80": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 75
       },
       "96": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 75
       },
       "104": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 75
       },
       "120": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 75
       },
       "128": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 75
       },
       "144": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 76
       },
       "160": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 76
       },
       "168": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 76
       },
       "328": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 76
       },
       "336": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 76
       },
       "344": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 76
       },
       "352": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 76
       },
       "368": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 76
       },
       "384": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 76
       },
       "392": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 76
       },
       "400": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 76
       },
       "416": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 80
       },
       "432": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 80
       },
       "440": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 80
       },
       "448": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 80
       },
       "472": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 80
       },
       "480": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 80
       },
       "520": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 80
       },
       "544": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 80
       },
       "560": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 80
       },
       "568": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 80
       },
       "584": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 80
       }
     },
     "bea608f8d0847e0f27386356d97cdc2dc865dc42a242a8342dab48a6a6e41a91": {
       "0": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 64
       },
       "16": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 65
       },
       "32": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 65
       },
       "40": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 65
       },
       "72": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 65
       },
       "88": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 65
       },
       "96": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 65
       }
     },
     "d406aeb587442633ab446eef6dcb69239088b77e72744f35ca7ddc92a014a747": {
       "0": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 36
       },
       "8": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 36
       },
       "24": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 36
       },
       "32": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 36
       },
       "48": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 36
       },
       "96": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 36
       },
       "104": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 36
       },
       "120": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 36
       },
       "128": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 36
       },
       "152": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 38
       },
       "168": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 38
       },
       "176": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 38
       },
       "192": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 40
       },
       "208": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 40
       },
       "224": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "232": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "248": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "256": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "288": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "304": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "312": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "320": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "328": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "336": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "360": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "368": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "528": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "552": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "560": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "576": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "584": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "632": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "640": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "648": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 42
       },
       "664": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 47
       },
       "680": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 47
       },
       "688": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 47
       },
       "808": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 47
       },
       "816": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 47
       },
       "824": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 47
       },
       "832": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 47
       },
       "840": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 47
       },
       "888": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 47
       },
       "896": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 47
       },
       "904": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 47
       },
       "912": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 47
       },
       "920": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 47
       },
       "928": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 47
       },
       "936": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 47
       },
       "944": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 47
       },
       "952": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 47
       },
       "968": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 48
       },
       "984": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 48
       },
       "992": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 48
       }
     },
@@ -1355,35 +1355,35 @@
         "line": 193
       },
       "88": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 68
       },
       "96": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 68
       },
       "104": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 68
       },
       "112": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 68
       },
       "120": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 68
       },
       "128": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 68
       },
       "136": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 68
       },
       "152": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 68
       },
       "160": {
@@ -1591,7 +1591,7 @@
         "line": 284
       },
       "88": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 84
       },
       "96": {
@@ -1729,7 +1729,7 @@
         "line": 12
       },
       "88": {
-        "filename": "../contracts/Company/Company.tsol",
+        "filename": "../../../BlockChain/internal/contracts/Company/Company.tsol",
         "line": 32
       },
       "104": {

@@ -25,9 +25,9 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/AliceBob/Interface.tsol, 8
+.loc ../../../BlockChain/internal/contracts/AliceBob/Interface.tsol, 8
 ENDS
-.loc ../contracts/AliceBob/Interface.tsol, 0
+.loc ../../../BlockChain/internal/contracts/AliceBob/Interface.tsol, 0
 CALLREF {
 	CALL $utterance_dba7ab6c_internal_macro$
 }
@@ -64,9 +64,9 @@ THROW 0
 CALL $utterance_dba7ab6c_internal_macro$
 
 .macro utterance_dba7ab6c_internal_macro
-.loc ../contracts/AliceBob/Interface.tsol, 9
+.loc ../../../BlockChain/internal/contracts/AliceBob/Interface.tsol, 9
 PUSHINT 49488291911859648134265283294717965534816670444831059180192808498618439827456
-.loc ../contracts/AliceBob/Interface.tsol, 0
+.loc ../../../BlockChain/internal/contracts/AliceBob/Interface.tsol, 0
 
 .macro c4_to_c7
 PUSHROOT

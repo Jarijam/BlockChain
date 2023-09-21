@@ -47,9 +47,10 @@ contract CarFactory {
     }
 
     //function to senf offer to the worker.
-    function sendOffer(string message) public {
+    function sendOffer(string offer) public {
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
-        emit SendingOffer(message);
+        offer = "Will you take this work-offer?";
+        emit SendingOffer(offer);
     }
 
     //callback of worker accepts the offer or not.

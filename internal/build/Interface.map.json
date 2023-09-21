@@ -180,7 +180,7 @@
         "line": 25
       },
       "88": {
-        "filename": "../contracts/AliceBob/Interface.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Interface.tsol",
         "line": 8
       },
       "96": {
@@ -488,7 +488,7 @@
     },
     "ae639f55905e8e8b44e487e246039a6ebcd9a3f71d75b3778d01e98a8b2d4bc1": {
       "0": {
-        "filename": "../contracts/AliceBob/Interface.tsol",
+        "filename": "../../../BlockChain/internal/contracts/AliceBob/Interface.tsol",
         "line": 9
       }
     },

@@ -576,7 +576,7 @@
         "line": 12
       },
       "88": {
-        "filename": "../contracts/CarFactoryAndWorker/Workers.tsol",
+        "filename": "../../../BlockChain/internal/contracts/CarFactoryAndWorker/Workers.tsol",
         "line": 14
       },
       "104": {
@@ -735,7 +735,7 @@
         "line": 27
       },
       "88": {
-        "filename": "../contracts/CarFactoryAndWorker/Workers.tsol",
+        "filename": "../../../BlockChain/internal/contracts/CarFactoryAndWorker/Workers.tsol",
         "line": 17
       },
       "96": {

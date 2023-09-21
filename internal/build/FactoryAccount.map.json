@@ -784,7 +784,7 @@
     },
     "ca55d6d838d5cad1e897f75f0215467e2864acfec839e93127e80d8565f0e0fe": {
       "0": {
-        "filename": "../contracts/FactoryAccount.tsol",
+        "filename": "../../../BlockChain/internal/contracts/FactoryAccount.tsol",
         "line": 13
       }
     },
@@ -874,7 +874,7 @@
         "line": 25
       },
       "88": {
-        "filename": "../contracts/FactoryAccount.tsol",
+        "filename": "../../../BlockChain/internal/contracts/FactoryAccount.tsol",
         "line": 12
       },
       "96": {
