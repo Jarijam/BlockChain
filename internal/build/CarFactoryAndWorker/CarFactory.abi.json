@@ -23,7 +23,7 @@
 		{
 			"name": "sendOffer",
 			"inputs": [
-				{"name":"message","type":"string"}
+				{"name":"offer","type":"string"}
 			],
 			"outputs": [
 			]
