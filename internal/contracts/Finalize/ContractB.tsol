@@ -1,0 +1,25 @@
+pragma ever-solidity >=0.6.12;
+pragma AbiHeader expire;
+pragma AbiHeader pubkey;
+
+import "./ContractA.tsol";
+
+// interface ISample {
+//     function increaseState(uint count) external;
+// }
+
+contract ContractB {
+
+    uint public state;
+
+    event StateChange(uint _state);
+
+    // function increaseState(uint count) public override {
+    //     tvm.rawReserve(address(this).balance - msg.value, 2);
+    //     for (uint i = 0; i < count; i++) {
+    //         state++;
+    //         emit StateChange(state);
+    //     }
+    //     msg.sender.transfer({ value: 0, flag: 129 });
+    // }
+}

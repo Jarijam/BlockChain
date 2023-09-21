@@ -1,0 +1,660 @@
+{
+  "map": {
+    "03ecbbadcd9ff8d56f2e07caf2ab775ba5035dbf2570aea6272aea185bf98c90": {
+      "0": {
+        "filename": "Interface.code",
+        "line": 163
+      },
+      "16": {
+        "filename": "Interface.code",
+        "line": 164
+      },
+      "24": {
+        "filename": "Interface.code",
+        "line": 165
+      },
+      "40": {
+        "filename": "Interface.code",
+        "line": 166
+      },
+      "56": {
+        "filename": "Interface.code",
+        "line": 167
+      },
+      "72": {
+        "filename": "Interface.code",
+        "line": 168
+      },
+      "80": {
+        "filename": "Interface.code",
+        "line": 169
+      },
+      "96": {
+        "filename": "Interface.code",
+        "line": 172
+      },
+      "112": {
+        "filename": "Interface.code",
+        "line": 173
+      },
+      "120": {
+        "filename": "Interface.code",
+        "line": 174
+      },
+      "128": {
+        "filename": "Interface.code",
+        "line": 175
+      },
+      "144": {
+        "filename": "Interface.code",
+        "line": 176
+      },
+      "160": {
+        "filename": "Interface.code",
+        "line": 177
+      },
+      "168": {
+        "filename": "Interface.code",
+        "line": 178
+      },
+      "184": {
+        "filename": "Interface.code",
+        "line": 179
+      },
+      "192": {
+        "filename": "Interface.code",
+        "line": 180
+      },
+      "208": {
+        "filename": "Interface.code",
+        "line": 181
+      },
+      "224": {
+        "filename": "Interface.code",
+        "line": 182
+      },
+      "240": {
+        "filename": "Interface.code",
+        "line": 184
+      },
+      "248": {
+        "filename": "Interface.code",
+        "line": 185
+      },
+      "264": {
+        "filename": "Interface.code",
+        "line": 186
+      },
+      "272": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "288": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "296": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "304": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "320": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "328": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "344": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "368": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "376": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "416": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "424": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "432": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "448": {
+        "filename": "stdlib.sol",
+        "line": 63
+      },
+      "464": {
+        "filename": "Interface.code",
+        "line": 188
+      },
+      "480": {
+        "filename": "Interface.code",
+        "line": 189
+      },
+      "488": {
+        "filename": "Interface.code",
+        "line": 190
+      },
+      "504": {
+        "filename": "Interface.code",
+        "line": 193
+      }
+    },
+    "2f4b604942d5e39811aff9b1843ea2b8103243d85e2211aff81a61c42a43d862": {
+      "0": {
+        "filename": "Interface.code",
+        "line": 20
+      },
+      "8": {
+        "filename": "Interface.code",
+        "line": 21
+      },
+      "24": {
+        "filename": "Interface.code",
+        "line": 22
+      },
+      "48": {
+        "filename": "Interface.code",
+        "line": 23
+      },
+      "64": {
+        "filename": "Interface.code",
+        "line": 24
+      },
+      "72": {
+        "filename": "Interface.code",
+        "line": 25
+      },
+      "88": {
+        "filename": "../contracts/AliceBob/Interface.tsol",
+        "line": 8
+      },
+      "96": {
+        "filename": "Interface.code",
+        "line": 31
+      },
+      "112": {
+        "filename": "Interface.code",
+        "line": 34
+      },
+      "120": {
+        "filename": "Interface.code",
+        "line": 35
+      },
+      "136": {
+        "filename": "Interface.code",
+        "line": 36
+      },
+      "144": {
+        "filename": "Interface.code",
+        "line": 37
+      },
+      "152": {
+        "filename": "Interface.code",
+        "line": 38
+      },
+      "168": {
+        "filename": "Interface.code",
+        "line": 39
+      },
+      "184": {
+        "filename": "Interface.code",
+        "line": 40
+      },
+      "192": {
+        "filename": "Interface.code",
+        "line": 41
+      },
+      "200": {
+        "filename": "Interface.code",
+        "line": 42
+      },
+      "208": {
+        "filename": "Interface.code",
+        "line": 43
+      },
+      "232": {
+        "filename": "Interface.code",
+        "line": 44
+      },
+      "240": {
+        "filename": "Interface.code",
+        "line": 45
+      },
+      "288": {
+        "filename": "Interface.code",
+        "line": 46
+      },
+      "312": {
+        "filename": "Interface.code",
+        "line": 47
+      },
+      "328": {
+        "filename": "Interface.code",
+        "line": 48
+      },
+      "336": {
+        "filename": "Interface.code",
+        "line": 49
+      },
+      "344": {
+        "filename": "Interface.code",
+        "line": 50
+      },
+      "360": {
+        "filename": "Interface.code",
+        "line": 52
+      },
+      "368": {
+        "filename": "Interface.code",
+        "line": 53
+      },
+      "376": {
+        "filename": "Interface.code",
+        "line": 55
+      },
+      "384": {
+        "filename": "Interface.code",
+        "line": 56
+      },
+      "392": {
+        "filename": "Interface.code",
+        "line": 57
+      },
+      "408": {
+        "filename": "Interface.code",
+        "line": 60
+      }
+    },
+    "42aa676d16d19f95a85a3a8f6b8578c96167a12005f5a454dcdc62d5181d3cf4": {
+      "0": {
+        "filename": "Interface.code",
+        "line": 4
+      },
+      "8": {
+        "filename": "Interface.code",
+        "line": 5
+      },
+      "24": {
+        "filename": "Interface.code",
+        "line": 6
+      },
+      "32": {
+        "filename": "Interface.code",
+        "line": 7
+      },
+      "48": {
+        "filename": "Interface.code",
+        "line": 10
+      },
+      "64": {
+        "filename": "Interface.code",
+        "line": 11
+      },
+      "80": {
+        "filename": "Interface.code",
+        "line": 12
+      },
+      "88": {
+        "filename": "Interface.code",
+        "line": 13
+      },
+      "104": {
+        "filename": "Interface.code",
+        "line": 14
+      },
+      "120": {
+        "filename": "Interface.code",
+        "line": 17
+      }
+    },
+    "58df2319685b3aef2a827f87be440b3ff4c72cede2810dd4fe13a3982f1d5a01": {
+      "0": {
+        "filename": "Interface.code",
+        "line": 196
+      },
+      "8": {
+        "filename": "Interface.code",
+        "line": 197
+      },
+      "56": {
+        "filename": "Interface.code",
+        "line": 198
+      },
+      "64": {
+        "filename": "Interface.code",
+        "line": 199
+      },
+      "80": {
+        "filename": "Interface.code",
+        "line": 202
+      },
+      "88": {
+        "filename": "Interface.code",
+        "line": 203
+      },
+      "136": {
+        "filename": "Interface.code",
+        "line": 204
+      },
+      "144": {
+        "filename": "Interface.code",
+        "line": 205
+      }
+    },
+    "60488e96384d55db5809d3be340ce676908c99e02e0f6a89a307f1376c1ceb17": {
+      "0": {
+        "filename": "Interface.code",
+        "line": 105
+      },
+      "16": {
+        "filename": "Interface.code",
+        "line": 106
+      },
+      "32": {
+        "filename": "Interface.code",
+        "line": 107
+      },
+      "40": {
+        "filename": "Interface.code",
+        "line": 108
+      },
+      "56": {
+        "filename": "Interface.code",
+        "line": 109
+      },
+      "72": {
+        "filename": "Interface.code",
+        "line": 110
+      },
+      "88": {
+        "filename": "Interface.code",
+        "line": 111
+      },
+      "96": {
+        "filename": "Interface.code",
+        "line": 112
+      }
+    },
+    "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
+      "0": {
+        "filename": "<internal-selector>",
+        "line": 1
+      },
+      "24": {
+        "filename": "<internal-selector>",
+        "line": 2
+      }
+    },
+    "9de4fc26eb8418b954c3086c83216262c13f2e98b892d10d2b161b2ce095c350": {
+      "0": {
+        "filename": "Interface.code",
+        "line": 131
+      },
+      "16": {
+        "filename": "Interface.code",
+        "line": 132
+      },
+      "24": {
+        "filename": "Interface.code",
+        "line": 133
+      },
+      "40": {
+        "filename": "Interface.code",
+        "line": 134
+      },
+      "56": {
+        "filename": "Interface.code",
+        "line": 135
+      },
+      "72": {
+        "filename": "Interface.code",
+        "line": 136
+      },
+      "80": {
+        "filename": "Interface.code",
+        "line": 137
+      },
+      "88": {
+        "filename": "Interface.code",
+        "line": 138
+      },
+      "112": {
+        "filename": "Interface.code",
+        "line": 139
+      },
+      "136": {
+        "filename": "Interface.code",
+        "line": 140
+      },
+      "144": {
+        "filename": "Interface.code",
+        "line": 141
+      },
+      "152": {
+        "filename": "Interface.code",
+        "line": 142
+      },
+      "168": {
+        "filename": "Interface.code",
+        "line": 143
+      },
+      "184": {
+        "filename": "Interface.code",
+        "line": 147
+      },
+      "192": {
+        "filename": "Interface.code",
+        "line": 148
+      },
+      "216": {
+        "filename": "Interface.code",
+        "line": 149
+      },
+      "232": {
+        "filename": "Interface.code",
+        "line": 150
+      },
+      "240": {
+        "filename": "Interface.code",
+        "line": 151
+      },
+      "256": {
+        "filename": "Interface.code",
+        "line": 155
+      },
+      "264": {
+        "filename": "Interface.code",
+        "line": 156
+      },
+      "280": {
+        "filename": "Interface.code",
+        "line": 159
+      }
+    },
+    "ae639f55905e8e8b44e487e246039a6ebcd9a3f71d75b3778d01e98a8b2d4bc1": {
+      "0": {
+        "filename": "../contracts/AliceBob/Interface.tsol",
+        "line": 9
+      }
+    },
+    "b6f27d187f26bd046272f9f471e9ae01f051b960e654874ac3fb0749c691c4c6": {
+      "0": {
+        "filename": "Interface.code",
+        "line": 83
+      },
+      "16": {
+        "filename": "Interface.code",
+        "line": 84
+      },
+      "24": {
+        "filename": "Interface.code",
+        "line": 85
+      },
+      "40": {
+        "filename": "Interface.code",
+        "line": 86
+      },
+      "56": {
+        "filename": "Interface.code",
+        "line": 87
+      },
+      "72": {
+        "filename": "Interface.code",
+        "line": 88
+      },
+      "80": {
+        "filename": "Interface.code",
+        "line": 89
+      },
+      "96": {
+        "filename": "Interface.code",
+        "line": 90
+      },
+      "104": {
+        "filename": "Interface.code",
+        "line": 91
+      },
+      "120": {
+        "filename": "Interface.code",
+        "line": 92
+      },
+      "136": {
+        "filename": "Interface.code",
+        "line": 93
+      },
+      "152": {
+        "filename": "Interface.code",
+        "line": 94
+      },
+      "168": {
+        "filename": "Interface.code",
+        "line": 95
+      },
+      "192": {
+        "filename": "Interface.code",
+        "line": 96
+      },
+      "208": {
+        "filename": "Interface.code",
+        "line": 97
+      },
+      "216": {
+        "filename": "Interface.code",
+        "line": 98
+      },
+      "232": {
+        "filename": "Interface.code",
+        "line": 100
+      }
+    },
+    "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
+      "0": {
+        "filename": "Interface.code",
+        "line": 144
+      },
+      "16": {
+        "filename": "Interface.code",
+        "line": 145
+      }
+    },
+    "f2b6fee906959c240bebf2ae6014f1d4be66e2dc6e03df25aa5ea29205d3e249": {
+      "0": {
+        "filename": "Interface.code",
+        "line": 72
+      },
+      "16": {
+        "filename": "Interface.code",
+        "line": 73
+      },
+      "24": {
+        "filename": "Interface.code",
+        "line": 74
+      },
+      "40": {
+        "filename": "Interface.code",
+        "line": 75
+      },
+      "56": {
+        "filename": "Interface.code",
+        "line": 76
+      },
+      "72": {
+        "filename": "Interface.code",
+        "line": 77
+      },
+      "80": {
+        "filename": "Interface.code",
+        "line": 78
+      },
+      "88": {
+        "filename": "Interface.code",
+        "line": 79
+      },
+      "104": {
+        "filename": "Interface.code",
+        "line": 80
+      }
+    },
+    "f53bf4565ac34b4d5074bd8c3cc2f09cc1a3747e89e49f1a4020a5dffa51cb6e": {
+      "0": {
+        "filename": "<entry-selector>",
+        "line": 1
+      },
+      "8": {
+        "filename": "<entry-selector>",
+        "line": 2
+      },
+      "24": {
+        "filename": "<entry-selector>",
+        "line": 3
+      },
+      "32": {
+        "filename": "<entry-selector>",
+        "line": 4
+      },
+      "48": {
+        "filename": "<entry-selector>",
+        "line": 5
+      },
+      "56": {
+        "filename": "<entry-selector>",
+        "line": 6
+      },
+      "72": {
+        "filename": "<entry-selector>",
+        "line": 7
+      },
+      "88": {
+        "filename": "<entry-selector>",
+        "line": 8
+      },
+      "96": {
+        "filename": "<entry-selector>",
+        "line": 9
+      },
+      "112": {
+        "filename": "<entry-selector>",
+        "line": 10
+      },
+      "128": {
+        "filename": "<entry-selector>",
+        "line": 11
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+pragma ever-solidity >= 0.61.2;
+pragma AbiHeader expire;
+pragma AbiHeader pubkey;
+
+
+contract Fibonacci {
+    uint32 static _nonce ;
+    uint firstNumber;
+    uint secondNumber;
+
+    event StateChange(uint firstNumber, uint secondNumber);
+
+    constructor() public {
+        tvm.accept();
+
+        firstNumber = 0;
+        secondNumber = 1;
+    }
+
+    function setNumber(uint _newNumber) public {
+        require(firstNumber + secondNumber == _newNumber, 101);
+        firstNumber = secondNumber;
+        secondNumber = _newNumber;
+        emit StateChange(firstNumber, secondNumber);
+    }
+
+    function getDetails() external view returns (uint _firstNumber, uint _secondNumber) {
+        _firstNumber = firstNumber;
+        _secondNumber = secondNumber;
+    }
+
+    function calculateNextNumber() external view returns (uint _nextNumber) {
+        _nextNumber = firstNumber + secondNumber;
+    }
+}

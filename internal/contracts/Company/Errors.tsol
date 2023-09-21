@@ -1,0 +1,10 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma ever-solidity >= 0.62.0;
+
+library Errors {
+    uint16 constant NOT_OWNER = 1001;
+    uint16 constant NOT_WORKER = 1002;
+    uint16 constant WORKER_NOT_REGISTERED = 1003;
+
+    uint16 constant NOT_COMPANY = 2001;
+}

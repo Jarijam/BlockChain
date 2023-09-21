@@ -1,0 +1,512 @@
+.version sol 0.62.0
+
+.macro constructor
+DROP
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7_with_init_storage$
+}
+GETGLOB 6
+THROWIF 51
+OVER
+PUSHCONT {
+	LDREF
+	ENDS
+	CTOS
+}
+IF
+LDMSGADDR
+ENDS
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 18
+ACCEPT
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 19
+SETGLOB 10
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 20
+MYADDR
+SETGLOB 11
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+CALLREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.globl	buildInitParams_a693fe3d_internal
+.type	buildInitParams_a693fe3d_internal, @function
+CALL $buildInitParams_a693fe3d_internal_macro$
+
+.macro buildInitParams_a693fe3d_internal_macro
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 29
+GETGLOB 2
+NEWC
+STU 256
+PUSHINT 0
+NEWDICT
+PUSHINT 64
+DICTUSETB
+SWAP
+PUSHINT 2
+ROT
+PUSHINT 64
+DICTUSET
+MYADDR
+PUSHINT 1
+ROT
+PUSHINT 64
+DICTUSET
+NEWC
+STDICT
+ENDC
+GETGLOB 12
+NEWC
+STSLICECONST x2_
+STOPTREF
+STOPTREF
+STZERO
+ENDC
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+
+.macro getAddress
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 40
+OVER
+PUSHCONT {
+	LDREF
+	ENDS
+	CTOS
+}
+IF
+LDMSGADDR
+ENDS
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+CALLREF {
+	CALL $getAddress_ae22c57d_internal_macro$
+}
+OVER
+PUSHCONT {
+	PUSH S3
+	CTOS
+	LDU 2
+	LDMSGADDR
+	DROP
+	NIP
+	NEWC
+	STSLICECONST xc
+	STSLICE
+	PUSHINT 1
+	STUR 98
+	SWAP
+	NEWC
+	STSLICECONST xd8ff1231
+	STSLICE
+	STBREFR
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+PUSHCONT {
+	DROP
+}
+IFELSE
+DROP
+CALLREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.globl	getAddress_ae22c57d_internal
+.type	getAddress_ae22c57d_internal, @function
+CALL $getAddress_ae22c57d_internal_macro$
+
+.macro getAddress_ae22c57d_internal_macro
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 41
+ACCEPT
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 42
+CALLREF {
+	CALL $buildInitParams_a693fe3d_internal_macro$
+}
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 43
+DUP
+HASHCU
+NEWC
+STSLICECONST x801_
+STU 256
+ENDC
+CTOS
+PUSHSLICE xc0000000000000000000000000553dcd5c
+NEWC
+STSLICE
+STSLICE
+ENDC
+PUSHINT 0
+SENDRAWMSG
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 44
+HASHCU
+NEWC
+STSLICECONST x801_
+STU 256
+ENDC
+CTOS
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+
+.macro sendOffer
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 48
+ENDS
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+CALLREF {
+	CALL $sendOffer_677ed7d9_internal_macro$
+}
+DROP
+CALLREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.globl	sendOffer_677ed7d9_internal
+.type	sendOffer_677ed7d9_internal, @function
+CALL $sendOffer_677ed7d9_internal_macro$
+
+.macro sendOffer_677ed7d9_internal_macro
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+
+.macro workerAcceptOffer
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 53
+ENDS
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+CALLREF {
+	CALL $workerAcceptOffer_39b2820d_internal_macro$
+}
+DROP
+CALLREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.globl	workerAcceptOffer_39b2820d_internal
+.type	workerAcceptOffer_39b2820d_internal, @function
+CALL $workerAcceptOffer_39b2820d_internal_macro$
+
+.macro workerAcceptOffer_39b2820d_internal_macro
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+
+.macro on_bounce_macro
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 63
+PLDREF
+CTOS
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 64
+PLDU 32
+DROP
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+CALLREF {
+	CALL $c7_to_c4$
+}
+
+.macro c4_to_c7
+PUSHROOT
+CTOS
+LDU 256 ; pubkey c4
+LDU 64 ; pubkey timestamp c4
+LDU 1 ; ctor flag
+NIP
+LDMSGADDR
+LDREF
+ENDS
+CTOS
+LDMSGADDR
+LDREF
+ENDS
+SETGLOB 12
+SETGLOB 11
+SETGLOB 10
+SETGLOB 3
+SETGLOB 2
+
+.macro c4_to_c7_with_init_storage
+PUSHROOT
+CTOS
+SBITS
+GTINT 1
+PUSHCONT {
+	PUSHINT 0
+	PUSHROOT
+	CTOS
+	PLDDICT ; D
+	PUSHREFSLICE {
+		.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+	}
+	DUP
+	PUSHINT 1
+	PUSH S3
+	PUSHINT 64
+	DICTUGETREF
+	PUSHCONT {
+		PUSHREF {
+		}
+	}
+	IFNOT
+	SETGLOB 12
+	SETGLOB 11
+	SETGLOB 10
+	PUSHINT 64
+	DICTUGET
+	THROWIFNOT 61
+	PLDU 256
+	SETGLOB 2
+	PUSHINT 0 ; timestamp
+	SETGLOB 3
+}
+IFREFELSE {
+	CALL $c4_to_c7$
+}
+
+.macro c7_to_c4
+GETGLOB 12
+GETGLOB 11
+GETGLOB 10
+GETGLOB 3
+GETGLOB 2
+NEWC
+STU 256
+STU 64
+STONE
+STSLICE
+ROTREV
+NEWC
+STSLICE
+STREF
+STBREFR
+ENDC
+POPROOT
+
+.macro upd_only_time_in_c4
+PUSHROOT
+CTOS
+LDU 256
+LDU 64
+NIP
+GETGLOB 3
+ROT
+NEWC
+STU 256
+STU 64
+STSLICE
+ENDC
+POPROOT
+
+.internal-alias :main_internal, 0
+.internal :main_internal
+PUSHROOT
+CTOS
+SBITS
+NEQINT 1
+SETGLOB 6
+PUSH S2
+CTOS
+LDU 4 ; bounced tail
+LDMSGADDR ; bounced src tail
+DROP
+SETGLOB 9
+MODPOW2 1
+IFJMPREF {
+	OVER
+	LDSLICE 32
+	NIP
+	CALL $on_bounce_macro$
+}
+OVER
+SEMPTY ; isEmpty
+IFJMPREF {
+	GETGLOB 6
+	THROWIFNOT 76
+}
+OVER
+LDUQ 32  ; [funcId] body' ok
+THROWIFNOT 60
+OVER
+IFNOTJMPREF {
+	GETGLOB 6
+	THROWIFNOT 76
+}
+SWAP
+CALLREF {
+	CALL $public_function_selector$
+}
+THROW 60
+
+.internal-alias :main_external, -1
+.internal :main_external
+PUSHROOT
+CTOS
+SBITS
+NEQINT 1
+SETGLOB 6
+PUSHREFSLICE {
+	.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+}
+SETGLOB 9
+OVER
+CALLREF {
+	CALL $c4_to_c7_with_init_storage$
+}
+LDU 1 ; haveSign msgSlice
+SWAP
+PUSHCONT {
+	PUSHPOW2 9
+	LDSLICEX ; signatureSlice msgSlice
+	DUP
+	HASHSU ; signatureSlice msgSlice hashMsgSlice
+	SWAP
+	LDU 1 ; signatureSlice hashMsgSlice hasPubkey msgSlice
+	SWAP
+	PUSHCONT {
+		LDU 256 ; signatureSlice hashMsgSlice pubkey msgSlice
+		XCHG S3
+		SWAP
+	}
+	PUSHCONT {
+		XCHG S2
+		GETGLOB 2
+	}
+	IFELSE
+	CHKSIGNU ; msgSlice isSigned
+	THROWIFNOT 40
+}
+PUSHCONT {
+	LDU 1 ; hasPubkey msgSlice
+	SWAP
+	THROWIF 58
+}
+IFELSE
+LDU 64 ; timestamp msgSlice
+SWAP
+CALL $replay_protection_macro$
+LDU 32 ; expireAt msgSlice
+SWAP
+NOW ; msgSlice expireAt now
+GREATER ; msgSlice expireAt>now
+THROWIFNOT 57
+LDU 32 ; funcId body
+SWAP
+CALLREF {
+	CALL $public_function_selector$
+}
+THROW 60
+
+.macro owner
+DROP
+ENDS
+CALLREF {
+	CALL $c4_to_c7$
+}
+GETGLOB 10
+OVER
+PUSHCONT {
+	PUSHSLICE xc0000000000000000000000000df0bcfde
+	NEWC
+	STSLICE
+	STSLICE
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+IF
+THROW 0
+
+.macro factoryAddress
+DROP
+ENDS
+CALLREF {
+	CALL $c4_to_c7$
+}
+GETGLOB 11
+OVER
+PUSHCONT {
+	PUSHSLICE xc0000000000000000000000000bd282e7e
+	NEWC
+	STSLICE
+	STSLICE
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+IF
+THROW 0
+
+.macro public_function_selector
+DUP
+PUSHINT 1493111345
+LEQ
+IFJMPREF {
+	DUP
+	PUSHINT 1026043518
+	EQUAL
+	IFJMPREF {
+		CALL $factoryAddress$
+	}
+	DUP
+	PUSHINT 1032538553
+	EQUAL
+	IFJMPREF {
+		CALL $sendOffer$
+	}
+	DUP
+	PUSHINT 1196840156
+	EQUAL
+	IFJMPREF {
+		CALL $constructor$
+	}
+	DUP
+	PUSHINT 1493111345
+	EQUAL
+	IFJMPREF {
+		CALL $getAddress$
+	}
+}
+DUP
+PUSHINT 1594609630
+LEQ
+IFJMPREF {
+	DUP
+	PUSHINT 1554860611
+	EQUAL
+	IFJMPREF {
+		CALL $workerAcceptOffer$
+	}
+	DUP
+	PUSHINT 1594609630
+	EQUAL
+	IFJMPREF {
+		CALL $owner$
+	}
+}
+

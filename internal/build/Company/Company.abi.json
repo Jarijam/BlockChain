@@ -1,0 +1,82 @@
+{
+	"ABI version": 2,
+	"version": "2.3",
+	"header": ["time"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "deployAccountForWorker",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "doWork",
+			"inputs": [
+				{"name":"_workerOwner","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getDetails",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"_salary","type":"uint128"},
+				{"name":"_totalSalaryPayed","type":"uint128"}
+			]
+		}
+	],
+	"data": [
+		{"key":1,"name":"owner","type":"address"},
+		{"key":2,"name":"workerCode","type":"cell"}
+	],
+	"events": [
+		{
+			"name": "AccountDeployed",
+			"inputs": [
+				{"name":"workerAddress","type":"address"},
+				{"name":"owner","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "NewWorkerRegistered",
+			"inputs": [
+				{"name":"worker","type":"address"},
+				{"name":"workerOwner","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "SalaryPayed",
+			"inputs": [
+				{"name":"worker","type":"address"},
+				{"name":"salary","type":"uint128"},
+				{"name":"totalSalaryPayed","type":"uint128"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"MIN_BALANCE","type":"uint128"},
+		{"name":"owner","type":"address"},
+		{"name":"workerCode","type":"cell"},
+		{"name":"salary","type":"uint128"},
+		{"name":"totalSalaryPayed","type":"uint128"}
+	]
+}

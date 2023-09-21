@@ -1,0 +1,1351 @@
+{
+  "map": {
+    "088d039aada3bb6549573696879d9178cff172ff0f31e37d913a19a0d410245f": {
+      "0": {
+        "filename": "Alice.code",
+        "line": 32
+      },
+      "8": {
+        "filename": "Alice.code",
+        "line": 33
+      },
+      "24": {
+        "filename": "Alice.code",
+        "line": 34
+      },
+      "48": {
+        "filename": "Alice.code",
+        "line": 35
+      },
+      "64": {
+        "filename": "Alice.code",
+        "line": 36
+      },
+      "72": {
+        "filename": "Alice.code",
+        "line": 37
+      },
+      "88": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 24
+      },
+      "96": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 24
+      },
+      "104": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 24
+      },
+      "112": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 24
+      },
+      "120": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 24
+      },
+      "128": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 24
+      },
+      "136": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 24
+      },
+      "144": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 24
+      },
+      "152": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 24
+      },
+      "160": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 24
+      },
+      "176": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 24
+      },
+      "184": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 24
+      },
+      "192": {
+        "filename": "Alice.code",
+        "line": 56
+      },
+      "208": {
+        "filename": "Alice.code",
+        "line": 59
+      },
+      "216": {
+        "filename": "Alice.code",
+        "line": 60
+      },
+      "232": {
+        "filename": "Alice.code",
+        "line": 63
+      }
+    },
+    "0a60aeea99307cca605ac91dc6ae0a3c6481d355a4f1560b96ac95539643c0ba": {
+      "0": {
+        "filename": "Alice.code",
+        "line": 153
+      },
+      "8": {
+        "filename": "Alice.code",
+        "line": 154
+      },
+      "24": {
+        "filename": "Alice.code",
+        "line": 155
+      },
+      "32": {
+        "filename": "Alice.code",
+        "line": 156
+      },
+      "48": {
+        "filename": "Alice.code",
+        "line": 157
+      },
+      "56": {
+        "filename": "Alice.code",
+        "line": 158
+      },
+      "64": {
+        "filename": "Alice.code",
+        "line": 159
+      },
+      "80": {
+        "filename": "Alice.code",
+        "line": 160
+      },
+      "96": {
+        "filename": "Alice.code",
+        "line": 161
+      },
+      "112": {
+        "filename": "Alice.code",
+        "line": 165
+      },
+      "120": {
+        "filename": "Alice.code",
+        "line": 166
+      },
+      "128": {
+        "filename": "Alice.code",
+        "line": 167
+      },
+      "136": {
+        "filename": "Alice.code",
+        "line": 168
+      },
+      "152": {
+        "filename": "Alice.code",
+        "line": 169
+      },
+      "168": {
+        "filename": "Alice.code",
+        "line": 170
+      },
+      "184": {
+        "filename": "Alice.code",
+        "line": 174
+      },
+      "192": {
+        "filename": "Alice.code",
+        "line": 175
+      },
+      "200": {
+        "filename": "Alice.code",
+        "line": 176
+      },
+      "208": {
+        "filename": "Alice.code",
+        "line": 178
+      },
+      "216": {
+        "filename": "Alice.code",
+        "line": 179
+      },
+      "232": {
+        "filename": "Alice.code",
+        "line": 180
+      },
+      "248": {
+        "filename": "Alice.code",
+        "line": 181
+      },
+      "264": {
+        "filename": "Alice.code",
+        "line": 182
+      },
+      "280": {
+        "filename": "Alice.code",
+        "line": 183
+      },
+      "296": {
+        "filename": "Alice.code",
+        "line": 184
+      },
+      "312": {
+        "filename": "Alice.code",
+        "line": 185
+      },
+      "328": {
+        "filename": "Alice.code",
+        "line": 186
+      },
+      "344": {
+        "filename": "Alice.code",
+        "line": 187
+      },
+      "368": {
+        "filename": "Alice.code",
+        "line": 188
+      },
+      "384": {
+        "filename": "Alice.code",
+        "line": 189
+      },
+      "392": {
+        "filename": "Alice.code",
+        "line": 190
+      }
+    },
+    "29c19e309cefc4b19c1734420e26def9e7067c5fbe29889b5e81b9de12b02d26": {
+      "0": {
+        "filename": "Alice.code",
+        "line": 197
+      },
+      "16": {
+        "filename": "Alice.code",
+        "line": 198
+      },
+      "32": {
+        "filename": "Alice.code",
+        "line": 199
+      },
+      "48": {
+        "filename": "Alice.code",
+        "line": 200
+      },
+      "64": {
+        "filename": "Alice.code",
+        "line": 201
+      },
+      "80": {
+        "filename": "Alice.code",
+        "line": 202
+      },
+      "96": {
+        "filename": "Alice.code",
+        "line": 203
+      },
+      "112": {
+        "filename": "Alice.code",
+        "line": 204
+      },
+      "120": {
+        "filename": "Alice.code",
+        "line": 205
+      },
+      "136": {
+        "filename": "Alice.code",
+        "line": 206
+      },
+      "152": {
+        "filename": "Alice.code",
+        "line": 207
+      },
+      "168": {
+        "filename": "Alice.code",
+        "line": 208
+      },
+      "176": {
+        "filename": "Alice.code",
+        "line": 209
+      },
+      "184": {
+        "filename": "Alice.code",
+        "line": 210
+      },
+      "200": {
+        "filename": "Alice.code",
+        "line": 211
+      },
+      "208": {
+        "filename": "Alice.code",
+        "line": 212
+      },
+      "224": {
+        "filename": "Alice.code",
+        "line": 213
+      },
+      "232": {
+        "filename": "Alice.code",
+        "line": 214
+      }
+    },
+    "2c3694e26d5eb628f40ad22a3065a1b2b56c92d5a0f4cd0f66d3e9f44a8ad9e3": {
+      "0": {
+        "filename": "Alice.code",
+        "line": 339
+      },
+      "8": {
+        "filename": "Alice.code",
+        "line": 340
+      },
+      "16": {
+        "filename": "Alice.code",
+        "line": 341
+      },
+      "32": {
+        "filename": "Alice.code",
+        "line": 344
+      },
+      "48": {
+        "filename": "Alice.code",
+        "line": 345
+      },
+      "56": {
+        "filename": "Alice.code",
+        "line": 346
+      },
+      "72": {
+        "filename": "Alice.code",
+        "line": 347
+      },
+      "232": {
+        "filename": "Alice.code",
+        "line": 348
+      },
+      "240": {
+        "filename": "Alice.code",
+        "line": 349
+      },
+      "248": {
+        "filename": "Alice.code",
+        "line": 350
+      },
+      "256": {
+        "filename": "Alice.code",
+        "line": 351
+      },
+      "264": {
+        "filename": "Alice.code",
+        "line": 352
+      },
+      "272": {
+        "filename": "Alice.code",
+        "line": 353
+      },
+      "288": {
+        "filename": "Alice.code",
+        "line": 355
+      },
+      "296": {
+        "filename": "Alice.code",
+        "line": 356
+      }
+    },
+    "34991383855855a1c15fd211ec1ce896d05a16301b15e3b404ad05cedc0d8afb": {
+      "0": {
+        "filename": "Alice.code",
+        "line": 162
+      }
+    },
+    "3a45c0ce105748ee55eab6af65c67d7ffbe9a1cd026a39889b3b0cbf099b2f0f": {
+      "0": {
+        "filename": "Alice.code",
+        "line": 359
+      },
+      "8": {
+        "filename": "Alice.code",
+        "line": 360
+      },
+      "16": {
+        "filename": "Alice.code",
+        "line": 361
+      },
+      "32": {
+        "filename": "Alice.code",
+        "line": 364
+      },
+      "48": {
+        "filename": "Alice.code",
+        "line": 365
+      },
+      "56": {
+        "filename": "Alice.code",
+        "line": 366
+      },
+      "72": {
+        "filename": "Alice.code",
+        "line": 367
+      },
+      "232": {
+        "filename": "Alice.code",
+        "line": 368
+      },
+      "240": {
+        "filename": "Alice.code",
+        "line": 369
+      },
+      "248": {
+        "filename": "Alice.code",
+        "line": 370
+      },
+      "264": {
+        "filename": "Alice.code",
+        "line": 371
+      },
+      "272": {
+        "filename": "Alice.code",
+        "line": 372
+      },
+      "280": {
+        "filename": "Alice.code",
+        "line": 373
+      },
+      "296": {
+        "filename": "Alice.code",
+        "line": 375
+      },
+      "304": {
+        "filename": "Alice.code",
+        "line": 376
+      }
+    },
+    "3c6e6bd1bcf3e69bd483b8c95c90385bfe3cc4cde88730ae7c50c676c6736dbf": {
+      "0": {
+        "filename": "Alice.code",
+        "line": 233
+      },
+      "16": {
+        "filename": "Alice.code",
+        "line": 234
+      },
+      "24": {
+        "filename": "Alice.code",
+        "line": 235
+      },
+      "40": {
+        "filename": "Alice.code",
+        "line": 236
+      },
+      "56": {
+        "filename": "Alice.code",
+        "line": 237
+      },
+      "72": {
+        "filename": "Alice.code",
+        "line": 238
+      },
+      "80": {
+        "filename": "Alice.code",
+        "line": 239
+      },
+      "88": {
+        "filename": "Alice.code",
+        "line": 240
+      },
+      "112": {
+        "filename": "Alice.code",
+        "line": 241
+      },
+      "136": {
+        "filename": "Alice.code",
+        "line": 242
+      },
+      "144": {
+        "filename": "Alice.code",
+        "line": 243
+      },
+      "152": {
+        "filename": "Alice.code",
+        "line": 244
+      },
+      "168": {
+        "filename": "Alice.code",
+        "line": 245
+      },
+      "184": {
+        "filename": "Alice.code",
+        "line": 249
+      },
+      "192": {
+        "filename": "Alice.code",
+        "line": 250
+      },
+      "216": {
+        "filename": "Alice.code",
+        "line": 251
+      },
+      "232": {
+        "filename": "Alice.code",
+        "line": 252
+      },
+      "240": {
+        "filename": "Alice.code",
+        "line": 253
+      },
+      "256": {
+        "filename": "Alice.code",
+        "line": 257
+      },
+      "264": {
+        "filename": "Alice.code",
+        "line": 258
+      },
+      "280": {
+        "filename": "Alice.code",
+        "line": 261
+      }
+    },
+    "51216941f0b5711761f4ca9d5c7ccdb97e57482004701b493865f4475b8666d8": {
+      "0": {
+        "filename": "Alice.code",
+        "line": 379
+      },
+      "8": {
+        "filename": "Alice.code",
+        "line": 380
+      },
+      "56": {
+        "filename": "Alice.code",
+        "line": 381
+      },
+      "64": {
+        "filename": "Alice.code",
+        "line": 382
+      },
+      "80": {
+        "filename": "Alice.code",
+        "line": 408
+      },
+      "88": {
+        "filename": "Alice.code",
+        "line": 409
+      },
+      "136": {
+        "filename": "Alice.code",
+        "line": 410
+      },
+      "144": {
+        "filename": "Alice.code",
+        "line": 411
+      }
+    },
+    "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
+      "0": {
+        "filename": "<internal-selector>",
+        "line": 1
+      },
+      "24": {
+        "filename": "<internal-selector>",
+        "line": 2
+      }
+    },
+    "7a3d153441a95439fd4fa7046b9a42772e54b28777bd657824f93816f5bd71f4": {
+      "0": {
+        "filename": "Alice.code",
+        "line": 127
+      },
+      "16": {
+        "filename": "Alice.code",
+        "line": 128
+      },
+      "24": {
+        "filename": "Alice.code",
+        "line": 129
+      },
+      "40": {
+        "filename": "Alice.code",
+        "line": 130
+      },
+      "56": {
+        "filename": "Alice.code",
+        "line": 131
+      },
+      "72": {
+        "filename": "Alice.code",
+        "line": 132
+      },
+      "80": {
+        "filename": "Alice.code",
+        "line": 133
+      },
+      "88": {
+        "filename": "Alice.code",
+        "line": 134
+      },
+      "96": {
+        "filename": "Alice.code",
+        "line": 135
+      },
+      "112": {
+        "filename": "Alice.code",
+        "line": 136
+      },
+      "120": {
+        "filename": "Alice.code",
+        "line": 137
+      },
+      "136": {
+        "filename": "Alice.code",
+        "line": 138
+      },
+      "144": {
+        "filename": "Alice.code",
+        "line": 139
+      },
+      "160": {
+        "filename": "Alice.code",
+        "line": 140
+      },
+      "176": {
+        "filename": "Alice.code",
+        "line": 141
+      },
+      "192": {
+        "filename": "Alice.code",
+        "line": 142
+      },
+      "208": {
+        "filename": "Alice.code",
+        "line": 143
+      },
+      "224": {
+        "filename": "Alice.code",
+        "line": 144
+      },
+      "240": {
+        "filename": "Alice.code",
+        "line": 145
+      }
+    },
+    "852222dd2220bf19b45f9f3b9ac139dcea0bcb61355fce58f85ca432d7dd5e2a": {
+      "0": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 25
+      },
+      "16": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "32": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "40": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "56": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "64": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "72": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "88": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "104": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "112": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "120": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "128": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "144": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "160": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "176": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "184": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "200": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "208": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "216": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "232": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "248": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "256": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "272": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "280": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "296": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "304": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "328": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "344": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "360": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "376": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "384": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "400": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "408": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "440": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "456": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "464": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      },
+      "472": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 39
+      },
+      "480": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 39
+      },
+      "488": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 39
+      },
+      "504": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 40
+      },
+      "512": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 40
+      },
+      "528": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 41
+      },
+      "536": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 41
+      },
+      "552": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 44
+      },
+      "712": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 44
+      },
+      "720": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 44
+      },
+      "728": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 44
+      },
+      "736": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 44
+      },
+      "744": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 44
+      },
+      "752": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 44
+      }
+    },
+    "93216fcdc9c517e6e28b634115d4eca35305c4a9b58fbf400d7e4cf65d8f8886": {
+      "0": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 27
+      }
+    },
+    "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
+    "9ac0d0603aac20e55e059590bacf88bed592061879e72f00ea5bcf7e6c9a3419": {
+      "0": {
+        "filename": "Alice.code",
+        "line": 383
+      },
+      "8": {
+        "filename": "Alice.code",
+        "line": 384
+      },
+      "56": {
+        "filename": "Alice.code",
+        "line": 385
+      },
+      "64": {
+        "filename": "Alice.code",
+        "line": 386
+      },
+      "80": {
+        "filename": "Alice.code",
+        "line": 389
+      },
+      "88": {
+        "filename": "Alice.code",
+        "line": 390
+      },
+      "136": {
+        "filename": "Alice.code",
+        "line": 391
+      },
+      "144": {
+        "filename": "Alice.code",
+        "line": 392
+      },
+      "160": {
+        "filename": "Alice.code",
+        "line": 395
+      },
+      "168": {
+        "filename": "Alice.code",
+        "line": 396
+      },
+      "216": {
+        "filename": "Alice.code",
+        "line": 397
+      },
+      "224": {
+        "filename": "Alice.code",
+        "line": 398
+      },
+      "240": {
+        "filename": "Alice.code",
+        "line": 401
+      },
+      "248": {
+        "filename": "Alice.code",
+        "line": 402
+      },
+      "296": {
+        "filename": "Alice.code",
+        "line": 403
+      },
+      "304": {
+        "filename": "Alice.code",
+        "line": 404
+      }
+    },
+    "ab088cfe127144f7ba8ad707c7b45f5850e9192f045fe38bd74b7a4a273147ec": {
+      "0": {
+        "filename": "Alice.code",
+        "line": 319
+      },
+      "8": {
+        "filename": "Alice.code",
+        "line": 320
+      },
+      "16": {
+        "filename": "Alice.code",
+        "line": 321
+      },
+      "32": {
+        "filename": "Alice.code",
+        "line": 324
+      },
+      "48": {
+        "filename": "Alice.code",
+        "line": 325
+      },
+      "56": {
+        "filename": "Alice.code",
+        "line": 326
+      },
+      "72": {
+        "filename": "Alice.code",
+        "line": 327
+      },
+      "232": {
+        "filename": "Alice.code",
+        "line": 328
+      },
+      "240": {
+        "filename": "Alice.code",
+        "line": 329
+      },
+      "248": {
+        "filename": "Alice.code",
+        "line": 330
+      },
+      "256": {
+        "filename": "Alice.code",
+        "line": 331
+      },
+      "264": {
+        "filename": "Alice.code",
+        "line": 332
+      },
+      "272": {
+        "filename": "Alice.code",
+        "line": 333
+      },
+      "288": {
+        "filename": "Alice.code",
+        "line": 335
+      },
+      "296": {
+        "filename": "Alice.code",
+        "line": 336
+      }
+    },
+    "ab244b57215f15620a440c9fe617db2ab955a0244735b07d97851915db82586f": {
+      "0": {
+        "filename": "Alice.code",
+        "line": 4
+      },
+      "8": {
+        "filename": "Alice.code",
+        "line": 5
+      },
+      "24": {
+        "filename": "Alice.code",
+        "line": 6
+      },
+      "32": {
+        "filename": "Alice.code",
+        "line": 7
+      },
+      "48": {
+        "filename": "Alice.code",
+        "line": 10
+      },
+      "64": {
+        "filename": "Alice.code",
+        "line": 11
+      },
+      "80": {
+        "filename": "Alice.code",
+        "line": 12
+      },
+      "88": {
+        "filename": "Alice.code",
+        "line": 13
+      },
+      "96": {
+        "filename": "Alice.code",
+        "line": 14
+      },
+      "104": {
+        "filename": "Alice.code",
+        "line": 15
+      },
+      "112": {
+        "filename": "Alice.code",
+        "line": 16
+      },
+      "120": {
+        "filename": "Alice.code",
+        "line": 18
+      },
+      "128": {
+        "filename": "Alice.code",
+        "line": 19
+      },
+      "144": {
+        "filename": "Alice.code",
+        "line": 20
+      },
+      "152": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 20
+      },
+      "168": {
+        "filename": "../contracts/AliceBob/Alice.tsol",
+        "line": 21
+      },
+      "184": {
+        "filename": "Alice.code",
+        "line": 26
+      },
+      "200": {
+        "filename": "Alice.code",
+        "line": 29
+      }
+    },
+    "ac79a8bb29b5b8d7ee1f8715c59d15b8e0661e682397d4bd37e7182443dc1cac": {
+      "0": {
+        "filename": "Alice.code",
+        "line": 148
+      },
+      "16": {
+        "filename": "Alice.code",
+        "line": 149
+      },
+      "24": {
+        "filename": "Alice.code",
+        "line": 150
+      },
+      "40": {
+        "filename": "Alice.code",
+        "line": 151
+      },
+      "56": {
+        "filename": "Alice.code",
+        "line": 152
+      },
+      "72": {
+        "filename": "Alice.code",
+        "line": 192
+      }
+    },
+    "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
+      "0": {
+        "filename": "Alice.code",
+        "line": 246
+      },
+      "16": {
+        "filename": "Alice.code",
+        "line": 247
+      }
+    },
+    "fdd2c95de658b25b22fe157d5d1b345a8848359218d7f50d4c73a02023bbcfe6": {
+      "0": {
+        "filename": "Alice.code",
+        "line": 265
+      },
+      "16": {
+        "filename": "Alice.code",
+        "line": 266
+      },
+      "24": {
+        "filename": "Alice.code",
+        "line": 267
+      },
+      "40": {
+        "filename": "Alice.code",
+        "line": 268
+      },
+      "56": {
+        "filename": "Alice.code",
+        "line": 269
+      },
+      "72": {
+        "filename": "Alice.code",
+        "line": 270
+      },
+      "80": {
+        "filename": "Alice.code",
+        "line": 271
+      },
+      "96": {
+        "filename": "Alice.code",
+        "line": 274
+      },
+      "112": {
+        "filename": "Alice.code",
+        "line": 275
+      },
+      "120": {
+        "filename": "Alice.code",
+        "line": 276
+      },
+      "136": {
+        "filename": "Alice.code",
+        "line": 277
+      },
+      "152": {
+        "filename": "Alice.code",
+        "line": 278
+      },
+      "168": {
+        "filename": "Alice.code",
+        "line": 279
+      },
+      "176": {
+        "filename": "Alice.code",
+        "line": 280
+      },
+      "192": {
+        "filename": "Alice.code",
+        "line": 281
+      },
+      "200": {
+        "filename": "Alice.code",
+        "line": 282
+      },
+      "216": {
+        "filename": "Alice.code",
+        "line": 283
+      },
+      "224": {
+        "filename": "Alice.code",
+        "line": 284
+      },
+      "232": {
+        "filename": "Alice.code",
+        "line": 285
+      },
+      "248": {
+        "filename": "Alice.code",
+        "line": 286
+      },
+      "256": {
+        "filename": "Alice.code",
+        "line": 287
+      },
+      "264": {
+        "filename": "Alice.code",
+        "line": 289
+      },
+      "272": {
+        "filename": "Alice.code",
+        "line": 290
+      },
+      "280": {
+        "filename": "Alice.code",
+        "line": 291
+      },
+      "296": {
+        "filename": "Alice.code",
+        "line": 293
+      },
+      "304": {
+        "filename": "Alice.code",
+        "line": 294
+      },
+      "320": {
+        "filename": "Alice.code",
+        "line": 295
+      },
+      "336": {
+        "filename": "Alice.code",
+        "line": 297
+      },
+      "344": {
+        "filename": "Alice.code",
+        "line": 298
+      },
+      "360": {
+        "filename": "Alice.code",
+        "line": 299
+      },
+      "368": {
+        "filename": "Alice.code",
+        "line": 300
+      },
+      "384": {
+        "filename": "Alice.code",
+        "line": 302
+      },
+      "392": {
+        "filename": "Alice.code",
+        "line": 303
+      },
+      "408": {
+        "filename": "Alice.code",
+        "line": 304
+      },
+      "416": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "432": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "440": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "448": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "464": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "472": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "488": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "512": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "520": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "560": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "568": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "576": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "592": {
+        "filename": "stdlib.sol",
+        "line": 63
+      },
+      "608": {
+        "filename": "Alice.code",
+        "line": 306
+      },
+      "624": {
+        "filename": "Alice.code",
+        "line": 307
+      },
+      "632": {
+        "filename": "Alice.code",
+        "line": 308
+      },
+      "648": {
+        "filename": "Alice.code",
+        "line": 309
+      },
+      "656": {
+        "filename": "Alice.code",
+        "line": 310
+      },
+      "672": {
+        "filename": "Alice.code",
+        "line": 311
+      },
+      "688": {
+        "filename": "Alice.code",
+        "line": 312
+      },
+      "696": {
+        "filename": "Alice.code",
+        "line": 313
+      },
+      "712": {
+        "filename": "Alice.code",
+        "line": 316
+      }
+    },
+    "ff66e6f74bfe8442b7489532ec028d805efac4f9fdb704cc3933becc09a11900": {
+      "0": {
+        "filename": "<entry-selector>",
+        "line": 1
+      },
+      "8": {
+        "filename": "<entry-selector>",
+        "line": 2
+      },
+      "24": {
+        "filename": "<entry-selector>",
+        "line": 3
+      },
+      "32": {
+        "filename": "<entry-selector>",
+        "line": 4
+      },
+      "48": {
+        "filename": "<entry-selector>",
+        "line": 5
+      },
+      "56": {
+        "filename": "<entry-selector>",
+        "line": 6
+      },
+      "72": {
+        "filename": "<entry-selector>",
+        "line": 7
+      },
+      "88": {
+        "filename": "<entry-selector>",
+        "line": 8
+      },
+      "96": {
+        "filename": "<entry-selector>",
+        "line": 9
+      },
+      "112": {
+        "filename": "<entry-selector>",
+        "line": 10
+      },
+      "128": {
+        "filename": "<entry-selector>",
+        "line": 11
+      }
+    }
+  }
+}

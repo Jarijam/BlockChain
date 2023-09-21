@@ -1,0 +1,46 @@
+pragma ever-solidity >= 0.61.2;
+pragma AbiHeader expire;
+pragma AbiHeader pubkey;
+
+import "locklift/src/console.tsol";
+import "./Bob.tsol";
+
+contract Alice {
+    string public static city;
+
+    TvmCell static bobContractCode;
+
+    uint256 bobPubkey;
+    string public logTest;
+    uint256 public age;
+
+    event CityChanged(string newCity);
+
+    constructor(uint256 _bobPubkey) public {
+        tvm.accept();
+        bobPubkey = _bobPubkey;
+    }
+
+    function setCityByBob(string _bobName, uint128 _age, string _newCity) external {
+        tvm.accept();
+        // console.log("HIHI");
+        address bobAddress = address(tvm.hash(tvm.buildStateInit({
+            contr: Bob,
+            varInit: {
+                name: "BOB",
+                age: 18
+            },
+            pubkey: bobPubkey,
+            code: bobContractCode
+        })));
+
+        //require(msg.sender == bobAddress, 101);
+
+        city = _newCity;
+        logTest = _bobName;
+        age = _age;
+
+
+        emit CityChanged(_newCity);
+    }
+}

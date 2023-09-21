@@ -1,0 +1,849 @@
+{
+  "map": {
+    "0f2e32f436b0be9cc70ca249ef5517fd07e32670394b09ada94fb44833865cad": {
+      "0": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 15
+      },
+      "16": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 16
+      },
+      "24": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 16
+      },
+      "40": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 16
+      },
+      "56": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 16
+      },
+      "64": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 16
+      },
+      "88": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 16
+      },
+      "96": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 16
+      },
+      "280": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 16
+      },
+      "304": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 16
+      },
+      "312": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 16
+      },
+      "328": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 16
+      },
+      "336": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 16
+      },
+      "344": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 16
+      },
+      "352": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 16
+      }
+    },
+    "34991383855855a1c15fd211ec1ce896d05a16301b15e3b404ad05cedc0d8afb": {
+      "0": {
+        "filename": "Bob.code",
+        "line": 102
+      }
+    },
+    "38465702ee77ff0b0d32717a617aec167dc61aae84cb033162563a49534b0cfc": {
+      "0": {
+        "filename": "Bob.code",
+        "line": 73
+      },
+      "16": {
+        "filename": "Bob.code",
+        "line": 74
+      },
+      "24": {
+        "filename": "Bob.code",
+        "line": 75
+      },
+      "40": {
+        "filename": "Bob.code",
+        "line": 76
+      },
+      "56": {
+        "filename": "Bob.code",
+        "line": 77
+      },
+      "72": {
+        "filename": "Bob.code",
+        "line": 78
+      },
+      "80": {
+        "filename": "Bob.code",
+        "line": 79
+      },
+      "88": {
+        "filename": "Bob.code",
+        "line": 80
+      },
+      "104": {
+        "filename": "Bob.code",
+        "line": 81
+      },
+      "112": {
+        "filename": "Bob.code",
+        "line": 82
+      },
+      "128": {
+        "filename": "Bob.code",
+        "line": 83
+      },
+      "144": {
+        "filename": "Bob.code",
+        "line": 84
+      },
+      "160": {
+        "filename": "Bob.code",
+        "line": 85
+      }
+    },
+    "4800b1837af3f0e3c333fec8be3f7cc608113702b2ce8d7c02a6a4198ca32ffe": {
+      "0": {
+        "filename": "Bob.code",
+        "line": 88
+      },
+      "16": {
+        "filename": "Bob.code",
+        "line": 89
+      },
+      "24": {
+        "filename": "Bob.code",
+        "line": 90
+      },
+      "40": {
+        "filename": "Bob.code",
+        "line": 91
+      },
+      "56": {
+        "filename": "Bob.code",
+        "line": 92
+      },
+      "72": {
+        "filename": "Bob.code",
+        "line": 125
+      }
+    },
+    "58180f71efb9ea0e7b66e3d24f64079b7cf2c6aa54458705e93ef152cf9c165f": {
+      "0": {
+        "filename": "Bob.code",
+        "line": 160
+      },
+      "16": {
+        "filename": "Bob.code",
+        "line": 161
+      },
+      "24": {
+        "filename": "Bob.code",
+        "line": 162
+      },
+      "40": {
+        "filename": "Bob.code",
+        "line": 163
+      },
+      "56": {
+        "filename": "Bob.code",
+        "line": 164
+      },
+      "72": {
+        "filename": "Bob.code",
+        "line": 165
+      },
+      "80": {
+        "filename": "Bob.code",
+        "line": 166
+      },
+      "88": {
+        "filename": "Bob.code",
+        "line": 167
+      },
+      "112": {
+        "filename": "Bob.code",
+        "line": 168
+      },
+      "136": {
+        "filename": "Bob.code",
+        "line": 169
+      },
+      "144": {
+        "filename": "Bob.code",
+        "line": 170
+      },
+      "152": {
+        "filename": "Bob.code",
+        "line": 171
+      },
+      "168": {
+        "filename": "Bob.code",
+        "line": 172
+      },
+      "184": {
+        "filename": "Bob.code",
+        "line": 176
+      },
+      "192": {
+        "filename": "Bob.code",
+        "line": 177
+      },
+      "216": {
+        "filename": "Bob.code",
+        "line": 178
+      },
+      "232": {
+        "filename": "Bob.code",
+        "line": 179
+      },
+      "240": {
+        "filename": "Bob.code",
+        "line": 180
+      },
+      "256": {
+        "filename": "Bob.code",
+        "line": 184
+      },
+      "264": {
+        "filename": "Bob.code",
+        "line": 185
+      },
+      "280": {
+        "filename": "Bob.code",
+        "line": 188
+      }
+    },
+    "64fc0836d549910bc9252eb659174ef2344f59d61064c9f540e60b63afbf5fc9": {
+      "0": {
+        "filename": "Bob.code",
+        "line": 192
+      },
+      "16": {
+        "filename": "Bob.code",
+        "line": 193
+      },
+      "24": {
+        "filename": "Bob.code",
+        "line": 194
+      },
+      "40": {
+        "filename": "Bob.code",
+        "line": 195
+      },
+      "56": {
+        "filename": "Bob.code",
+        "line": 196
+      },
+      "72": {
+        "filename": "Bob.code",
+        "line": 197
+      },
+      "80": {
+        "filename": "Bob.code",
+        "line": 198
+      },
+      "96": {
+        "filename": "Bob.code",
+        "line": 201
+      },
+      "112": {
+        "filename": "Bob.code",
+        "line": 202
+      },
+      "120": {
+        "filename": "Bob.code",
+        "line": 203
+      },
+      "136": {
+        "filename": "Bob.code",
+        "line": 204
+      },
+      "152": {
+        "filename": "Bob.code",
+        "line": 205
+      },
+      "168": {
+        "filename": "Bob.code",
+        "line": 206
+      },
+      "176": {
+        "filename": "Bob.code",
+        "line": 207
+      },
+      "192": {
+        "filename": "Bob.code",
+        "line": 208
+      },
+      "200": {
+        "filename": "Bob.code",
+        "line": 209
+      },
+      "216": {
+        "filename": "Bob.code",
+        "line": 210
+      },
+      "224": {
+        "filename": "Bob.code",
+        "line": 211
+      },
+      "232": {
+        "filename": "Bob.code",
+        "line": 212
+      },
+      "248": {
+        "filename": "Bob.code",
+        "line": 213
+      },
+      "256": {
+        "filename": "Bob.code",
+        "line": 214
+      },
+      "264": {
+        "filename": "Bob.code",
+        "line": 216
+      },
+      "272": {
+        "filename": "Bob.code",
+        "line": 217
+      },
+      "280": {
+        "filename": "Bob.code",
+        "line": 218
+      },
+      "296": {
+        "filename": "Bob.code",
+        "line": 220
+      },
+      "304": {
+        "filename": "Bob.code",
+        "line": 221
+      },
+      "320": {
+        "filename": "Bob.code",
+        "line": 222
+      },
+      "336": {
+        "filename": "Bob.code",
+        "line": 224
+      },
+      "344": {
+        "filename": "Bob.code",
+        "line": 225
+      },
+      "360": {
+        "filename": "Bob.code",
+        "line": 226
+      },
+      "368": {
+        "filename": "Bob.code",
+        "line": 227
+      },
+      "384": {
+        "filename": "Bob.code",
+        "line": 229
+      },
+      "392": {
+        "filename": "Bob.code",
+        "line": 230
+      },
+      "408": {
+        "filename": "Bob.code",
+        "line": 231
+      },
+      "416": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "432": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "440": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "448": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "464": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "472": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "488": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "512": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "520": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "560": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "568": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "576": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "592": {
+        "filename": "stdlib.sol",
+        "line": 63
+      },
+      "608": {
+        "filename": "Bob.code",
+        "line": 233
+      },
+      "624": {
+        "filename": "Bob.code",
+        "line": 234
+      },
+      "632": {
+        "filename": "Bob.code",
+        "line": 235
+      },
+      "648": {
+        "filename": "Bob.code",
+        "line": 236
+      },
+      "656": {
+        "filename": "Bob.code",
+        "line": 237
+      },
+      "672": {
+        "filename": "Bob.code",
+        "line": 238
+      },
+      "688": {
+        "filename": "Bob.code",
+        "line": 239
+      },
+      "696": {
+        "filename": "Bob.code",
+        "line": 240
+      },
+      "712": {
+        "filename": "Bob.code",
+        "line": 243
+      }
+    },
+    "6542ed1844c386ecd7da649da85d9b7b19d85f7aae298ed7b01f8647e58410d0": {
+      "0": {
+        "filename": "Bob.code",
+        "line": 22
+      },
+      "8": {
+        "filename": "Bob.code",
+        "line": 23
+      },
+      "24": {
+        "filename": "Bob.code",
+        "line": 24
+      },
+      "48": {
+        "filename": "Bob.code",
+        "line": 25
+      },
+      "64": {
+        "filename": "Bob.code",
+        "line": 26
+      },
+      "72": {
+        "filename": "Bob.code",
+        "line": 27
+      },
+      "88": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 14
+      },
+      "96": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 14
+      },
+      "104": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 14
+      },
+      "112": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 14
+      },
+      "120": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 14
+      },
+      "128": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 14
+      },
+      "136": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 14
+      },
+      "152": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 14
+      },
+      "168": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 14
+      },
+      "176": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 14
+      },
+      "184": {
+        "filename": "Bob.code",
+        "line": 43
+      },
+      "200": {
+        "filename": "Bob.code",
+        "line": 46
+      },
+      "208": {
+        "filename": "Bob.code",
+        "line": 47
+      },
+      "224": {
+        "filename": "Bob.code",
+        "line": 50
+      }
+    },
+    "6f0b8ca6bcfbb85f858ac80805e63613dcc7050024d5333473b733d5a292ce02": {
+      "0": {
+        "filename": "Bob.code",
+        "line": 4
+      },
+      "8": {
+        "filename": "Bob.code",
+        "line": 5
+      },
+      "24": {
+        "filename": "Bob.code",
+        "line": 6
+      },
+      "32": {
+        "filename": "Bob.code",
+        "line": 7
+      },
+      "48": {
+        "filename": "Bob.code",
+        "line": 10
+      },
+      "64": {
+        "filename": "Bob.code",
+        "line": 11
+      },
+      "80": {
+        "filename": "Bob.code",
+        "line": 12
+      },
+      "88": {
+        "filename": "../contracts/AliceBob/Bob.tsol",
+        "line": 11
+      },
+      "104": {
+        "filename": "Bob.code",
+        "line": 16
+      },
+      "120": {
+        "filename": "Bob.code",
+        "line": 19
+      }
+    },
+    "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
+      "0": {
+        "filename": "<internal-selector>",
+        "line": 1
+      },
+      "24": {
+        "filename": "<internal-selector>",
+        "line": 2
+      }
+    },
+    "95330984a73fba312538ff00cd795760608a9f2dddbbea67d351172e3557f7c2": {
+      "0": {
+        "filename": "Bob.code",
+        "line": 130
+      },
+      "16": {
+        "filename": "Bob.code",
+        "line": 131
+      },
+      "32": {
+        "filename": "Bob.code",
+        "line": 132
+      },
+      "48": {
+        "filename": "Bob.code",
+        "line": 133
+      },
+      "64": {
+        "filename": "Bob.code",
+        "line": 134
+      },
+      "72": {
+        "filename": "Bob.code",
+        "line": 135
+      },
+      "88": {
+        "filename": "Bob.code",
+        "line": 136
+      },
+      "104": {
+        "filename": "Bob.code",
+        "line": 137
+      },
+      "120": {
+        "filename": "Bob.code",
+        "line": 138
+      },
+      "128": {
+        "filename": "Bob.code",
+        "line": 139
+      },
+      "144": {
+        "filename": "Bob.code",
+        "line": 140
+      },
+      "152": {
+        "filename": "Bob.code",
+        "line": 141
+      }
+    },
+    "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
+    "9bc48eaac5e890d3e1a841dfec5abe83b7c4adf79fb6cff68439487191adb723": {
+      "0": {
+        "filename": "<entry-selector>",
+        "line": 1
+      },
+      "8": {
+        "filename": "<entry-selector>",
+        "line": 2
+      },
+      "24": {
+        "filename": "<entry-selector>",
+        "line": 3
+      },
+      "32": {
+        "filename": "<entry-selector>",
+        "line": 4
+      },
+      "48": {
+        "filename": "<entry-selector>",
+        "line": 5
+      },
+      "56": {
+        "filename": "<entry-selector>",
+        "line": 6
+      },
+      "72": {
+        "filename": "<entry-selector>",
+        "line": 7
+      },
+      "88": {
+        "filename": "<entry-selector>",
+        "line": 8
+      },
+      "96": {
+        "filename": "<entry-selector>",
+        "line": 9
+      },
+      "112": {
+        "filename": "<entry-selector>",
+        "line": 10
+      },
+      "128": {
+        "filename": "<entry-selector>",
+        "line": 11
+      }
+    },
+    "abaae8bd382eb3621ada326bd336ae6591f47f99201045674cc40837119eff48": {
+      "0": {
+        "filename": "Bob.code",
+        "line": 246
+      },
+      "8": {
+        "filename": "Bob.code",
+        "line": 247
+      },
+      "56": {
+        "filename": "Bob.code",
+        "line": 248
+      },
+      "64": {
+        "filename": "Bob.code",
+        "line": 249
+      },
+      "80": {
+        "filename": "Bob.code",
+        "line": 252
+      },
+      "88": {
+        "filename": "Bob.code",
+        "line": 253
+      },
+      "136": {
+        "filename": "Bob.code",
+        "line": 254
+      },
+      "144": {
+        "filename": "Bob.code",
+        "line": 255
+      }
+    },
+    "c78b1ef6fbf909b0a924567a9aca152f9760f45a2e504692c67fd63e3310cc13": {
+      "0": {
+        "filename": "Bob.code",
+        "line": 93
+      },
+      "8": {
+        "filename": "Bob.code",
+        "line": 94
+      },
+      "24": {
+        "filename": "Bob.code",
+        "line": 95
+      },
+      "32": {
+        "filename": "Bob.code",
+        "line": 96
+      },
+      "48": {
+        "filename": "Bob.code",
+        "line": 97
+      },
+      "56": {
+        "filename": "Bob.code",
+        "line": 98
+      },
+      "64": {
+        "filename": "Bob.code",
+        "line": 99
+      },
+      "80": {
+        "filename": "Bob.code",
+        "line": 100
+      },
+      "96": {
+        "filename": "Bob.code",
+        "line": 101
+      },
+      "112": {
+        "filename": "Bob.code",
+        "line": 105
+      },
+      "120": {
+        "filename": "Bob.code",
+        "line": 106
+      },
+      "128": {
+        "filename": "Bob.code",
+        "line": 107
+      },
+      "136": {
+        "filename": "Bob.code",
+        "line": 108
+      },
+      "152": {
+        "filename": "Bob.code",
+        "line": 109
+      },
+      "168": {
+        "filename": "Bob.code",
+        "line": 110
+      },
+      "184": {
+        "filename": "Bob.code",
+        "line": 111
+      },
+      "192": {
+        "filename": "Bob.code",
+        "line": 112
+      },
+      "216": {
+        "filename": "Bob.code",
+        "line": 114
+      },
+      "224": {
+        "filename": "Bob.code",
+        "line": 115
+      },
+      "240": {
+        "filename": "Bob.code",
+        "line": 116
+      },
+      "256": {
+        "filename": "Bob.code",
+        "line": 117
+      },
+      "272": {
+        "filename": "Bob.code",
+        "line": 118
+      },
+      "288": {
+        "filename": "Bob.code",
+        "line": 119
+      },
+      "304": {
+        "filename": "Bob.code",
+        "line": 120
+      },
+      "328": {
+        "filename": "Bob.code",
+        "line": 121
+      },
+      "344": {
+        "filename": "Bob.code",
+        "line": 122
+      },
+      "352": {
+        "filename": "Bob.code",
+        "line": 123
+      }
+    },
+    "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
+      "0": {
+        "filename": "Bob.code",
+        "line": 173
+      },
+      "16": {
+        "filename": "Bob.code",
+        "line": 174
+      }
+    }
+  }
+}

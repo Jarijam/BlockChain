@@ -1,0 +1,19 @@
+pragma ever-solidity >= 0.61.2;
+
+import "./Alice.tsol";
+pragma AbiHeader expire;
+pragma AbiHeader pubkey;
+
+contract Bob {
+    string static name;
+    uint128 static age;
+    constructor() public {
+        tvm.accept();
+    }
+
+    function callAlice(address _alice, uint128 _age, string _newAliceCity) external {
+        tvm.accept();
+        Alice(_alice).setCityByBob(name, _age, _newAliceCity);
+
+    }
+}

@@ -1,0 +1,160 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma ever-solidity >= 0.62.0;
+
+import "c:/StudyBC/withEverscale_final/node_modules/locklift/src/console.tsol";
+import "./~Bank.tsol";
+
+contract BankAccount {
+    uint public money;
+    uint128 constant MIN_CONTRACT_BALANCE = 1 ever;
+
+    address static bankAddress;
+    address static owner;
+
+    TvmCell public userContractCode;
+
+    bool public freezer;
+
+    event BorrowedMoney(address user, uint _amount);
+    event LoanRepay(address user, uint repayAmount);
+
+    event receivedSuccess(uint _loanNum);
+    event repaySuccess(uint _totalRepayAmount);
+    event RepayRejected(string message);
+
+    event SendMoney(uint money, address sender);
+    event ReceivedMoney(uint money, address sender);
+    event SetFreezer(address sender, bool freezer);
+    event MintedMoney(uint _money, address sender);
+
+    event CatchBounceSendMoney(uint money);
+    event CatchBounceReceiveMoney(uint money);
+    event CatchBounceTest(string test);
+    modifier onlyOwner() {
+        require(msg.sender == owner, 1011);
+        _;
+    }
+
+    modifier onlyNotFreezer() {
+        require(!freezer, 2003);
+        _;
+    }
+
+    constructor(uint128 _initialBalance, bool _freezer, TvmCell _userContractCode) public {
+        money = _initialBalance;
+        freezer = _freezer;
+        userContractCode = _userContractCode;
+    }
+
+    function borrowMoney(uint _amount) external onlyNotFreezer{
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+        emit BorrowedMoney(msg.sender, _amount);
+        Bank(bankAddress).loan{value:0, flag:128}(_amount, msg.sender);
+    }
+
+    function loanReceived(uint _loanNum) external {
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+        money += _loanNum;
+        emit receivedSuccess( _loanNum);
+        owner.transfer({value:0, flag:128});
+    }
+
+    function repayLoan(uint128 _repayAmount) external onlyNotFreezer{
+        tvm.rawReserve(MIN_CONTRACT_BALANCE,0);
+        require(money >= _repayAmount, 1005);
+        emit LoanRepay(msg.sender, _repayAmount);
+        Bank(bankAddress).repaying{value:0, flag:128}(_repayAmount, msg.sender);
+
+    }
+
+    function repayAccepted(uint _totalRepayAmount) external {
+        tvm.rawReserve(MIN_CONTRACT_BALANCE,0);
+        require(_totalRepayAmount <= money, 1008);
+        money -= _totalRepayAmount;
+        emit repaySuccess(_totalRepayAmount);
+        owner.transfer({value:0, flag:128});
+    }
+
+    function repayRejected() external {
+
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+        emit RepayRejected("Reject!");
+        owner.transfer({value:0, flag:128});
+    }
+
+    function getAddress(address _accountAddress) public returns(address) {
+        TvmCell accountInitState = tvm.buildStateInit({
+            contr: BankAccount,
+            varInit: {
+            owner: _accountAddress,
+            bankAddress: bankAddress
+        },
+            pubkey: tvm.pubkey(),
+            code: userContractCode
+        });
+        return address(tvm.hash(accountInitState));
+    }
+
+    function sendMoneyToUser(uint _money, address _destAddress) external onlyOwner onlyNotFreezer{
+//        revert(1222);
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+        require(money >= _money, 2000);
+        money -= _money;
+        BankAccount(_destAddress).receivedMoneyFromUser{value:0, flag:128}(_money, owner);
+        emit SendMoney(_money, msg.sender);
+    }
+
+    function receivedMoneyFromUser(uint _money, address _ownerAddress) external onlyNotFreezer{
+//        revert(1222);
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+        require(msg.sender == getAddress(_ownerAddress), 2001);
+        money+= _money;
+
+        emit ReceivedMoney(_money, msg.sender);
+        msg.sender.transfer({value:0, flag:128});
+    }
+
+    function mintedMoney(uint _money, address _initialSender, address _owner) external onlyNotFreezer{
+
+
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+
+
+        console.log(format("money : {}", money));
+        require(bankAddress==msg.sender, 2041);
+        money += _money;
+        console.log(format("money : {}", money));
+        emit MintedMoney(_money, msg.sender);
+        _initialSender.transfer({value:0, flag:128});
+    }
+
+    function freezerSet(bool _freezer, address _initialSender) external {
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+        require(msg.sender == bankAddress, 2002);
+        freezer = _freezer;
+        emit SetFreezer(msg.sender, freezer);
+        _initialSender.transfer({value:0, flag:128});
+    }
+
+    function getMoney() external view returns (uint){
+        return money;
+    }
+
+    onBounce(TvmSlice slice) external {
+        tvm.accept();
+        console.log(format("test"));
+        TvmSlice newSlice = slice.loadRef().toSlice();
+        uint32 functionId = newSlice.decode(uint32);
+
+       if(functionId == tvm.functionId(BankAccount.receivedMoneyFromUser)) {
+            console.log(format("recevie Bounce"));
+            (uint _money, address _destAddress) = newSlice.decodeFunctionParams(BankAccount.sendMoneyToUser);
+           console.log(format("lost money : {}", _money));
+           console.log(format ("befor totalmoney: {}", money));
+           money += _money;
+//           uint totalMoney = getMoney();
+           console.log(format("total money : {}", money));
+           emit CatchBounceReceiveMoney(_money);
+        }
+    }
+}

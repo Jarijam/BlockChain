@@ -1,0 +1,87 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma ever-solidity >= 0.62.0;
+import "./Errors.tsol";
+import "./Gas.tsol";
+import "./Worker.tsol";
+contract Company {
+
+    uint128 MIN_BALANCE = 1 ever;
+
+    address static owner;
+    TvmCell static workerCode;
+
+    uint128 salary = 132;
+
+    uint128 totalSalaryPayed;
+
+    event AccountDeployed(address workerAddress, address owner);
+    event NewWorkerRegistered(address worker, address workerOwner);
+    event SalaryPayed(address worker, uint128 salary, uint128 totalSalaryPayed);
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, Errors.NOT_OWNER);
+        _;
+    }
+
+    modifier onlyWorker(address _workerOwner) {
+        require(getWorkerAddress(_workerOwner) == msg.sender, Errors.NOT_WORKER);
+        _;
+    }
+
+    constructor() public {
+        tvm.accept();
+    }
+
+    function deployAccountForWorker() external {
+        require(msg.value >= MIN_BALANCE + 0.2 ever, 101);
+
+        tvm.rawReserve(MIN_BALANCE, 0);
+
+        TvmCell stateInit = buildInitParams(msg.sender);
+
+        address workerAddress = new Worker{
+            stateInit: stateInit,
+            code: workerCode,
+            value: 1 ever
+        }();
+        emit AccountDeployed(workerAddress, msg.sender);
+        msg.sender.transfer({value:0, flag:128});
+    }
+
+    function buildInitParams(address _accountOwner) internal returns (TvmCell){
+        return tvm.buildStateInit({
+            contr: Worker,
+            varInit: {
+                owner: _accountOwner,
+                company: address(this)
+            },
+            pubkey: tvm.pubkey(),
+            code: workerCode
+        });
+    }
+
+    function getWorkerAddress(address _workerOwner) internal returns (address) {
+        TvmCell workerInitState = buildInitParams(_workerOwner);
+        return address(tvm.hash(workerInitState));
+    }
+
+    function doWork(address _workerOwner) external onlyWorker(_workerOwner) {
+        tvm.rawReserve(Gas.MIN_CONTRACT_BALANCE, 0);
+        workProcessing(msg.sender);
+    }
+
+    function workProcessing(address _worker) internal {
+        salary = salary * 2;
+        totalSalaryPayed += salary;
+        emit SalaryPayed(_worker,salary, totalSalaryPayed);
+
+        //each time salary is doubled
+        
+        Worker(_worker).receiveSalary{value: 0, flag: 128}(salary);
+        
+    }
+
+    function getDetails() external view returns (uint128 _salary, uint128 _totalSalaryPayed) {
+        return (salary, totalSalaryPayed);
+    }
+}

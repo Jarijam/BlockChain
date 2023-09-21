@@ -1,0 +1,686 @@
+{
+  "map": {
+    "0df46c851322f1284213f8b4711b93160d57e0d0eb7776a2e97de2934fd6c481": {
+      "0": {
+        "filename": "ContractA.code",
+        "line": 171
+      },
+      "8": {
+        "filename": "ContractA.code",
+        "line": 172
+      },
+      "16": {
+        "filename": "ContractA.code",
+        "line": 173
+      },
+      "32": {
+        "filename": "ContractA.code",
+        "line": 176
+      },
+      "48": {
+        "filename": "ContractA.code",
+        "line": 177
+      },
+      "56": {
+        "filename": "ContractA.code",
+        "line": 178
+      },
+      "72": {
+        "filename": "ContractA.code",
+        "line": 179
+      },
+      "232": {
+        "filename": "ContractA.code",
+        "line": 180
+      },
+      "240": {
+        "filename": "ContractA.code",
+        "line": 181
+      },
+      "248": {
+        "filename": "ContractA.code",
+        "line": 182
+      },
+      "264": {
+        "filename": "ContractA.code",
+        "line": 183
+      },
+      "272": {
+        "filename": "ContractA.code",
+        "line": 184
+      },
+      "280": {
+        "filename": "ContractA.code",
+        "line": 185
+      },
+      "296": {
+        "filename": "ContractA.code",
+        "line": 187
+      },
+      "304": {
+        "filename": "ContractA.code",
+        "line": 188
+      }
+    },
+    "2ffe6fe00672931001f8c71927983098612f585766686e0d530d5d63b3bbe1b9": {
+      "0": {
+        "filename": "ContractA.code",
+        "line": 20
+      },
+      "16": {
+        "filename": "ContractA.code",
+        "line": 21
+      },
+      "24": {
+        "filename": "ContractA.code",
+        "line": 22
+      },
+      "40": {
+        "filename": "ContractA.code",
+        "line": 23
+      },
+      "56": {
+        "filename": "ContractA.code",
+        "line": 24
+      },
+      "72": {
+        "filename": "ContractA.code",
+        "line": 25
+      },
+      "80": {
+        "filename": "ContractA.code",
+        "line": 26
+      },
+      "96": {
+        "filename": "ContractA.code",
+        "line": 27
+      },
+      "104": {
+        "filename": "ContractA.code",
+        "line": 28
+      },
+      "120": {
+        "filename": "ContractA.code",
+        "line": 29
+      },
+      "136": {
+        "filename": "ContractA.code",
+        "line": 30
+      }
+    },
+    "4dffa414174a1febec0a73c328fbb8f31df8fb7d76d54bdfeac9ed86e5230339": {
+      "0": {
+        "filename": "ContractA.code",
+        "line": 33
+      },
+      "16": {
+        "filename": "ContractA.code",
+        "line": 34
+      },
+      "24": {
+        "filename": "ContractA.code",
+        "line": 35
+      },
+      "40": {
+        "filename": "ContractA.code",
+        "line": 36
+      },
+      "56": {
+        "filename": "ContractA.code",
+        "line": 37
+      },
+      "72": {
+        "filename": "ContractA.code",
+        "line": 38
+      },
+      "80": {
+        "filename": "ContractA.code",
+        "line": 39
+      },
+      "96": {
+        "filename": "ContractA.code",
+        "line": 40
+      },
+      "104": {
+        "filename": "ContractA.code",
+        "line": 41
+      },
+      "120": {
+        "filename": "ContractA.code",
+        "line": 42
+      },
+      "128": {
+        "filename": "ContractA.code",
+        "line": 43
+      },
+      "144": {
+        "filename": "ContractA.code",
+        "line": 44
+      },
+      "160": {
+        "filename": "ContractA.code",
+        "line": 45
+      },
+      "176": {
+        "filename": "ContractA.code",
+        "line": 46
+      },
+      "192": {
+        "filename": "ContractA.code",
+        "line": 47
+      },
+      "216": {
+        "filename": "ContractA.code",
+        "line": 48
+      },
+      "232": {
+        "filename": "ContractA.code",
+        "line": 49
+      },
+      "240": {
+        "filename": "ContractA.code",
+        "line": 50
+      },
+      "256": {
+        "filename": "ContractA.code",
+        "line": 52
+      }
+    },
+    "51425d3a0ae162ffcad7f02af22bb1fb4ab0dcf49aa2a166db951bc8607afabb": {
+      "0": {
+        "filename": "ContractA.code",
+        "line": 191
+      },
+      "8": {
+        "filename": "ContractA.code",
+        "line": 192
+      },
+      "56": {
+        "filename": "ContractA.code",
+        "line": 193
+      },
+      "64": {
+        "filename": "ContractA.code",
+        "line": 194
+      },
+      "80": {
+        "filename": "ContractA.code",
+        "line": 197
+      },
+      "88": {
+        "filename": "ContractA.code",
+        "line": 198
+      },
+      "136": {
+        "filename": "ContractA.code",
+        "line": 199
+      },
+      "144": {
+        "filename": "ContractA.code",
+        "line": 200
+      }
+    },
+    "58bea2c05d1fb675b7c0235e75d735c40372bbc15e038c75c6179e69985b5297": {
+      "0": {
+        "filename": "<entry-selector>",
+        "line": 1
+      },
+      "8": {
+        "filename": "<entry-selector>",
+        "line": 2
+      },
+      "24": {
+        "filename": "<entry-selector>",
+        "line": 3
+      },
+      "32": {
+        "filename": "<entry-selector>",
+        "line": 4
+      },
+      "48": {
+        "filename": "<entry-selector>",
+        "line": 5
+      },
+      "56": {
+        "filename": "<entry-selector>",
+        "line": 6
+      },
+      "72": {
+        "filename": "<entry-selector>",
+        "line": 7
+      },
+      "88": {
+        "filename": "<entry-selector>",
+        "line": 8
+      },
+      "96": {
+        "filename": "<entry-selector>",
+        "line": 9
+      },
+      "112": {
+        "filename": "<entry-selector>",
+        "line": 10
+      },
+      "128": {
+        "filename": "<entry-selector>",
+        "line": 11
+      }
+    },
+    "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
+      "0": {
+        "filename": "<internal-selector>",
+        "line": 1
+      },
+      "24": {
+        "filename": "<internal-selector>",
+        "line": 2
+      }
+    },
+    "81cd90a9bf155fbe6b2751ac8a57f03cfbc7bed5c03cc45e74a204da3d84d487": {
+      "0": {
+        "filename": "ContractA.code",
+        "line": 57
+      },
+      "16": {
+        "filename": "ContractA.code",
+        "line": 58
+      },
+      "32": {
+        "filename": "ContractA.code",
+        "line": 59
+      },
+      "48": {
+        "filename": "ContractA.code",
+        "line": 60
+      },
+      "56": {
+        "filename": "ContractA.code",
+        "line": 61
+      },
+      "72": {
+        "filename": "ContractA.code",
+        "line": 62
+      },
+      "88": {
+        "filename": "ContractA.code",
+        "line": 63
+      },
+      "104": {
+        "filename": "ContractA.code",
+        "line": 64
+      },
+      "120": {
+        "filename": "ContractA.code",
+        "line": 65
+      },
+      "128": {
+        "filename": "ContractA.code",
+        "line": 66
+      }
+    },
+    "b6b9b2b2398f1af64a66ab759b411389950ee87d8b468d6c206df9c8c87411bd": {
+      "0": {
+        "filename": "ContractA.code",
+        "line": 85
+      },
+      "16": {
+        "filename": "ContractA.code",
+        "line": 86
+      },
+      "24": {
+        "filename": "ContractA.code",
+        "line": 87
+      },
+      "40": {
+        "filename": "ContractA.code",
+        "line": 88
+      },
+      "56": {
+        "filename": "ContractA.code",
+        "line": 89
+      },
+      "72": {
+        "filename": "ContractA.code",
+        "line": 90
+      },
+      "80": {
+        "filename": "ContractA.code",
+        "line": 91
+      },
+      "88": {
+        "filename": "ContractA.code",
+        "line": 92
+      },
+      "112": {
+        "filename": "ContractA.code",
+        "line": 93
+      },
+      "136": {
+        "filename": "ContractA.code",
+        "line": 94
+      },
+      "144": {
+        "filename": "ContractA.code",
+        "line": 95
+      },
+      "152": {
+        "filename": "ContractA.code",
+        "line": 96
+      },
+      "168": {
+        "filename": "ContractA.code",
+        "line": 97
+      },
+      "184": {
+        "filename": "ContractA.code",
+        "line": 101
+      },
+      "192": {
+        "filename": "ContractA.code",
+        "line": 102
+      },
+      "216": {
+        "filename": "ContractA.code",
+        "line": 103
+      },
+      "232": {
+        "filename": "ContractA.code",
+        "line": 104
+      },
+      "240": {
+        "filename": "ContractA.code",
+        "line": 105
+      },
+      "256": {
+        "filename": "ContractA.code",
+        "line": 109
+      },
+      "264": {
+        "filename": "ContractA.code",
+        "line": 110
+      },
+      "280": {
+        "filename": "ContractA.code",
+        "line": 113
+      }
+    },
+    "ead1e56fd8e5bc4dafffd92506bec9933865b636fb7e200aaddebe5fa6eb45af": {
+      "0": {
+        "filename": "ContractA.code",
+        "line": 117
+      },
+      "16": {
+        "filename": "ContractA.code",
+        "line": 118
+      },
+      "24": {
+        "filename": "ContractA.code",
+        "line": 119
+      },
+      "40": {
+        "filename": "ContractA.code",
+        "line": 120
+      },
+      "56": {
+        "filename": "ContractA.code",
+        "line": 121
+      },
+      "72": {
+        "filename": "ContractA.code",
+        "line": 122
+      },
+      "80": {
+        "filename": "ContractA.code",
+        "line": 123
+      },
+      "96": {
+        "filename": "ContractA.code",
+        "line": 126
+      },
+      "112": {
+        "filename": "ContractA.code",
+        "line": 127
+      },
+      "120": {
+        "filename": "ContractA.code",
+        "line": 128
+      },
+      "136": {
+        "filename": "ContractA.code",
+        "line": 129
+      },
+      "152": {
+        "filename": "ContractA.code",
+        "line": 130
+      },
+      "168": {
+        "filename": "ContractA.code",
+        "line": 131
+      },
+      "176": {
+        "filename": "ContractA.code",
+        "line": 132
+      },
+      "192": {
+        "filename": "ContractA.code",
+        "line": 133
+      },
+      "200": {
+        "filename": "ContractA.code",
+        "line": 134
+      },
+      "216": {
+        "filename": "ContractA.code",
+        "line": 135
+      },
+      "224": {
+        "filename": "ContractA.code",
+        "line": 136
+      },
+      "232": {
+        "filename": "ContractA.code",
+        "line": 137
+      },
+      "248": {
+        "filename": "ContractA.code",
+        "line": 138
+      },
+      "256": {
+        "filename": "ContractA.code",
+        "line": 139
+      },
+      "264": {
+        "filename": "ContractA.code",
+        "line": 141
+      },
+      "272": {
+        "filename": "ContractA.code",
+        "line": 142
+      },
+      "280": {
+        "filename": "ContractA.code",
+        "line": 143
+      },
+      "296": {
+        "filename": "ContractA.code",
+        "line": 145
+      },
+      "304": {
+        "filename": "ContractA.code",
+        "line": 146
+      },
+      "320": {
+        "filename": "ContractA.code",
+        "line": 147
+      },
+      "336": {
+        "filename": "ContractA.code",
+        "line": 149
+      },
+      "344": {
+        "filename": "ContractA.code",
+        "line": 150
+      },
+      "360": {
+        "filename": "ContractA.code",
+        "line": 151
+      },
+      "368": {
+        "filename": "ContractA.code",
+        "line": 152
+      },
+      "384": {
+        "filename": "ContractA.code",
+        "line": 154
+      },
+      "392": {
+        "filename": "ContractA.code",
+        "line": 155
+      },
+      "408": {
+        "filename": "ContractA.code",
+        "line": 156
+      },
+      "416": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "432": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "440": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "448": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "464": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "472": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "488": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "512": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "520": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "560": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "568": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "576": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "592": {
+        "filename": "stdlib.sol",
+        "line": 63
+      },
+      "608": {
+        "filename": "ContractA.code",
+        "line": 158
+      },
+      "624": {
+        "filename": "ContractA.code",
+        "line": 159
+      },
+      "632": {
+        "filename": "ContractA.code",
+        "line": 160
+      },
+      "648": {
+        "filename": "ContractA.code",
+        "line": 161
+      },
+      "656": {
+        "filename": "ContractA.code",
+        "line": 162
+      },
+      "672": {
+        "filename": "ContractA.code",
+        "line": 163
+      },
+      "688": {
+        "filename": "ContractA.code",
+        "line": 164
+      },
+      "696": {
+        "filename": "ContractA.code",
+        "line": 165
+      },
+      "712": {
+        "filename": "ContractA.code",
+        "line": 168
+      }
+    },
+    "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
+      "0": {
+        "filename": "ContractA.code",
+        "line": 98
+      },
+      "16": {
+        "filename": "ContractA.code",
+        "line": 99
+      }
+    },
+    "ff71e638c8daa77f52f4c84397fa83a2eed427e4d418749f0db14a785f2ece6c": {
+      "0": {
+        "filename": "ContractA.code",
+        "line": 4
+      },
+      "8": {
+        "filename": "ContractA.code",
+        "line": 5
+      },
+      "24": {
+        "filename": "ContractA.code",
+        "line": 6
+      },
+      "32": {
+        "filename": "ContractA.code",
+        "line": 7
+      },
+      "48": {
+        "filename": "ContractA.code",
+        "line": 10
+      },
+      "64": {
+        "filename": "ContractA.code",
+        "line": 11
+      },
+      "80": {
+        "filename": "ContractA.code",
+        "line": 12
+      },
+      "88": {
+        "filename": "ContractA.code",
+        "line": 13
+      },
+      "104": {
+        "filename": "ContractA.code",
+        "line": 14
+      },
+      "120": {
+        "filename": "ContractA.code",
+        "line": 17
+      }
+    }
+  }
+}

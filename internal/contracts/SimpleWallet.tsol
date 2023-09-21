@@ -1,0 +1,31 @@
+pragma ever-solidity >= 0.61.2;
+pragma AbiHeader expire;
+pragma AbiHeader pubkey;
+
+
+contract SimpleWallet {
+    uint256 public pubKey;
+    uint128 public balance;
+    event BalanceChanged(uint128 oldBalance, uint128 newBalance);
+    constructor(uint256 _pubKey) public {
+        tvm.accept();
+        pubKey = _pubKey;
+        balance = address(this).balance;
+    }
+
+    function sendToMyFriend(address dest, uint128 value) public {
+        require(msg.pubkey() == pubKey, 101);
+        require(value <= balance, 102);
+        tvm.accept();
+
+
+        balance -= value;
+        dest.transfer({value: value, flag: 1});
+    }
+
+    receive() external {
+        uint128 prevBalance = balance;
+        balance += msg.value;
+        emit BalanceChanged(prevBalance, balance);
+    }
+}

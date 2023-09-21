@@ -1,0 +1,16 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma ever-solidity >= 0.62.0;
+
+contract FactoryAccount {
+    address public static owner;
+    address public static factory;
+
+    constructor() public {
+
+    }
+
+    function getDetails() public view returns (address) {
+        return owner;
+    }
+
+}

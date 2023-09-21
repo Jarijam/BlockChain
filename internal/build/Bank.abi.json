@@ -1,0 +1,210 @@
+{
+	"ABI version": 2,
+	"version": "2.2",
+	"header": ["time"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+				{"name":"_interestRate","type":"uint256"},
+				{"name":"_owner","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "deployAccountForUser",
+			"inputs": [
+				{"name":"_initBalance","type":"uint128"},
+				{"name":"_freezer","type":"bool"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getAddress",
+			"inputs": [
+				{"name":"_accountAddress","type":"address"}
+			],
+			"outputs": [
+				{"name":"value0","type":"address"}
+			]
+		},
+		{
+			"name": "loan",
+			"inputs": [
+				{"name":"_loanNum","type":"uint256"},
+				{"name":"_accountAddress","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "calculating",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "repaying",
+			"inputs": [
+				{"name":"_repayAmount","type":"uint128"},
+				{"name":"_accountAddress","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "freezeUserAccount",
+			"inputs": [
+				{"name":"_userAddress","type":"address"},
+				{"name":"_freezer","type":"bool"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "mintAccount",
+			"inputs": [
+				{"name":"_accountAddress","type":"address"},
+				{"name":"_money","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getInterestRate",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "getProfit",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"_profit","type":"uint256"}
+			]
+		},
+		{
+			"name": "owner",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"owner","type":"address"}
+			]
+		},
+		{
+			"name": "interestRate",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"interestRate","type":"uint256"}
+			]
+		},
+		{
+			"name": "bankProfit",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"bankProfit","type":"uint256"}
+			]
+		},
+		{
+			"name": "loanNum",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"loanNum","type":"uint256"}
+			]
+		},
+		{
+			"name": "isLoanAvailable",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"isLoanAvailable","type":"bool"}
+			]
+		},
+		{
+			"name": "bankAddress",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"bankAddress","type":"address"}
+			]
+		}
+	],
+	"data": [
+		{"key":1,"name":"userContractCode","type":"cell"}
+	],
+	"events": [
+		{
+			"name": "AccountDeployed",
+			"inputs": [
+				{"name":"accountAddress","type":"address"},
+				{"name":"sender","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "AddressReturn",
+			"inputs": [
+				{"name":"userAddress","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "LoanTaken",
+			"inputs": [
+				{"name":"user","type":"address"},
+				{"name":"loanNum","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "RepayfromUserSuccess",
+			"inputs": [
+				{"name":"user","type":"address"},
+				{"name":"TotalRepay","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "test",
+			"inputs": [
+				{"name":"tests","type":"string"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "CheckAccountAddress",
+			"inputs": [
+				{"name":"accountaddress","type":"address"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"owner","type":"address"},
+		{"name":"userContractCode","type":"cell"},
+		{"name":"interestRate","type":"uint256"},
+		{"name":"bankProfit","type":"uint256"},
+		{"name":"loanNum","type":"uint256"},
+		{"name":"isLoanAvailable","type":"bool"},
+		{"name":"bankAddress","type":"address"}
+	]
+}

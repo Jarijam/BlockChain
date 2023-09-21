@@ -1,0 +1,60 @@
+{
+	"ABI version": 2,
+	"version": "2.2",
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+				{"name":"_pubKey","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "sendToMyFriend",
+			"inputs": [
+				{"name":"dest","type":"address"},
+				{"name":"value","type":"uint128"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "pubKey",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"pubKey","type":"uint256"}
+			]
+		},
+		{
+			"name": "balance",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"balance","type":"uint128"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+		{
+			"name": "BalanceChanged",
+			"inputs": [
+				{"name":"oldBalance","type":"uint128"},
+				{"name":"newBalance","type":"uint128"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"pubKey","type":"uint256"},
+		{"name":"balance","type":"uint128"}
+	]
+}

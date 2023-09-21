@@ -1,0 +1,17 @@
+pragma ever-solidity >=0.6.12;
+pragma AbiHeader expire;
+pragma AbiHeader pubkey;
+
+
+
+contract ContractA {
+    
+    uint public state;
+
+    // function setOtherState(ISample other, uint _state, uint count) public {
+    //     state = _state;
+    //     other.increaseState(count);
+    // }
+}
+
+

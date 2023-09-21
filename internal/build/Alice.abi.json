@@ -1,0 +1,73 @@
+{
+	"ABI version": 2,
+	"version": "2.2",
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+				{"name":"_bobPubkey","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "setCityByBob",
+			"inputs": [
+				{"name":"_bobName","type":"string"},
+				{"name":"_age","type":"uint128"},
+				{"name":"_newCity","type":"string"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "city",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"city","type":"string"}
+			]
+		},
+		{
+			"name": "logTest",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"logTest","type":"string"}
+			]
+		},
+		{
+			"name": "age",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"age","type":"uint256"}
+			]
+		}
+	],
+	"data": [
+		{"key":1,"name":"city","type":"string"},
+		{"key":2,"name":"bobContractCode","type":"cell"}
+	],
+	"events": [
+		{
+			"name": "CityChanged",
+			"inputs": [
+				{"name":"newCity","type":"string"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"city","type":"string"},
+		{"name":"bobContractCode","type":"cell"},
+		{"name":"bobPubkey","type":"uint256"},
+		{"name":"logTest","type":"string"},
+		{"name":"age","type":"uint256"}
+	]
+}

@@ -1,0 +1,51 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma ever-solidity >= 0.62.0;
+
+import "./Errors.tsol";
+import "./Gas.tsol";
+import "./Company.tsol";
+
+
+contract Worker {
+    address static owner;
+    address static company;
+
+    bool isRegistered;
+    uint128 totalSalaryReceived;
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, Errors.NOT_OWNER);
+        _;
+    }
+    modifier onlyCompany() {
+        require(msg.sender == company, Errors.NOT_COMPANY);
+        _;
+    }
+    constructor() public {
+//        tvm.accept();
+    }
+
+
+    function startWork() public onlyOwner {
+        tvm.rawReserve(Gas.MIN_CONTRACT_BALANCE, 0);
+        Company(company).doWork{
+            value: 0,
+            flag: 128
+        }( owner);
+    }
+
+    function receiveSalary(uint128 _salary) external onlyCompany {
+        tvm.rawReserve(Gas.MIN_CONTRACT_BALANCE, 0);
+        totalSalaryReceived += _salary;
+        owner.transfer({value: 0, flag: 128});
+    }
+
+    function getDetails() public view returns (
+        address _owner,
+        address _company,
+        bool _isRegistered,
+        uint128 _totalSalaryReceived
+    ) {
+        return (owner, company, isRegistered, totalSalaryReceived);
+    }
+}

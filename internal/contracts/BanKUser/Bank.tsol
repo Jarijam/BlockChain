@@ -1,0 +1,180 @@
+// SPDX-License-Identifier: UNLICENSED
+// import "locklift/src/console.tsol";
+pragma ever-solidity >= 0.62.0;
+
+
+import "./BankAccount.tsol";
+
+contract Bank {
+    address public owner;
+    uint128 constant MIN_CONTRACT_BALANCE = 1 ever;
+    TvmCell static userContractCode;
+
+    uint public interestRate;
+    uint public bankProfit;
+    uint public loanNum;
+    bool public isLoanAvailable;
+
+    address public bankAddress;
+    event AccountDeployed(address accountAddress, address sender);
+    event AddressReturn(address userAddress);
+    event LoanTaken(address user, uint loanNum);
+    event RepayfromUserSuccess(address user, uint TotalRepay);
+
+    event test(string tests);
+    event CheckAccountAddress(address accountaddress);
+
+    modifier onlyOwner {
+        require(msg.sender == owner, 1001);
+        _;
+    }
+
+    modifier onlyAccount(address _accountAddress) {
+        require(getAddress(_accountAddress)==msg.sender, 1010);
+        _;
+        emit CheckAccountAddress(_accountAddress);
+    }
+
+    constructor(
+        uint _interestRate,
+        address _owner
+    ) public {
+        tvm.accept();
+        owner = _owner;
+        interestRate = _interestRate;
+
+        bankAddress = address(this);
+        isLoanAvailable = true;
+    }
+
+    function deployAccountForUser(uint128 _initBalance, bool _freezer) external {
+        require(msg.value >= MIN_CONTRACT_BALANCE + 0.2 ever, 101);
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+        deployNewContract(_initBalance, _freezer, msg.sender);
+//        TvmCell stateInit = buildInitParams(msg.sender);
+//
+//        address accountAddress = new BankAccount{
+//            stateInit: stateInit,
+//            code: userContractCode,
+//            value: 1 ever
+//
+//        }(_initBalance, _freezer, userContractCode );
+////        console.log(format("ADDRESS {}", workerAddress));
+////        console.log(format("CODE {}", userContractCode));
+//
+//        emit AccountDeployed(accountAddress, msg.sender);
+        msg.sender.transfer({value:0, flag:128});
+        console.log(format("SENDER: {}", msg.sender));
+    }
+
+    function deployNewContract(uint128 _initBalance, bool _freezer,address _ownerAddress) internal {
+        TvmCell stateInit = buildInitParams(_ownerAddress);
+
+        address accountAddress = new BankAccount{
+                stateInit: stateInit,
+                code: userContractCode,
+                value: 1 ever
+
+        }(_initBalance, _freezer, userContractCode );
+        emit AccountDeployed(accountAddress, _ownerAddress);
+    }
+
+    function buildInitParams(address _accountAddress) internal returns (TvmCell){
+        return tvm.buildStateInit({
+            contr: BankAccount,
+            varInit: {
+            owner: _accountAddress,
+            bankAddress: address(this)
+        },
+            pubkey: tvm.pubkey(),
+            code: userContractCode
+        });
+    }
+
+    function getAddress(address _accountAddress) public returns(address) {
+        tvm.accept();
+        TvmCell accountInitState = buildInitParams(_accountAddress);
+        emit AddressReturn(address(tvm.hash(accountInitState)));
+        return address(tvm.hash(accountInitState));
+    }
+
+    function loan(uint _loanNum, address _accountAddress) external onlyAccount(_accountAddress){
+//        revert(1244);
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+        require(isLoanAvailable, 1002);
+        loanProcessing(_loanNum, _accountAddress);
+    }
+
+    function loanProcessing(uint _loanNum, address _accountAddress) internal {
+        loanNum = _loanNum;
+        isLoanAvailable = false;
+        emit LoanTaken(_accountAddress, loanNum);
+        BankAccount(msg.sender).loanReceived{value:0, flag:128}(loanNum);
+    }
+
+    function calculating() public view returns (uint) {
+        uint TotalRepay;
+        TotalRepay = loanNum * (100 + interestRate) / 100;
+        return TotalRepay;
+    }
+
+    function repaying(uint128 _repayAmount, address _accountAddress) external onlyAccount(_accountAddress) {
+        tvm.rawReserve(MIN_CONTRACT_BALANCE,0);
+
+        if(_repayAmount != calculating()){
+            BankAccount(msg.sender).repayRejected{value:0, flag:128}();
+            return;
+        }
+
+        BankAccount(msg.sender).repayAccepted{value:0, flag:128}(_repayAmount);
+        repaidProcessing(_repayAmount,_accountAddress);
+
+    }
+
+    function repaidProcessing(uint128 _repayAmount, address _accountAddress) internal {
+        bankProfit += (_repayAmount - loanNum);
+        loanNum = 0;
+        isLoanAvailable = true;
+        emit RepayfromUserSuccess(msg.sender, _repayAmount);
+    }
+
+    function freezeUserAccount(address _userAddress, bool _freezer) external onlyOwner {
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+        BankAccount(_userAddress).freezerSet{value:0, flag:128}(_freezer, owner);
+    }
+
+    function mintAccount(address _accountAddress, uint _money) external onlyOwner {
+        console.log(format("ADDRESS {}", msg.sender));
+
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+//        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+        emit test("mint");
+        BankAccount(getAddress(_accountAddress)).mintedMoney{value:0, flag:128}(_money, owner, _accountAddress);
+    }
+
+    function getInterestRate() external view returns (uint) {
+        return interestRate;
+    }
+
+    function getProfit() external view returns (uint _profit) {
+       _profit = bankProfit;
+    }
+
+    onBounce(TvmSlice slice) external {
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+        // console.log(format("in Bank onBounce"));
+        // console.log("1111");
+        TvmSlice newSlice = slice.loadRef().toSlice();
+        uint32 functionId = newSlice.decode(uint32);
+
+
+        if(functionId == tvm.functionId(BankAccount.mintedMoney)) {
+            (uint _money, address _initalSender, address _owner) 
+            = newSlice.decodeFunctionParams(BankAccount.mintedMoney);
+//            () = newSlice.decodeFunctionParams(BankAccount.minAccount);
+            deployNewContract(200, false, _owner);
+            BankAccount(getAddress(_owner)).mintedMoney{value:0, flag:128}(_money, owner, _owner);
+
+        }
+    }
+}

@@ -1,0 +1,1248 @@
+{
+  "map": {
+    "04ab75ad842ef61ac99510fa3e2d38eee173ac9d1338210955912e7a3c2444a8": {
+      "0": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 21
+      },
+      "16": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 21
+      },
+      "32": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 21
+      },
+      "48": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 21
+      },
+      "72": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 38
+      },
+      "120": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 38
+      },
+      "128": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 38
+      },
+      "144": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 39
+      },
+      "160": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 39
+      },
+      "168": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 39
+      },
+      "184": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 39
+      },
+      "200": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 40
+      },
+      "216": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 40
+      },
+      "224": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 40
+      },
+      "248": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 40
+      },
+      "256": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 40
+      },
+      "272": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 40
+      },
+      "288": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 40
+      },
+      "296": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 40
+      },
+      "312": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 40
+      }
+    },
+    "12f0e3c52732dca477fca41d9a852ece60bd0872c3adac857b4152cd679ca8a1": {
+      "0": {
+        "filename": "Worker.code",
+        "line": 121
+      },
+      "8": {
+        "filename": "Worker.code",
+        "line": 122
+      },
+      "24": {
+        "filename": "Worker.code",
+        "line": 123
+      },
+      "48": {
+        "filename": "Worker.code",
+        "line": 124
+      },
+      "64": {
+        "filename": "Worker.code",
+        "line": 125
+      },
+      "72": {
+        "filename": "Worker.code",
+        "line": 126
+      },
+      "88": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 43
+      },
+      "96": {
+        "filename": "Worker.code",
+        "line": 132
+      },
+      "112": {
+        "filename": "Worker.code",
+        "line": 135
+      },
+      "120": {
+        "filename": "Worker.code",
+        "line": 136
+      },
+      "136": {
+        "filename": "Worker.code",
+        "line": 137
+      },
+      "144": {
+        "filename": "Worker.code",
+        "line": 138
+      },
+      "152": {
+        "filename": "Worker.code",
+        "line": 139
+      },
+      "168": {
+        "filename": "Worker.code",
+        "line": 140
+      },
+      "184": {
+        "filename": "Worker.code",
+        "line": 141
+      },
+      "192": {
+        "filename": "Worker.code",
+        "line": 142
+      },
+      "200": {
+        "filename": "Worker.code",
+        "line": 143
+      },
+      "208": {
+        "filename": "Worker.code",
+        "line": 144
+      },
+      "232": {
+        "filename": "Worker.code",
+        "line": 145
+      },
+      "240": {
+        "filename": "Worker.code",
+        "line": 146
+      },
+      "248": {
+        "filename": "Worker.code",
+        "line": 147
+      },
+      "272": {
+        "filename": "Worker.code",
+        "line": 148
+      },
+      "288": {
+        "filename": "Worker.code",
+        "line": 149
+      },
+      "296": {
+        "filename": "Worker.code",
+        "line": 150
+      },
+      "344": {
+        "filename": "Worker.code",
+        "line": 151
+      },
+      "352": {
+        "filename": "Worker.code",
+        "line": 152
+      },
+      "368": {
+        "filename": "Worker.code",
+        "line": 153
+      },
+      "376": {
+        "filename": "Worker.code",
+        "line": 154
+      },
+      "384": {
+        "filename": "Worker.code",
+        "line": 155
+      },
+      "400": {
+        "filename": "Worker.code",
+        "line": 156
+      },
+      "416": {
+        "filename": "Worker.code",
+        "line": 157
+      },
+      "424": {
+        "filename": "Worker.code",
+        "line": 158
+      },
+      "432": {
+        "filename": "Worker.code",
+        "line": 159
+      },
+      "440": {
+        "filename": "Worker.code",
+        "line": 160
+      },
+      "448": {
+        "filename": "Worker.code",
+        "line": 161
+      },
+      "464": {
+        "filename": "Worker.code",
+        "line": 163
+      },
+      "472": {
+        "filename": "Worker.code",
+        "line": 164
+      },
+      "488": {
+        "filename": "Worker.code",
+        "line": 166
+      },
+      "496": {
+        "filename": "Worker.code",
+        "line": 167
+      },
+      "512": {
+        "filename": "Worker.code",
+        "line": 170
+      }
+    },
+    "1660e86c6c8609e5839f51213c7e67ca5bdb0f255a3a50842bfb601107e5995c": {
+      "0": {
+        "filename": "Worker.code",
+        "line": 364
+      },
+      "8": {
+        "filename": "Worker.code",
+        "line": 365
+      },
+      "48": {
+        "filename": "Worker.code",
+        "line": 366
+      },
+      "56": {
+        "filename": "Worker.code",
+        "line": 367
+      },
+      "72": {
+        "filename": "Worker.code",
+        "line": 370
+      },
+      "80": {
+        "filename": "Worker.code",
+        "line": 371
+      },
+      "128": {
+        "filename": "Worker.code",
+        "line": 372
+      },
+      "136": {
+        "filename": "Worker.code",
+        "line": 373
+      },
+      "152": {
+        "filename": "Worker.code",
+        "line": 376
+      },
+      "160": {
+        "filename": "Worker.code",
+        "line": 377
+      },
+      "208": {
+        "filename": "Worker.code",
+        "line": 378
+      },
+      "216": {
+        "filename": "Worker.code",
+        "line": 379
+      },
+      "232": {
+        "filename": "Worker.code",
+        "line": 382
+      },
+      "240": {
+        "filename": "Worker.code",
+        "line": 383
+      },
+      "288": {
+        "filename": "Worker.code",
+        "line": 384
+      },
+      "296": {
+        "filename": "Worker.code",
+        "line": 385
+      }
+    },
+    "2cd29205d10965132cdbcb079f24bfaf577b7b1d2acde47548cee85511994794": {
+      "0": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 49
+      },
+      "16": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 49
+      },
+      "32": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 49
+      },
+      "48": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 49
+      }
+    },
+    "34ef8bd7a6f174def8f83c273da8f8325f8e7a6e9931768972734278b292059d": {
+      "0": {
+        "filename": "Worker.code",
+        "line": 4
+      },
+      "8": {
+        "filename": "Worker.code",
+        "line": 5
+      },
+      "24": {
+        "filename": "Worker.code",
+        "line": 6
+      },
+      "32": {
+        "filename": "Worker.code",
+        "line": 7
+      },
+      "48": {
+        "filename": "Worker.code",
+        "line": 10
+      },
+      "64": {
+        "filename": "Worker.code",
+        "line": 11
+      },
+      "80": {
+        "filename": "Worker.code",
+        "line": 12
+      },
+      "88": {
+        "filename": "Worker.code",
+        "line": 14
+      },
+      "104": {
+        "filename": "Worker.code",
+        "line": 17
+      }
+    },
+    "3798ffff9fd8af746512c9f83d283a04c0bfe858c97d4fb59919c6e1da51c786": {
+      "0": {
+        "filename": "Worker.code",
+        "line": 212
+      },
+      "8": {
+        "filename": "Worker.code",
+        "line": 213
+      },
+      "24": {
+        "filename": "Worker.code",
+        "line": 214
+      },
+      "32": {
+        "filename": "Worker.code",
+        "line": 215
+      },
+      "48": {
+        "filename": "Worker.code",
+        "line": 216
+      },
+      "56": {
+        "filename": "Worker.code",
+        "line": 217
+      },
+      "64": {
+        "filename": "Worker.code",
+        "line": 218
+      },
+      "80": {
+        "filename": "Worker.code",
+        "line": 219
+      },
+      "96": {
+        "filename": "Worker.code",
+        "line": 220
+      },
+      "112": {
+        "filename": "Worker.code",
+        "line": 225
+      },
+      "120": {
+        "filename": "Worker.code",
+        "line": 226
+      },
+      "128": {
+        "filename": "Worker.code",
+        "line": 227
+      },
+      "136": {
+        "filename": "Worker.code",
+        "line": 228
+      },
+      "152": {
+        "filename": "Worker.code",
+        "line": 229
+      },
+      "168": {
+        "filename": "Worker.code",
+        "line": 230
+      },
+      "184": {
+        "filename": "Worker.code",
+        "line": 235
+      },
+      "192": {
+        "filename": "Worker.code",
+        "line": 236
+      },
+      "200": {
+        "filename": "Worker.code",
+        "line": 237
+      },
+      "208": {
+        "filename": "Worker.code",
+        "line": 238
+      },
+      "224": {
+        "filename": "Worker.code",
+        "line": 239
+      },
+      "240": {
+        "filename": "Worker.code",
+        "line": 240
+      },
+      "256": {
+        "filename": "Worker.code",
+        "line": 241
+      },
+      "272": {
+        "filename": "Worker.code",
+        "line": 242
+      },
+      "288": {
+        "filename": "Worker.code",
+        "line": 243
+      },
+      "304": {
+        "filename": "Worker.code",
+        "line": 244
+      },
+      "320": {
+        "filename": "Worker.code",
+        "line": 245
+      },
+      "344": {
+        "filename": "Worker.code",
+        "line": 246
+      },
+      "360": {
+        "filename": "Worker.code",
+        "line": 247
+      },
+      "368": {
+        "filename": "Worker.code",
+        "line": 248
+      }
+    },
+    "4a79c9880895e73ccc6156a187a83dc0f7d757b910077489e0dd247484c71cbd": {
+      "0": {
+        "filename": "<entry-selector>",
+        "line": 1
+      },
+      "8": {
+        "filename": "<entry-selector>",
+        "line": 2
+      },
+      "24": {
+        "filename": "<entry-selector>",
+        "line": 3
+      },
+      "32": {
+        "filename": "<entry-selector>",
+        "line": 4
+      },
+      "48": {
+        "filename": "<entry-selector>",
+        "line": 5
+      },
+      "56": {
+        "filename": "<entry-selector>",
+        "line": 6
+      },
+      "72": {
+        "filename": "<entry-selector>",
+        "line": 7
+      },
+      "88": {
+        "filename": "<entry-selector>",
+        "line": 8
+      },
+      "96": {
+        "filename": "<entry-selector>",
+        "line": 9
+      },
+      "112": {
+        "filename": "<entry-selector>",
+        "line": 10
+      },
+      "128": {
+        "filename": "<entry-selector>",
+        "line": 11
+      }
+    },
+    "5aaba0bdbbbb45690da4f871f00ac1dcbeafb98b314230e741385cad9d42f0d6": {
+      "0": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 17
+      },
+      "16": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 17
+      },
+      "32": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 17
+      },
+      "48": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 17
+      },
+      "72": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 30
+      },
+      "120": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 30
+      },
+      "128": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 30
+      },
+      "144": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 31
+      },
+      "160": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 31
+      },
+      "168": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 31
+      },
+      "192": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 31
+      },
+      "200": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 31
+      },
+      "208": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 31
+      },
+      "232": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 31
+      },
+      "248": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 31
+      },
+      "256": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 31
+      },
+      "304": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 31
+      },
+      "312": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 31
+      },
+      "320": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 31
+      },
+      "328": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 31
+      },
+      "344": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 31
+      }
+    },
+    "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
+      "0": {
+        "filename": "Worker.code",
+        "line": 222
+      }
+    },
+    "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
+      "0": {
+        "filename": "<internal-selector>",
+        "line": 1
+      },
+      "24": {
+        "filename": "<internal-selector>",
+        "line": 2
+      }
+    },
+    "85c20ebe27324d364503586ff86d38b6f12d053bcd833a1f7e384eee665360ed": {
+      "0": {
+        "filename": "Worker.code",
+        "line": 207
+      },
+      "16": {
+        "filename": "Worker.code",
+        "line": 208
+      },
+      "24": {
+        "filename": "Worker.code",
+        "line": 209
+      },
+      "40": {
+        "filename": "Worker.code",
+        "line": 210
+      },
+      "56": {
+        "filename": "Worker.code",
+        "line": 211
+      },
+      "72": {
+        "filename": "Worker.code",
+        "line": 250
+      }
+    },
+    "9ef484740ae439a59b36967645f35d8ff198db6ad8e61473f4cc9861e9e385c5": {
+      "0": {
+        "filename": "Worker.code",
+        "line": 20
+      },
+      "8": {
+        "filename": "Worker.code",
+        "line": 21
+      },
+      "24": {
+        "filename": "Worker.code",
+        "line": 22
+      },
+      "48": {
+        "filename": "Worker.code",
+        "line": 23
+      },
+      "64": {
+        "filename": "Worker.code",
+        "line": 24
+      },
+      "72": {
+        "filename": "Worker.code",
+        "line": 25
+      },
+      "88": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 29
+      },
+      "96": {
+        "filename": "Worker.code",
+        "line": 31
+      },
+      "112": {
+        "filename": "Worker.code",
+        "line": 34
+      },
+      "120": {
+        "filename": "Worker.code",
+        "line": 35
+      },
+      "136": {
+        "filename": "Worker.code",
+        "line": 38
+      }
+    },
+    "b123099e8a0b7595f84b44e2cb5073de090d42d4710239942f4062460b5e589c": {
+      "0": {
+        "filename": "Worker.code",
+        "line": 255
+      },
+      "16": {
+        "filename": "Worker.code",
+        "line": 256
+      },
+      "32": {
+        "filename": "Worker.code",
+        "line": 257
+      },
+      "48": {
+        "filename": "Worker.code",
+        "line": 258
+      },
+      "64": {
+        "filename": "Worker.code",
+        "line": 259
+      },
+      "80": {
+        "filename": "Worker.code",
+        "line": 260
+      },
+      "96": {
+        "filename": "Worker.code",
+        "line": 261
+      },
+      "104": {
+        "filename": "Worker.code",
+        "line": 262
+      },
+      "120": {
+        "filename": "Worker.code",
+        "line": 263
+      },
+      "136": {
+        "filename": "Worker.code",
+        "line": 264
+      },
+      "152": {
+        "filename": "Worker.code",
+        "line": 265
+      },
+      "160": {
+        "filename": "Worker.code",
+        "line": 266
+      },
+      "176": {
+        "filename": "Worker.code",
+        "line": 267
+      },
+      "184": {
+        "filename": "Worker.code",
+        "line": 268
+      },
+      "192": {
+        "filename": "Worker.code",
+        "line": 269
+      },
+      "208": {
+        "filename": "Worker.code",
+        "line": 270
+      },
+      "224": {
+        "filename": "Worker.code",
+        "line": 271
+      },
+      "232": {
+        "filename": "Worker.code",
+        "line": 272
+      },
+      "240": {
+        "filename": "Worker.code",
+        "line": 273
+      }
+    },
+    "d0b89172f14a6ae96cefa669ff1bdd69b67fa0f44344cae176d602af25eb9ade": {
+      "0": {
+        "filename": "Worker.code",
+        "line": 292
+      },
+      "16": {
+        "filename": "Worker.code",
+        "line": 293
+      },
+      "24": {
+        "filename": "Worker.code",
+        "line": 294
+      },
+      "40": {
+        "filename": "Worker.code",
+        "line": 295
+      },
+      "56": {
+        "filename": "Worker.code",
+        "line": 296
+      },
+      "72": {
+        "filename": "Worker.code",
+        "line": 297
+      },
+      "80": {
+        "filename": "Worker.code",
+        "line": 298
+      },
+      "88": {
+        "filename": "Worker.code",
+        "line": 299
+      },
+      "104": {
+        "filename": "Worker.code",
+        "line": 300
+      },
+      "120": {
+        "filename": "Worker.code",
+        "line": 301
+      },
+      "128": {
+        "filename": "Worker.code",
+        "line": 302
+      },
+      "144": {
+        "filename": "Worker.code",
+        "line": 303
+      },
+      "168": {
+        "filename": "Worker.code",
+        "line": 304
+      },
+      "176": {
+        "filename": "Worker.code",
+        "line": 305
+      },
+      "184": {
+        "filename": "Worker.code",
+        "line": 306
+      },
+      "200": {
+        "filename": "Worker.code",
+        "line": 307
+      },
+      "216": {
+        "filename": "Worker.code",
+        "line": 311
+      },
+      "224": {
+        "filename": "Worker.code",
+        "line": 312
+      },
+      "248": {
+        "filename": "Worker.code",
+        "line": 313
+      },
+      "264": {
+        "filename": "Worker.code",
+        "line": 314
+      },
+      "272": {
+        "filename": "Worker.code",
+        "line": 315
+      },
+      "288": {
+        "filename": "Worker.code",
+        "line": 319
+      },
+      "296": {
+        "filename": "Worker.code",
+        "line": 320
+      },
+      "312": {
+        "filename": "Worker.code",
+        "line": 323
+      }
+    },
+    "d4815b1a296bc96efdbc9a1560aa7d66ca39e1ff4574f0e565dbb29d5008d6f0": {
+      "0": {
+        "filename": "Worker.code",
+        "line": 72
+      },
+      "8": {
+        "filename": "Worker.code",
+        "line": 73
+      },
+      "24": {
+        "filename": "Worker.code",
+        "line": 74
+      },
+      "48": {
+        "filename": "Worker.code",
+        "line": 75
+      },
+      "64": {
+        "filename": "Worker.code",
+        "line": 76
+      },
+      "72": {
+        "filename": "Worker.code",
+        "line": 77
+      },
+      "88": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 37
+      },
+      "104": {
+        "filename": "../contracts/Company/Worker.tsol",
+        "line": 37
+      },
+      "112": {
+        "filename": "Worker.code",
+        "line": 84
+      },
+      "128": {
+        "filename": "Worker.code",
+        "line": 87
+      },
+      "136": {
+        "filename": "Worker.code",
+        "line": 88
+      },
+      "152": {
+        "filename": "Worker.code",
+        "line": 91
+      }
+    },
+    "d558e53bf690afc8a76b8887a99a49a52db1bd24bec5da84780ea0e7bc0aad3f": {
+      "0": {
+        "filename": "Worker.code",
+        "line": 221
+      }
+    },
+    "dee1424250e88d1dd7d3fa4a6c19fcdf94641c7f3458a25ddf8d16d13cdc304a": {
+      "0": {
+        "filename": "Worker.code",
+        "line": 327
+      },
+      "16": {
+        "filename": "Worker.code",
+        "line": 328
+      },
+      "24": {
+        "filename": "Worker.code",
+        "line": 329
+      },
+      "40": {
+        "filename": "Worker.code",
+        "line": 330
+      },
+      "56": {
+        "filename": "Worker.code",
+        "line": 331
+      },
+      "72": {
+        "filename": "Worker.code",
+        "line": 332
+      },
+      "80": {
+        "filename": "Worker.code",
+        "line": 335
+      },
+      "96": {
+        "filename": "Worker.code",
+        "line": 336
+      },
+      "104": {
+        "filename": "Worker.code",
+        "line": 337
+      },
+      "120": {
+        "filename": "Worker.code",
+        "line": 340
+      },
+      "136": {
+        "filename": "Worker.code",
+        "line": 341
+      },
+      "144": {
+        "filename": "Worker.code",
+        "line": 342
+      },
+      "152": {
+        "filename": "Worker.code",
+        "line": 343
+      },
+      "168": {
+        "filename": "Worker.code",
+        "line": 344
+      },
+      "184": {
+        "filename": "Worker.code",
+        "line": 345
+      },
+      "192": {
+        "filename": "Worker.code",
+        "line": 346
+      },
+      "208": {
+        "filename": "Worker.code",
+        "line": 347
+      },
+      "216": {
+        "filename": "Worker.code",
+        "line": 348
+      },
+      "232": {
+        "filename": "Worker.code",
+        "line": 349
+      },
+      "248": {
+        "filename": "Worker.code",
+        "line": 350
+      },
+      "264": {
+        "filename": "Worker.code",
+        "line": 352
+      },
+      "272": {
+        "filename": "Worker.code",
+        "line": 353
+      },
+      "288": {
+        "filename": "Worker.code",
+        "line": 354
+      },
+      "296": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "312": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "320": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "328": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "344": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "352": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "368": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "392": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "400": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "440": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "448": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "456": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "472": {
+        "filename": "stdlib.sol",
+        "line": 63
+      },
+      "488": {
+        "filename": "Worker.code",
+        "line": 356
+      },
+      "504": {
+        "filename": "Worker.code",
+        "line": 357
+      },
+      "512": {
+        "filename": "Worker.code",
+        "line": 358
+      },
+      "528": {
+        "filename": "Worker.code",
+        "line": 361
+      }
+    },
+    "e6936e8f0e7b8fe98c2ca66eee9d4e9dafcfc747defef9cb795288fabb1b7ef3": {
+      "0": {
+        "filename": "Worker.code",
+        "line": 276
+      },
+      "16": {
+        "filename": "Worker.code",
+        "line": 277
+      },
+      "24": {
+        "filename": "Worker.code",
+        "line": 278
+      },
+      "40": {
+        "filename": "Worker.code",
+        "line": 279
+      },
+      "56": {
+        "filename": "Worker.code",
+        "line": 280
+      },
+      "64": {
+        "filename": "Worker.code",
+        "line": 281
+      },
+      "80": {
+        "filename": "Worker.code",
+        "line": 282
+      },
+      "88": {
+        "filename": "Worker.code",
+        "line": 283
+      },
+      "96": {
+        "filename": "Worker.code",
+        "line": 284
+      },
+      "112": {
+        "filename": "Worker.code",
+        "line": 285
+      },
+      "128": {
+        "filename": "Worker.code",
+        "line": 286
+      },
+      "136": {
+        "filename": "Worker.code",
+        "line": 287
+      },
+      "144": {
+        "filename": "Worker.code",
+        "line": 288
+      }
+    },
+    "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
+      "0": {
+        "filename": "Worker.code",
+        "line": 308
+      },
+      "16": {
+        "filename": "Worker.code",
+        "line": 309
+      }
+    },
+    "f550e160a79c09cc7b9cf9b724575c942a9181e2e96c33f04da6292b67263f76": {
+      "0": {
+        "filename": "Worker.code",
+        "line": 185
+      },
+      "16": {
+        "filename": "Worker.code",
+        "line": 186
+      },
+      "24": {
+        "filename": "Worker.code",
+        "line": 187
+      },
+      "40": {
+        "filename": "Worker.code",
+        "line": 188
+      },
+      "56": {
+        "filename": "Worker.code",
+        "line": 189
+      },
+      "72": {
+        "filename": "Worker.code",
+        "line": 190
+      },
+      "80": {
+        "filename": "Worker.code",
+        "line": 191
+      },
+      "96": {
+        "filename": "Worker.code",
+        "line": 192
+      },
+      "104": {
+        "filename": "Worker.code",
+        "line": 193
+      },
+      "112": {
+        "filename": "Worker.code",
+        "line": 194
+      },
+      "120": {
+        "filename": "Worker.code",
+        "line": 195
+      },
+      "136": {
+        "filename": "Worker.code",
+        "line": 196
+      },
+      "152": {
+        "filename": "Worker.code",
+        "line": 197
+      },
+      "168": {
+        "filename": "Worker.code",
+        "line": 198
+      },
+      "176": {
+        "filename": "Worker.code",
+        "line": 199
+      },
+      "192": {
+        "filename": "Worker.code",
+        "line": 200
+      },
+      "208": {
+        "filename": "Worker.code",
+        "line": 201
+      },
+      "224": {
+        "filename": "Worker.code",
+        "line": 202
+      },
+      "240": {
+        "filename": "Worker.code",
+        "line": 203
+      },
+      "256": {
+        "filename": "Worker.code",
+        "line": 204
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+	"ABI version": 2,
+	"version": "2.2",
+	"header": ["time"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "deployAccountForUser",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		}
+	],
+	"data": [
+		{"key":1,"name":"accountCode","type":"cell"}
+	],
+	"events": [
+		{
+			"name": "AccountDeployed",
+			"inputs": [
+				{"name":"accountAddress","type":"address"},
+				{"name":"owner","type":"address"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"MIN_BALANCE","type":"uint128"},
+		{"name":"accountCode","type":"cell"}
+	]
+}

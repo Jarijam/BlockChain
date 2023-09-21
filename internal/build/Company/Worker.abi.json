@@ -1,0 +1,55 @@
+{
+	"ABI version": 2,
+	"version": "2.3",
+	"header": ["time"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "startWork",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "receiveSalary",
+			"inputs": [
+				{"name":"_salary","type":"uint128"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getDetails",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"_owner","type":"address"},
+				{"name":"_company","type":"address"},
+				{"name":"_isRegistered","type":"bool"},
+				{"name":"_totalSalaryReceived","type":"uint128"}
+			]
+		}
+	],
+	"data": [
+		{"key":1,"name":"owner","type":"address"},
+		{"key":2,"name":"company","type":"address"}
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"owner","type":"address"},
+		{"name":"company","type":"address"},
+		{"name":"isRegistered","type":"bool"},
+		{"name":"totalSalaryReceived","type":"uint128"}
+	]
+}

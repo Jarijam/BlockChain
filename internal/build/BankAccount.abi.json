@@ -1,0 +1,252 @@
+{
+	"ABI version": 2,
+	"version": "2.2",
+	"header": ["time"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+				{"name":"_initialBalance","type":"uint128"},
+				{"name":"_freezer","type":"bool"},
+				{"name":"_userContractCode","type":"cell"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "borrowMoney",
+			"inputs": [
+				{"name":"_amount","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "loanReceived",
+			"inputs": [
+				{"name":"_loanNum","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "repayLoan",
+			"inputs": [
+				{"name":"_repayAmount","type":"uint128"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "repayAccepted",
+			"inputs": [
+				{"name":"_totalRepayAmount","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "repayRejected",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getAddress",
+			"inputs": [
+				{"name":"_accountAddress","type":"address"}
+			],
+			"outputs": [
+				{"name":"value0","type":"address"}
+			]
+		},
+		{
+			"name": "sendMoneyToUser",
+			"inputs": [
+				{"name":"_money","type":"uint256"},
+				{"name":"_destAddress","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "receivedMoneyFromUser",
+			"inputs": [
+				{"name":"_money","type":"uint256"},
+				{"name":"_ownerAddress","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "mintedMoney",
+			"inputs": [
+				{"name":"_money","type":"uint256"},
+				{"name":"_initialSender","type":"address"},
+				{"name":"_owner","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "freezerSet",
+			"inputs": [
+				{"name":"_freezer","type":"bool"},
+				{"name":"_initialSender","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getMoney",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "money",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"money","type":"uint256"}
+			]
+		},
+		{
+			"name": "userContractCode",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"userContractCode","type":"cell"}
+			]
+		},
+		{
+			"name": "freezer",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"freezer","type":"bool"}
+			]
+		}
+	],
+	"data": [
+		{"key":1,"name":"bankAddress","type":"address"},
+		{"key":2,"name":"owner","type":"address"}
+	],
+	"events": [
+		{
+			"name": "BorrowedMoney",
+			"inputs": [
+				{"name":"user","type":"address"},
+				{"name":"_amount","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "LoanRepay",
+			"inputs": [
+				{"name":"user","type":"address"},
+				{"name":"repayAmount","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "receivedSuccess",
+			"inputs": [
+				{"name":"_loanNum","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "repaySuccess",
+			"inputs": [
+				{"name":"_totalRepayAmount","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "RepayRejected",
+			"inputs": [
+				{"name":"message","type":"string"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "SendMoney",
+			"inputs": [
+				{"name":"money","type":"uint256"},
+				{"name":"sender","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "ReceivedMoney",
+			"inputs": [
+				{"name":"money","type":"uint256"},
+				{"name":"sender","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "SetFreezer",
+			"inputs": [
+				{"name":"sender","type":"address"},
+				{"name":"freezer","type":"bool"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "MintedMoney",
+			"inputs": [
+				{"name":"_money","type":"uint256"},
+				{"name":"sender","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "CatchBounceSendMoney",
+			"inputs": [
+				{"name":"money","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "CatchBounceReceiveMoney",
+			"inputs": [
+				{"name":"money","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "CatchBounceTest",
+			"inputs": [
+				{"name":"test","type":"string"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"money","type":"uint256"},
+		{"name":"bankAddress","type":"address"},
+		{"name":"owner","type":"address"},
+		{"name":"userContractCode","type":"cell"},
+		{"name":"freezer","type":"bool"}
+	]
+}

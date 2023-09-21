@@ -1,0 +1,373 @@
+.version sol 0.62.0
+
+.macro constructor
+DROP
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7_with_init_storage$
+}
+GETGLOB 6
+THROWIF 51
+OVER
+PUSHCONT {
+	LDREF
+	ENDS
+	CTOS
+}
+IF
+LDU 256
+ENDS
+.loc ../contracts/SimpleWallet.tsol, 11
+ACCEPT
+.loc ../contracts/SimpleWallet.tsol, 12
+SETGLOB 10
+.loc ../contracts/SimpleWallet.tsol, 13
+GETPARAM 7
+FIRST
+SETGLOB 11
+.loc ../contracts/SimpleWallet.tsol, 0
+CALLREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.macro sendToMyFriend
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/SimpleWallet.tsol, 16
+OVER
+PUSHCONT {
+	LDREF
+	ENDS
+	CTOS
+}
+IF
+LDMSGADDR
+LDU 128
+ENDS
+.loc ../contracts/SimpleWallet.tsol, 0
+CALLREF {
+	CALL $sendToMyFriend_a06fa578_internal_macro$
+}
+DROP
+CALLREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.globl	sendToMyFriend_a06fa578_internal
+.type	sendToMyFriend_a06fa578_internal, @function
+CALL $sendToMyFriend_a06fa578_internal_macro$
+
+.macro sendToMyFriend_a06fa578_internal_macro
+.loc ../contracts/SimpleWallet.tsol, 17
+GETGLOB 5
+DUP
+ISNULL
+PUSHCONT {
+	DROP
+	PUSHINT 0
+}
+IF
+GETGLOB 10
+EQUAL
+THROWIFNOT 101
+.loc ../contracts/SimpleWallet.tsol, 18
+DUP
+GETGLOB 11
+LEQ
+THROWIFNOT 102
+.loc ../contracts/SimpleWallet.tsol, 19
+ACCEPT
+.loc ../contracts/SimpleWallet.tsol, 22
+GETGLOB 11
+OVER
+SUB
+UFITS 128
+SETGLOB 11
+.loc ../contracts/SimpleWallet.tsol, 23
+SWAP
+NEWC
+STSLICECONST x62_
+STSLICE
+SWAP
+STGRAMS
+PUSHINT 107
+STZEROES
+ENDC
+PUSHINT 1
+SENDRAWMSG
+.loc ../contracts/SimpleWallet.tsol, 0
+
+.macro receive_macro
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/SimpleWallet.tsol, 27
+GETGLOB 11
+DUP
+.loc ../contracts/SimpleWallet.tsol, 28
+DEPTH
+ADDCONST -2
+PICK
+ADD
+UFITS 128
+DUP
+SETGLOB 11
+.loc ../contracts/SimpleWallet.tsol, 29
+SWAP
+PUSHSLICE xc000000000000000000000000059df1b84
+NEWC
+STSLICE
+STU 128
+STU 128
+ENDC
+PUSHINT 0
+SENDRAWMSG
+.loc ../contracts/SimpleWallet.tsol, 0
+CALLREF {
+	CALL $c7_to_c4$
+}
+
+.macro c4_to_c7
+PUSHROOT
+CTOS
+LDU 256 ; pubkey c4
+LDU 64 ; pubkey timestamp c4
+LDU 1 ; ctor flag
+NIP
+LDU 256
+LDU 128
+ENDS
+SETGLOB 11
+SETGLOB 10
+SETGLOB 3
+SETGLOB 2
+
+.macro c4_to_c7_with_init_storage
+PUSHROOT
+CTOS
+SBITS
+GTINT 1
+PUSHCONT {
+	PUSHINT 0
+	PUSHROOT
+	CTOS
+	PLDDICT ; D
+	PUSHINT 0
+	DUP
+	SETGLOB 11
+	SETGLOB 10
+	PUSHINT 64
+	DICTUGET
+	THROWIFNOT 61
+	PLDU 256
+	SETGLOB 2
+	PUSHINT 0 ; timestamp
+	SETGLOB 3
+}
+IFREFELSE {
+	CALL $c4_to_c7$
+}
+
+.macro c7_to_c4
+GETGLOB 11
+GETGLOB 10
+GETGLOB 3
+GETGLOB 2
+NEWC
+STU 256
+STU 64
+STONE
+STU 256
+STU 128
+ENDC
+POPROOT
+
+.macro upd_only_time_in_c4
+PUSHROOT
+CTOS
+LDU 256
+LDU 64
+NIP
+GETGLOB 3
+ROT
+NEWC
+STU 256
+STU 64
+STSLICE
+ENDC
+POPROOT
+
+.internal-alias :main_internal, 0
+.internal :main_internal
+PUSHROOT
+CTOS
+SBITS
+NEQINT 1
+SETGLOB 6
+PUSH S2
+CTOS
+PLDU 4
+MODPOW2 1
+IFRET
+OVER
+SEMPTY ; isEmpty
+DUP
+PUSHCONT {
+	DROP
+	OVER
+	LDUQ 32  ; [funcId] body' ok
+	THROWIFNOT 60
+	OVER
+	EQINT 0 ; funcId body' isZero
+	DUP
+	PUSHCONT {
+		BLKDROP2 2, 1
+	}
+	IF
+}
+IFNOT
+IFJMPREF {
+	CALL $receive_macro$
+}
+SWAP
+CALLREF {
+	CALL $public_function_selector$
+}
+THROW 60
+
+.internal-alias :main_external, -1
+.internal :main_external
+PUSHROOT
+CTOS
+SBITS
+NEQINT 1
+SETGLOB 6
+OVER
+CALLREF {
+	CALL $c4_to_c7_with_init_storage$
+}
+LDU 1 ; haveSign msgSlice
+SWAP
+PUSHCONT {
+	PUSHPOW2 9
+	LDSLICEX ; signatureSlice msgSlice
+	DUP
+	HASHSU ; signatureSlice msgSlice hashMsgSlice
+	SWAP
+	LDU 1 ; signatureSlice hashMsgSlice hasPubkey msgSlice
+	SWAP
+	PUSHCONT {
+		LDU 256 ; signatureSlice hashMsgSlice pubkey msgSlice
+		XCHG S3
+		SWAP
+	}
+	PUSHCONT {
+		XCHG S2
+		GETGLOB 2
+	}
+	IFELSE
+	DUP
+	SETGLOB 5
+	CHKSIGNU ; msgSlice isSigned
+	THROWIFNOT 40
+}
+PUSHCONT {
+	LDU 1 ; hasPubkey msgSlice
+	SWAP
+	THROWIF 58
+}
+IFELSE
+LDU 64 ; timestamp msgSlice
+SWAP
+CALL $replay_protection_macro$
+LDU 32 ; expireAt msgSlice
+SWAP
+NOW ; msgSlice expireAt now
+GREATER ; msgSlice expireAt>now
+THROWIFNOT 57
+LDU 32 ; funcId body
+SWAP
+CALLREF {
+	CALL $public_function_selector$
+}
+THROW 60
+
+.macro pubKey
+DROP
+ENDS
+CALLREF {
+	CALL $c4_to_c7$
+}
+GETGLOB 10
+OVER
+PUSHCONT {
+	PUSHSLICE xc0000000000000000000000000ef4e5529
+	NEWC
+	STSLICE
+	STU 256
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+IF
+THROW 0
+
+.macro balance
+DROP
+ENDS
+CALLREF {
+	CALL $c4_to_c7$
+}
+GETGLOB 11
+OVER
+PUSHCONT {
+	PUSHSLICE xc0000000000000000000000000866db788
+	NEWC
+	STSLICE
+	STU 128
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+IF
+THROW 0
+
+.macro public_function_selector
+DUP
+PUSHINT 107853704
+EQUAL
+IFJMPREF {
+	CALL $balance$
+}
+DUP
+PUSHINT 653444069
+EQUAL
+IFJMPREF {
+	CALL $sendToMyFriend$
+}
+DUP
+PUSHINT 1016193477
+EQUAL
+IFJMPREF {
+	CALL $constructor$
+}
+DUP
+PUSHINT 1867404585
+EQUAL
+IFJMPREF {
+	CALL $pubKey$
+}
+

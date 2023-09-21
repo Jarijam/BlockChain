@@ -1,0 +1,41 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma ever-solidity >= 0.62.0;
+import "./FactoryAccount.tsol";
+contract Factory {
+    uint128 MIN_BALANCE = 1 ever;
+    TvmCell static accountCode;
+
+    event AccountDeployed(address accountAddress, address owner);
+    constructor() public {
+        tvm.accept();
+    }
+
+
+    function deployAccountForUser() external {
+        require(msg.value >= MIN_BALANCE + 0.2 ever, 101);
+
+        tvm.rawReserve(MIN_BALANCE, 0);
+
+        TvmCell stateInit = buildInitParams(msg.sender);
+
+        address accountAddress = new FactoryAccount{
+            stateInit: stateInit,
+            code: accountCode,
+            value: 2 ever
+        }();
+        emit AccountDeployed(accountAddress, msg.sender);
+        msg.sender.transfer({value: 0, flag:128});
+    }
+
+    function buildInitParams(address _accountOwner) internal returns (TvmCell) {
+        return tvm.buildStateInit({
+            contr: FactoryAccount,
+            varInit: {
+            owner: _accountOwner,
+            factory: address(this)
+        },
+            pubkey: tvm.pubkey(),
+            code: accountCode
+        });
+    }
+}

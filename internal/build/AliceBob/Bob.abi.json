@@ -1,0 +1,37 @@
+{
+	"ABI version": 2,
+	"version": "2.3",
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "callAlice",
+			"inputs": [
+				{"name":"_alice","type":"address"},
+				{"name":"_age","type":"uint128"},
+				{"name":"_newAliceCity","type":"string"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"data": [
+		{"key":1,"name":"name","type":"string"},
+		{"key":2,"name":"age","type":"uint128"}
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"name","type":"string"},
+		{"name":"age","type":"uint128"}
+	]
+}
